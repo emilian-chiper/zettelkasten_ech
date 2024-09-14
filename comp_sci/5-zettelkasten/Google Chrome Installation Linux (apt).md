@@ -1,7 +1,7 @@
 ### Meta
 - - -
 - 2024-09-13 23:26
-- Tags: [[snippets]] [[linux]] [[installations]]
+- Tags: [[snippets]] [[linux]] [[linux installations]]
 - Status: #pending
 
 ### What it looks like

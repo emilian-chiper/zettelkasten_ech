@@ -1,6 +1,6 @@
 ### About
 ---
-Contains the core indexes and tags of the zettelkasten.
+Contains the core indexes of the zettelkasten.
 
 ### Indexes
 ---
@@ -8,8 +8,4 @@ Contains the core indexes and tags of the zettelkasten.
 - [[glossary]]
 - [[snippets]]
 
-### Tags
----
-- [[linux]]
-- [[installations]]
 

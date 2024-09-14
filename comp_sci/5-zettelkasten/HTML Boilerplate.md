@@ -42,4 +42,3 @@
 - The `defer` attribute is a boolean attribute. If set, it specifies the script is downloaded in parallel to parsing the page, and executed after the page has finished parsing.
 - The `<title>` tag defines the title of the document. It is `REQUIRED`.
 - The `<body>` tag defines the document's body, containing all the headings, paragraphs, images, hyperlinks, tables, links, etc.
-- foobar test

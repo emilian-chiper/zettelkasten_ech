@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "37b49ee1f7e010b7",
+        "id": "3ee4559e2355baaf",
         "type": "tabs",
         "children": [
           {
-            "id": "c0695227290a2370",
+            "id": "be997d1f5e7809e9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5-zettelkasten/Client.md",
+                "file": "5-zettelkasten/new note.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5-zettelkasten/Client.md",
+                "file": "5-zettelkasten/new note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "5-zettelkasten/Client.md",
+                "file": "5-zettelkasten/new note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5-zettelkasten/Client.md"
+                "file": "5-zettelkasten/new note.md"
               }
             }
           },
@@ -143,8 +143,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 395.5,
-    "collapsed": true
+    "width": 395.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -158,11 +157,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a560f9bc1c714cd2",
+  "active": "be997d1f5e7809e9",
   "lastOpenFiles": [
-    "5-zettelkasten/HTML Boilerplate.md",
+    "5-zettelkasten/new note.md",
     "0-rough_notes/placeholder.md",
     "1-source_material/placeholder.md",
+    "5-zettelkasten/HTML Boilerplate.md",
     "3-indexes/glossary.md",
     "5-zettelkasten/DNS.md",
     "5-zettelkasten/Web Browser.md",
@@ -186,7 +186,6 @@
     "2-tags/agile project management.md",
     "5-zettelkasten/Web Server.md",
     "5-zettelkasten/Search Engine.md",
-    "5-zettelkasten/Web Page.md",
     "CI",
     "3-indexes/COMPUTER SCIENCE/Web Development/Untitled",
     "3-indexes/COMPUTER SCIENCE/Web Development",
