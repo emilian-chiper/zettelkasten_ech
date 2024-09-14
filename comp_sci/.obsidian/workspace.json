@@ -1,0 +1,199 @@
+{
+  "main": {
+    "id": "8029f3aad14353d3",
+    "type": "split",
+    "children": [
+      {
+        "id": "e0b03acc0ea18b06",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "47f973a137d3dddd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "5-zettelkasten/HTML Boilerplate.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "411998453100ac3b",
+    "type": "split",
+    "children": [
+      {
+        "id": "e457fbae11109c3a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a560f9bc1c714cd2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "17061f1f8b8672cc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1199e31204a25172",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 253.5
+  },
+  "right": {
+    "id": "aa4f7ecb893b13a8",
+    "type": "split",
+    "children": [
+      {
+        "id": "2de0f01a20ce9f00",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0edbb18fa5befdf5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "5-zettelkasten/HTML Boilerplate.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2f1d8d2ba73d97a1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "5-zettelkasten/HTML Boilerplate.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9c7da49722787ec5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "a94a18b386bce7d6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "5-zettelkasten/HTML Boilerplate.md"
+              }
+            }
+          },
+          {
+            "id": "59a6f0858bb1d374",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 395.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "publish:Publish changes...": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "47f973a137d3dddd",
+  "lastOpenFiles": [
+    "3-indexes/glossary.md",
+    "5-zettelkasten/DNS.md",
+    "5-zettelkasten/Web Browser.md",
+    "Untitled.canvas",
+    "5-zettelkasten/HTML Boilerplate.md",
+    "2-tags/html.md",
+    "5-zettelkasten/Google Chrome Installation Linux (apt).md",
+    "5-zettelkasten/Packets.md",
+    "4-template/HTML Template.md",
+    "3-indexes/COMPUTER SCIENCE/Web Development/frontend.md",
+    "2-tags/css.md",
+    "3-indexes/COMPUTER SCIENCE/computer science.md",
+    "5-zettelkasten/The Internet.md",
+    "5-zettelkasten/IP Address.md",
+    "2-tags/web foundations.md",
+    "3-indexes/root.md",
+    "2-tags/installations.md",
+    "2-tags/linux.md",
+    "5-zettelkasten/Client.md",
+    "3-indexes/snippets.md",
+    "4-template/code snippet Template.md",
+    "2-tags/agile project management.md",
+    "5-zettelkasten/Web Server.md",
+    "5-zettelkasten/Search Engine.md",
+    "5-zettelkasten/Web Page.md",
+    "5-zettelkasten/Website.md",
+    "CI",
+    "3-indexes/COMPUTER SCIENCE/Web Development/Untitled",
+    "3-indexes/COMPUTER SCIENCE/Web Development",
+    "3-indexes/COMPUTER SCIENCE/Fundamentals",
+    "3-indexes/COMPUTER SCIENCE/Software Engineering",
+    "3-indexes/COMPUTER SCIENCE/Fundamentals",
+    "3-indexes/COMPUTER SCIENCE",
+    "3-indexes/3.1-meta/3.1.1-computer_science/3.2-macro/3.2.2-software-engineering",
+    "3-indexes/3.1-meta/3.1.1-computer_science/3.2-macro/3.2.1-fundamentals/Mathematics for Computer Science",
+    "3-indexes/3.1-meta/3.1.1-computer_science/3.2-macro/3.2.1-fundamentals/DSA"
+  ]
+}
