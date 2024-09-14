@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "e0b03acc0ea18b06",
+        "id": "37b49ee1f7e010b7",
         "type": "tabs",
         "children": [
           {
-            "id": "47f973a137d3dddd",
+            "id": "c0695227290a2370",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5-zettelkasten/HTML Boilerplate.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5-zettelkasten/HTML Boilerplate.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "5-zettelkasten/HTML Boilerplate.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "5-zettelkasten/HTML Boilerplate.md"
-              }
+              "state": {}
             }
           },
           {
@@ -157,13 +148,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "47f973a137d3dddd",
+  "active": "c0695227290a2370",
   "lastOpenFiles": [
+    "0-rough_notes/placeholder.md",
+    "1-source_material/placeholder.md",
+    "5-zettelkasten/HTML Boilerplate.md",
     "3-indexes/glossary.md",
     "5-zettelkasten/DNS.md",
     "5-zettelkasten/Web Browser.md",
     "Untitled.canvas",
-    "5-zettelkasten/HTML Boilerplate.md",
     "2-tags/html.md",
     "5-zettelkasten/Google Chrome Installation Linux (apt).md",
     "5-zettelkasten/Packets.md",
@@ -184,7 +177,6 @@
     "5-zettelkasten/Web Server.md",
     "5-zettelkasten/Search Engine.md",
     "5-zettelkasten/Web Page.md",
-    "5-zettelkasten/Website.md",
     "CI",
     "3-indexes/COMPUTER SCIENCE/Web Development/Untitled",
     "3-indexes/COMPUTER SCIENCE/Web Development",
