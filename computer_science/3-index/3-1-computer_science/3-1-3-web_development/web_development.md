@@ -1,5 +1,5 @@
 ### About
-Lists all the indexes related to web development.
+Lists all the indexes and tags related to web development.
 
 ### Parent
 [[computer science]]
