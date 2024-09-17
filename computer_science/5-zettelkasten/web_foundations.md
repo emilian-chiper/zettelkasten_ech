@@ -1,5 +1,5 @@
 ### About
-Lists the indexes for all 
+Lists tags
 
 ### Parent
 Specify parent index.

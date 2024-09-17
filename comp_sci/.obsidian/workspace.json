@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "62c6abbef113834f",
+        "id": "96c359c8c7d5c555",
         "type": "tabs",
         "children": [
           {
-            "id": "b1ec7c3b8a170ec7",
+            "id": "bb4d1accba658c06",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3-indexes/COMPUTER SCIENCE/Fundamentals/fundamentals.md",
+                "file": "3-indexes/COMPUTER SCIENCE/Software Engineering/software engineering.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,12 +21,25 @@
             }
           },
           {
-            "id": "4088e4bac9405cb9",
+            "id": "43ef6a339c1552f3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3-indexes/COMPUTER SCIENCE/Fundamentals/mathematics for computer science.md",
+                "file": "3-indexes/COMPUTER SCIENCE/Web Development/web development.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a6b011c15bc1b0c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2-tags/web foundations.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,7 +47,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -100,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3-indexes/COMPUTER SCIENCE/Fundamentals/mathematics for computer science.md",
+                "file": "2-tags/web foundations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3-indexes/COMPUTER SCIENCE/Fundamentals/mathematics for computer science.md",
+                "file": "2-tags/web foundations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3-indexes/COMPUTER SCIENCE/Fundamentals/mathematics for computer science.md"
+                "file": "2-tags/web foundations.md"
               }
             }
           },
@@ -172,13 +185,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4088e4bac9405cb9",
+  "active": "a6b011c15bc1b0c4",
   "lastOpenFiles": [
+    "3-indexes/COMPUTER SCIENCE/Web Development/web development.md",
+    "3-indexes/COMPUTER SCIENCE/Software Engineering/dev-ops.md",
+    "3-indexes/COMPUTER SCIENCE/Software Engineering/software engineering.md",
+    "3-indexes/COMPUTER SCIENCE/Software Engineering/testing and qa.md",
+    "3-indexes/COMPUTER SCIENCE/Software Engineering/software architecture.md",
+    "3-indexes/COMPUTER SCIENCE/Software Engineering/development methodologies.md",
+    "2-tags/python.md",
+    "3-indexes/COMPUTER SCIENCE/Fundamentals/programming languages.md",
+    "3-indexes/COMPUTER SCIENCE/Fundamentals/mathematics for computer science.md",
     "3-indexes/COMPUTER SCIENCE/Fundamentals/dsa.md",
     "3-indexes/COMPUTER SCIENCE/Fundamentals/fundamentals.md",
-    "3-indexes/COMPUTER SCIENCE/Fundamentals/programming languages.md",
-    "3-indexes/COMPUTER SCIENCE/Web Development/web development.md",
-    "3-indexes/COMPUTER SCIENCE/Software Engineering/software engineering.md",
     "3-indexes/COMPUTER SCIENCE/computer science.md",
     "3-indexes/glossary.md",
     "3-indexes/root.md",
@@ -194,12 +213,6 @@
     "2-tags/global attributes.md",
     "2-tags/git basics.md",
     "2-tags/git.md",
-    "2-tags/css.md",
-    "2-tags/express.md",
-    "2-tags/end-to-end testing.md",
-    "2-tags/dynamic programming.md",
-    "2-tags/discrete mathematics.md",
-    "2-tags/database management.md",
     "Untitled.canvas",
     "CI",
     "3-indexes/COMPUTER SCIENCE/Web Development/Untitled",
