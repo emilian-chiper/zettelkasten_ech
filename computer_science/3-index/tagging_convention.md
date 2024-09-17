@@ -14,4 +14,4 @@ Whilst individual notes will be internally linked in tags, the tags themselves w
 
 Notes will be visible and accessible even inside index files of various ranks thanks to Obsidian's backlinks technology. Make sure they are enabled.
 
-**Note:** extraneous files such ass [[snippets]] or [[glossary]] do not f
+**Note:** Extraneous files such as [[snippets]] or [[glossary]] do not follow this convention. They have only one parent, the `root` index.
