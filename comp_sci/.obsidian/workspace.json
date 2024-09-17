@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5-zettelkasten/Installing Git on Linux.md",
+                "file": "5-zettelkasten/JavaScript Mathematical Operators.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#pending",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 208.5086555480957
+    "width": 273.5026054382324
   },
   "right": {
     "id": "aa4f7ecb893b13a8",
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5-zettelkasten/Installing Git on Linux.md",
+                "file": "5-zettelkasten/JavaScript Mathematical Operators.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "5-zettelkasten/Installing Git on Linux.md",
+                "file": "5-zettelkasten/JavaScript Mathematical Operators.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5-zettelkasten/Installing Git on Linux.md"
+                "file": "5-zettelkasten/JavaScript Mathematical Operators.md"
               }
             }
           },
@@ -160,6 +160,22 @@
   },
   "active": "4a6f815a4975dce4",
   "lastOpenFiles": [
+    "5-zettelkasten/JavaScript Conditional Operator.md",
+    "5-zettelkasten/JavaScript Comparison Operators.md",
+    "5-zettelkasten/JavaScript 'if' statement.md",
+    "5-zettelkasten/JavaScript 'else' Clause.md",
+    "5-zettelkasten/JavaScript 'else if' Clause.md",
+    "2-tags/javascript conditionals.md",
+    "5-zettelkasten/JavaScript Type Conversion.md",
+    "5-zettelkasten/JavaScript AND operator.md",
+    "5-zettelkasten/JavaScript BigInt Data Type.md",
+    "5-zettelkasten/JavaScript Number Data Type.md",
+    "2-tags/javascript.md",
+    "3-indexes/COMPUTER SCIENCE/Fundamentals/programming languages.md",
+    "3-indexes/COMPUTER SCIENCE/Fundamentals/fundamentals.md",
+    "5-zettelkasten/Installing VSCode on Linux.md",
+    "5-zettelkasten/Installing Google Chrome on Linux.md",
+    "5-zettelkasten/Installing Git on Linux.md",
     "5-zettelkasten/i3 Reference Card.md",
     "5-zettelkasten/git status.md",
     "5-zettelkasten/git push.md",
@@ -170,22 +186,6 @@
     "2-tags/git.md",
     "2-tags/git basics.md",
     "3-indexes/COMPUTER SCIENCE/Operating Systems/linux.md",
-    "3-indexes/COMPUTER SCIENCE/Operating Systems/operating systems.md",
-    "5-zettelkasten/Client.md",
-    "5-zettelkasten/Enable 2nd monitor.md",
-    "2-tags/web foundations.md",
-    "3-indexes/glossary.md",
-    "5-zettelkasten/Website.md",
-    "5-zettelkasten/Web Server.md",
-    "5-zettelkasten/Web Page.md",
-    "5-zettelkasten/Web Browser.md",
-    "5-zettelkasten/Search Engine.md",
-    "5-zettelkasten/The Internet.md",
-    "5-zettelkasten/Packets.md",
-    "5-zettelkasten/IP Address.md",
-    "5-zettelkasten/DNS.md",
-    "4-template/code snippet Template.md",
-    "4-template/CSS Template.md",
     "Untitled.canvas",
     "CI",
     "3-indexes/COMPUTER SCIENCE/Web Development/Untitled",

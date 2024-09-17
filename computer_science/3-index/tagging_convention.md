@@ -41,7 +41,7 @@ The index chain has the following levels, from highest to lowest:
 	- Lists the entries from the layer immediately beneath it.
 - `[micro-index]`
 	- Zettelkasten `level-5`.
-	- Represent topics, concepts, or collections of elements of the tools, such as [[javascript_data_types]]. 
+	- Represent topics, concepts, or collections of elements of the tools, such as [[js_data_types]]. 
 	- Points to its `[macro-index]`.
 	- Lists entries from the layer immediately below it.
 - `[tags]`

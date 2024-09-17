@@ -1,7 +1,7 @@
 ### Meta
 2024-09-17 21:02
 **Tags:** [[dev-ops]] [[git]]
-**State:** #pending
+**State:** #completed 
 
 ### What it looks like
 ```bash

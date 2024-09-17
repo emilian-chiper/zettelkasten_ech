@@ -4,9 +4,8 @@
 **State:** #pending
 
 ### What it looks like
-```HTML file:index.html
+```HTML title:index.html
 /* code goes here */
-
 ```
 
 ### What it does

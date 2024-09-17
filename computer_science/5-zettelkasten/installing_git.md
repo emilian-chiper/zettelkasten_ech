@@ -1,7 +1,7 @@
 ### Meta
 2024-09-17 21:10
 **Tags:** [[linux_fundamentals]] [[linux_installations]]
-**State:** #pending
+**State:** #completed 
 
 ### What it looks like
 ```bash
@@ -17,4 +17,4 @@ git --version
 - Checks the version.
 
 ### Source
-- [Installing Git](https://www.theodinproject.com/lessons/foundations-setting-up-git)
+- [Installing Git](https://www.theodinproject.com/lessons/foundations-setting-up-git#step-1-install-git)

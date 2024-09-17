@@ -4,7 +4,7 @@
 **State:** #pending 
 
 ### What it looks like
-```JavaScript file:app.js
+```JavaScript title:app.js
 /* code goes here */
 
 ```

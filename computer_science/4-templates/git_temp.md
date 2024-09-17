@@ -4,9 +4,8 @@
 **State:** #pending
 
 ### What it looks like
-```bash
+```bash title:script.sh
 /* code goes here */
-
 ```
 
 ### What it does

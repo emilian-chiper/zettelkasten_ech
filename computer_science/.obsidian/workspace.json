@@ -4,37 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "b195e3213b1031d8",
+        "id": "43bf64923c3f22e3",
         "type": "tabs",
         "children": [
           {
-            "id": "5c33f1700d25d1b7",
+            "id": "8776e0633a0a8efb",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3-index/computer_science/layer-5/linux_installations.md",
+                "file": "3-index/computer_science/layer-5/javascript_fundamentals.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "eb2e7f214f1e3106",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5-zettelkasten/installing_google_chrome.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              },
+              "pinned": true
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -63,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#pending",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -100,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5-zettelkasten/installing_google_chrome.md",
+                "file": "3-index/computer_science/layer-5/javascript_fundamentals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "5-zettelkasten/installing_google_chrome.md",
+                "file": "3-index/computer_science/layer-5/javascript_fundamentals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5-zettelkasten/installing_google_chrome.md"
+                "file": "3-index/computer_science/layer-5/javascript_fundamentals.md"
               }
             }
           },
@@ -175,34 +163,34 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "eb2e7f214f1e3106",
+  "active": "8776e0633a0a8efb",
   "lastOpenFiles": [
-    "3-index/computer_science/layer-5/linux_installations.md",
-    "3-index/computer_science/layer-3/linux.md",
-    "5-zettelkasten/installing_google_chrome.md",
-    "5-zettelkasten/installing_git.md",
-    "5-zettelkasten/git_status.md",
-    "5-zettelkasten/git_push.md",
-    "4-templates/git_temp.md",
-    "3-index/computer_science/layer-4/javascript.md",
-    "4-templates/js_temp.md",
-    "4-templates/react_temp.md",
-    "3-index/computer_science/layer-3/programming_languages.md",
-    "3-index/computer_science/layer-3/frontend.md",
-    "3-index/computer_science/layer-2/fundamentals.md",
-    "3-index/tagging_convention.md",
+    "5-zettelkasten/js_comparison_operators.md",
+    "3-index/computer_science/layer-5/javascript_fundamentals.md",
+    "2-tags/js_data_types.md",
+    "2-tags/javascript_conditionals.md",
+    "5-zettelkasten/js_if_statement.md",
+    "4-templates/snip_temp.md",
     "4-templates/css_temp.md",
-    "3-index/computer_science/layer-4/css.md",
+    "4-templates/git_temp.md",
     "4-templates/html_temp.md",
-    "3-index/computer_science/layer-4/html.md",
-    "4-templates/def_temp.md",
-    "3-index/computer_science/layer-5/git_sharing_and_updating_projects.md",
-    "3-index/computer_science/layer-4/git.md",
-    "3-index/computer_science/layer-5/git_branching_and_merging.md",
-    "3-index/computer_science/layer-5/git_basic_snapshotting.md",
-    "3-index/computer_science/layer-5/git_getting_and_creating_projects.md",
     "4-templates/index_temp.md",
-    "5-zettelkasten/git_log.md",
+    "4-templates/js_temp.md",
+    "5-zettelkasten/js_else_clause.md",
+    "5-zettelkasten/js_else_if_clause.md",
+    "2-tags/javascript_arrow_functions.md",
+    "5-zettelkasten/js_conditional_operator.md",
+    "5-zettelkasten/js_boolean_conversion.md",
+    "5-zettelkasten/javascript_type_coercion.md",
+    "5-zettelkasten/javascript_type_conversion.md",
+    "5-zettelkasten/javascript_switch_construct.md",
+    "5-zettelkasten/javascript_nullish_coalescing_operator.md",
+    "5-zettelkasten/javascript_loops.md",
+    "5-zettelkasten/javascript_logical_operators.md",
+    "5-zettelkasten/javascript_interaction.md",
+    "5-zettelkasten/javascript_function_expressions.md",
+    "5-zettelkasten/javascript_functions.md",
+    "5-zettelkasten/Untitled.md",
     "3-index/computer_science/layer-2/Untitled",
     "3-index/computer_science/layer-6",
     "3-index/computer_science/layer-5",

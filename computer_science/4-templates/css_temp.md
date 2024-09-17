@@ -4,7 +4,7 @@
 **State:** #pending 
 
 ### What it looks like
-```CSS file:styles.css
+```CSS title:styles.css
 /* code goes here */
 
 ```
