@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "7d06d8699d30e566",
+        "id": "8c9387e21bc61b98",
         "type": "tabs",
         "children": [
           {
-            "id": "1c4e681602b1fbeb",
+            "id": "d16985d11189b9e5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "3-index/computer_science/layer-4/git.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 368.5110321044922
+    "width": 226.50260543823242
   },
   "right": {
     "id": "51fcf44428386e88",
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "3-index/computer_science/layer-4/git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "3-index/computer_science/layer-4/git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "3-index/computer_science/layer-4/git.md"
+              }
             }
           },
           {
@@ -152,10 +161,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1c4e681602b1fbeb",
+  "active": "d16985d11189b9e5",
   "lastOpenFiles": [
-    "3-index/tagging_convention.md",
+    "3-index/computer_science/layer-5/git_basic_snapshotting.md",
+    "3-index/computer_science/layer-4/git.md",
     "3-index/computer_science/layer-3/linux.md",
+    "3-index/tagging_convention.md",
     "3-index/computer_science/layer-4/linux_installations.md",
     "3-index/computer_science/layer-2/operating_systems.md",
     "5-zettelkasten/linux_getting_started.md",
@@ -179,8 +190,6 @@
     "4-templates/snippet_temp.md",
     "4-templates/def_temp.md",
     "3-index/computer_science/layer-2/web_development.md",
-    "4-templates/index_temp.md",
-    "4-templates/react_temp.md",
     "3-index/computer_science/layer-6",
     "3-index/computer_science/layer-5",
     "3-index/computer_science/layer-4",

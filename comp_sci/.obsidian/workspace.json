@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "5650ed7ea3691afe",
+        "id": "4a193e770685ed43",
         "type": "tabs",
         "children": [
           {
-            "id": "2b054ddf09b49848",
+            "id": "4a6f815a4975dce4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "5-zettelkasten/Cloning a Github Repository.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "5-zettelkasten/Cloning a Github Repository.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "5-zettelkasten/Cloning a Github Repository.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "5-zettelkasten/Cloning a Github Repository.md"
+              }
             }
           },
           {
@@ -149,11 +158,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2b054ddf09b49848",
+  "active": "4a6f815a4975dce4",
   "lastOpenFiles": [
+    "2-tags/git.md",
+    "2-tags/git basics.md",
+    "5-zettelkasten/Cloning a Github Repository.md",
     "3-indexes/COMPUTER SCIENCE/Operating Systems/linux.md",
     "3-indexes/COMPUTER SCIENCE/Operating Systems/operating systems.md",
-    "5-zettelkasten/Cloning a Github Repository.md",
     "5-zettelkasten/Client.md",
     "5-zettelkasten/Enable 2nd monitor.md",
     "5-zettelkasten/git add.md",
@@ -175,8 +186,6 @@
     "3-indexes/COMPUTER SCIENCE/Web Development/frontend.md",
     "3-indexes/COMPUTER SCIENCE/Web Development/web security.md",
     "2-tags/owasp.md",
-    "3-indexes/COMPUTER SCIENCE/Web Development/web performance.md",
-    "3-indexes/COMPUTER SCIENCE/Web Development/web development.md",
     "Untitled.canvas",
     "CI",
     "3-indexes/COMPUTER SCIENCE/Web Development/Untitled",
