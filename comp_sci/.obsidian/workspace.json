@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3ee4559e2355baaf",
+        "id": "62c6abbef113834f",
         "type": "tabs",
         "children": [
           {
-            "id": "be997d1f5e7809e9",
+            "id": "b1ec7c3b8a170ec7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5-zettelkasten/new note.md",
+                "file": "3-indexes/COMPUTER SCIENCE/computer science.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#pending",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.5
+    "width": 208.5086555480957
   },
   "right": {
     "id": "aa4f7ecb893b13a8",
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5-zettelkasten/new note.md",
+                "file": "3-indexes/COMPUTER SCIENCE/computer science.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "5-zettelkasten/new note.md",
+                "file": "3-indexes/COMPUTER SCIENCE/computer science.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5-zettelkasten/new note.md"
+                "file": "3-indexes/COMPUTER SCIENCE/computer science.md"
               }
             }
           },
@@ -143,7 +143,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 395.5
+    "width": 395.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -157,35 +158,35 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "be997d1f5e7809e9",
+  "active": "b1ec7c3b8a170ec7",
   "lastOpenFiles": [
-    "5-zettelkasten/new note.md",
-    "0-rough_notes/placeholder.md",
-    "1-source_material/placeholder.md",
-    "5-zettelkasten/HTML Boilerplate.md",
     "3-indexes/glossary.md",
-    "5-zettelkasten/DNS.md",
-    "5-zettelkasten/Web Browser.md",
-    "Untitled.canvas",
-    "2-tags/html.md",
-    "5-zettelkasten/Google Chrome Installation Linux (apt).md",
-    "5-zettelkasten/Packets.md",
-    "4-template/HTML Template.md",
-    "3-indexes/COMPUTER SCIENCE/Web Development/frontend.md",
-    "2-tags/css.md",
-    "3-indexes/COMPUTER SCIENCE/computer science.md",
-    "5-zettelkasten/The Internet.md",
-    "5-zettelkasten/IP Address.md",
-    "2-tags/web foundations.md",
     "3-indexes/root.md",
-    "2-tags/installations.md",
-    "2-tags/linux.md",
-    "5-zettelkasten/Client.md",
-    "3-indexes/snippets.md",
-    "4-template/code snippet Template.md",
+    "4-template/index Template.md",
+    "2-tags/html main root.md",
+    "2-tags/html metadata.md",
+    "2-tags/i3wm.md",
+    "2-tags/integration testing.md",
+    "2-tags/html elements.md",
+    "2-tags/html.md",
+    "2-tags/graphs.md",
+    "2-tags/graph algorithms.md",
+    "2-tags/global attributes.md",
+    "2-tags/git basics.md",
+    "2-tags/git.md",
+    "2-tags/css.md",
+    "3-indexes/COMPUTER SCIENCE/Fundamentals/dsa.md",
+    "2-tags/express.md",
+    "2-tags/end-to-end testing.md",
+    "2-tags/dynamic programming.md",
+    "2-tags/discrete mathematics.md",
+    "2-tags/database management.md",
+    "2-tags/continuous improvement and continuous development.md",
+    "2-tags/caching strategies.md",
+    "2-tags/arrays.md",
     "2-tags/agile project management.md",
-    "5-zettelkasten/Web Server.md",
-    "5-zettelkasten/Search Engine.md",
+    "4-template/tag Template.md",
+    "Untitled.canvas",
     "CI",
     "3-indexes/COMPUTER SCIENCE/Web Development/Untitled",
     "3-indexes/COMPUTER SCIENCE/Web Development",

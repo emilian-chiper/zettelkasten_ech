@@ -2,7 +2,7 @@
 - - -
 - 2024-09-13 22:56
 - Tags: [[glossary]] [[web foundations]]
-- Status: #pending
+- Status: #completed 
 
 ### What is an IP address?
 - - -

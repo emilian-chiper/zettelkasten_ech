@@ -2,7 +2,7 @@
 - - -
 - 2024-09-13 22:48
 - Tags: [[glossary]][[web foundations]]
-- Status: #pending
+- Status: #completed 
 
 ### What is a search engine?
 - - -

@@ -2,7 +2,7 @@
 - - -
 - 2024-09-14 12:21
 - Tags: [[operating systems]] [[linux]] [[i3wm]]
-- Status: #pending
+- Status: #completed 
 
 ### Super key
 - - -

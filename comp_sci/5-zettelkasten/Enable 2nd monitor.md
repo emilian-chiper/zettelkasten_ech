@@ -2,7 +2,7 @@
 - - -
 - 2024-09-14 11:29
 - Tags: [[snippets]] [[linux]] [[xrandr]]
-- Status: #pending
+- Status: #completed 
 
 ### What it looks like
 - - -

@@ -1,11 +1,9 @@
 ### Meta
-- - -
 - {{date}} {{time}}
 - Tags: [[html]]
 - Status: #pending
 
 ### What it looks like
-- - -
 ```HTML file:index.html
 <DOCTYPE html>
 <html lang="en">
@@ -24,9 +22,7 @@
 ```
 
 ### What it does
-- - -
 -  It does this
 
 ### How it does it
----
 - Like so

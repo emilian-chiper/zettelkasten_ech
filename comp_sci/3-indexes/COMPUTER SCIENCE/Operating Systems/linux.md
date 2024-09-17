@@ -1,16 +1,17 @@
-#### Parent
-- - -
+### About
+---
+Lists all tags related to the **Linux** operating system.
+
+### Parent:
+---
 - [[operating systems]]
 
-#### About
+### Children:
 ---
-Lists all topics related to the **Linux** operating system.
-#### Topics
 - [[i3wm]]
 - [[linux installations]]
 - [[xrandr]]
 
-#### END
 
 
 

@@ -4,9 +4,10 @@ Lists all indexes and tags related to **operating systems**.
 
 ### Parent:
 ---
-- parent
+- [[computer science]]
 
 ### Children:
 ---
-- child
+- [[linux]]
+- [[windows]]
 

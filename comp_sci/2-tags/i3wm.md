@@ -1,13 +1,9 @@
-### About
----
-Lists all tags related to the **i3 window manager**.
-
-### Parent:
----
+### Parent
 - [[linux]]
+### About
+Lists all topics related to the **i3 window manager**.
 
-### Children:
----
+### Children
 - [[i3 Reference Card]]
 
 

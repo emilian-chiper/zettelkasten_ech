@@ -1,14 +1,17 @@
-#### Parent
-- - -
+### About
+---
+Lists all tags related to the **Microsoft Windows** operating system.
+
+### Parent:
+---
 - [[operating systems]]
 
-#### About
+### Children:
 ---
-Lists all topics related to the **Microsoft Windows** operating system.
-#### Topics
-- topic
+- [[i3wm]]
+- [[linux installations]]
+- [[xrandr]]
 
-#### END
 
 
 

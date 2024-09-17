@@ -1,11 +1,9 @@
 ### Meta
-- - -
 - {{date}} {{time}}
 - Tags:
 - Status: #pending
 
 ### Topic
-- - -
-Explanation
+- Explanation
 
 ### END

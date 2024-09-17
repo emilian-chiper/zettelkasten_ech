@@ -8,4 +8,9 @@ Lists all code snippets.
 
 ### Children:
 ---
-- child
+- [[Configuring Git on Linux]]
+- [[Create an SSH key on Linux]]
+- [[Enable 2nd monitor]]
+- [[Installing Git on Linux]]
+- [[Installing Google Chrome on Linux]]
+- [[Installing VSCode on Linux]]
