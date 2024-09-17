@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4a193e770685ed43",
+        "id": "8486992d7edfdb85",
         "type": "tabs",
         "children": [
           {
-            "id": "4a6f815a4975dce4",
+            "id": "9457f2ac99885022",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5-zettelkasten/JavaScript Mathematical Operators.md",
+                "file": "2-tags/javascript logical operators.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5-zettelkasten/JavaScript Mathematical Operators.md",
+                "file": "2-tags/javascript logical operators.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "5-zettelkasten/JavaScript Mathematical Operators.md",
+                "file": "2-tags/javascript logical operators.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5-zettelkasten/JavaScript Mathematical Operators.md"
+                "file": "2-tags/javascript logical operators.md"
               }
             }
           },
@@ -158,34 +158,34 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4a6f815a4975dce4",
+  "active": "9457f2ac99885022",
   "lastOpenFiles": [
+    "5-zettelkasten/JavaScript AND operator.md",
+    "5-zettelkasten/JavaScript OR operator.md",
     "5-zettelkasten/JavaScript Conditional Operator.md",
+    "5-zettelkasten/JavaScript Boolean Conversion.md",
     "5-zettelkasten/JavaScript Comparison Operators.md",
+    "5-zettelkasten/JavaScript Mathematical Operators.md",
+    "5-zettelkasten/JavaScript Type Conversion.md",
+    "2-tags/javascript fundamentals.md",
+    "2-tags/javascript conditionals.md",
+    "2-tags/javascript logical operators.md",
+    "2-tags/javascript data types.md",
+    "5-zettelkasten/JavaScript Object Data Type.md",
+    "5-zettelkasten/JavaScript 'undefined' Data Type.md",
+    "5-zettelkasten/JavaScript null Data Type.md",
+    "5-zettelkasten/JavaScript Boolean Data Type.md",
+    "5-zettelkasten/JavaScript String Data Type.md",
+    "5-zettelkasten/JavaScript BigInt Data Type.md",
+    "5-zettelkasten/JavaScript Number Data Type.md",
+    "5-zettelkasten/JavaScript Variables.md",
     "5-zettelkasten/JavaScript 'if' statement.md",
     "5-zettelkasten/JavaScript 'else' Clause.md",
     "5-zettelkasten/JavaScript 'else if' Clause.md",
-    "2-tags/javascript conditionals.md",
-    "5-zettelkasten/JavaScript Type Conversion.md",
-    "5-zettelkasten/JavaScript AND operator.md",
-    "5-zettelkasten/JavaScript BigInt Data Type.md",
-    "5-zettelkasten/JavaScript Number Data Type.md",
     "2-tags/javascript.md",
     "3-indexes/COMPUTER SCIENCE/Fundamentals/programming languages.md",
     "3-indexes/COMPUTER SCIENCE/Fundamentals/fundamentals.md",
     "5-zettelkasten/Installing VSCode on Linux.md",
-    "5-zettelkasten/Installing Google Chrome on Linux.md",
-    "5-zettelkasten/Installing Git on Linux.md",
-    "5-zettelkasten/i3 Reference Card.md",
-    "5-zettelkasten/git status.md",
-    "5-zettelkasten/git push.md",
-    "5-zettelkasten/git add.md",
-    "5-zettelkasten/git log.md",
-    "5-zettelkasten/Cloning a Github Repository.md",
-    "5-zettelkasten/Untitled.md",
-    "2-tags/git.md",
-    "2-tags/git basics.md",
-    "3-indexes/COMPUTER SCIENCE/Operating Systems/linux.md",
     "Untitled.canvas",
     "CI",
     "3-indexes/COMPUTER SCIENCE/Web Development/Untitled",
