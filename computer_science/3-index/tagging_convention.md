@@ -36,7 +36,7 @@ The index chain has the following levels, from highest to lowest:
 	- **OPTIONAL**
 - `[macro-index]`
 	- Zettelkasten `layer-4`.
-	- Represents tools of the scope, such as [[JavaScript]].
+	- Represents tools of the scope, such as [[javascript]].
 	- Points to its `[super-index]`.
 	- Lists the entries from the layer immediately beneath it.
 - `[micro-index]`
@@ -50,15 +50,17 @@ The index chain has the following levels, from highest to lowest:
 	- Points to its `[micro-index]`.
 	- Lists notes.
 
-The most frequent form of tagging will look something like this:
+#### Example
+We just created a new note called [[git add]]. Its `tags` section will contain the following:
 
 ```
-
+[dev-ops] [git] [basic_snapshotting]
 ```
+
 Whilst individual notes will be internally linked in tags, the tags themselves will follow the chain of inheritance down to the "point 0" of the zettelkasten -- the `root` index.
 
+Notes may sometimes be referenced directly in indexes, most often at `level-5`, where `micro-indexes` are stored.
+
 Notes will be visible and accessible even inside index files of various ranks thanks to Obsidian's backlinks technology. Make sure they are enabled.
-
-
 
 **Note:** Extraneous files such as [[snippets]] or [[glossary]] do not follow this convention. They have only one parent, the `root` index.

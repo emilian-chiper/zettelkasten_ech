@@ -6,6 +6,6 @@ Lists all indexes related to frontend web development.
 
 ### Children
 - [[HTML]]
-- [[CSS]]
-- [[JavaScript]]
+- [[css]]
+- [[javascript]]
 - [[ReactJS]]

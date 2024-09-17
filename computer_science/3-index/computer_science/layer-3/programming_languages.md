@@ -6,5 +6,5 @@ List all indexes for programming languages.
 
 ### Children
 - [[Python]]
-- [[JavaScript]]
+- [[javascript]]
 - [[SQL]]

@@ -4,23 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "022eb03313b18c87",
+        "id": "ff1b4c21f3b84a02",
         "type": "tabs",
         "children": [
           {
-            "id": "f0853ee52c629c4a",
+            "id": "b598767da9a7dfeb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3-index/tagging_convention.md",
+                "file": "3-index/computer_science/layer-3/frontend.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "56a4eebe0cefde14",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "5-zettelkasten/HTML.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3-index/tagging_convention.md",
+                "file": "5-zettelkasten/HTML.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3-index/tagging_convention.md",
+                "file": "5-zettelkasten/HTML.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3-index/tagging_convention.md"
+                "file": "5-zettelkasten/HTML.md"
               }
             }
           },
@@ -161,37 +175,43 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f0853ee52c629c4a",
+  "active": "56a4eebe0cefde14",
   "lastOpenFiles": [
-    "3-index/computer_science/0-indexes/web_development.md",
-    "3-index/computer_science/1-meta_indexes/testing_and_qa.md",
+    "3-index/computer_science/layer-3/frontend.md",
+    "5-zettelkasten/HTML.md",
+    "4-templates/css_temp.md",
+    "3-index/computer_science/layer-4/css.md",
+    "5-zettelkasten/Untitled.md",
+    "4-templates/snippet_temp.md",
     "3-index/tagging_convention.md",
-    "3-index/computer_science/1-meta_indexes/frontend.md",
+    "3-index/computer_science/layer-4/git.md",
+    "3-index/computer_science/layer-3/dev-ops.md",
+    "3-index/computer_science/layer-5/basic_snapshotting.md",
+    "3-index/computer_science/layer-3/development_methodologies.md",
+    "3-index/computer_science/layer-3/dsa.md",
+    "5-zettelkasten/git add.md",
+    "3-index/computer_science/layer-5/javascript_data_types.md",
+    "2-tags/javascript_number_type.md",
+    "3-index/computer_science/layer-6",
+    "3-index/computer_science/layer-5",
+    "3-index/computer_science/layer-4/javascript.md",
+    "3-index/computer_science/layer-2/web_development.md",
+    "3-index/computer_science/layer-3/testing_and_qa.md",
     "3-index/computer_science/computer_science.md",
-    "3-index/computer_science/0-indexes/software_engineering.md",
-    "3-index/computer_science/0-indexes/fundamentals.md",
-    "3-index/computer_science/1-meta_indexes/dsa.md",
-    "3-index/computer_science/3-micro_indexes",
-    "3-index/computer_science/2-macro_indexes",
-    "3-index/computer_science/1-meta_indexes",
-    "3-index/computer_science/0-indexes",
-    "3-index/computer_science/1-meta_indexes/software_architecture.md",
-    "3-index/computer_science/1-meta_indexes/dev-ops.md",
-    "3-index/computer_science/1-meta_indexes/backend.md",
+    "3-index/computer_science/layer-2/software_engineering.md",
+    "3-index/computer_science/layer-2/fundamentals.md",
+    "3-index/computer_science/layer-4",
+    "3-index/computer_science/layer-1",
+    "3-index/computer_science/layer-3",
+    "3-index/computer_science/layer-2",
+    "3-index/computer_science/layer-3/software_architecture.md",
+    "3-index/computer_science/layer-3/backend.md",
     "3-index/computer_science/3-1-3-web_development/web_security",
-    "3-index/computer_science/1-meta_indexes/web_security.md",
+    "3-index/computer_science/layer-3/web_security.md",
     "3-index/computer_science/3-1-3-web_development/web_performance",
     "3-index/computer_science/3-1-3-web_development/backend",
     "3-index/computer_science/3-1-3-web_development/frontend",
-    "3-index/computer_science/1-meta_indexes/web_performance.md",
-    "2-tags/web_foundations.md",
-    "3-index/computer_science/3-1-2-software engineering/testing_and_QA",
-    "3-index/computer_science/3-1-2-software engineering/software_architecture",
-    "3-index/computer_science/1-meta_indexes/development_methodologies.md",
-    "3-index/computer_science/1-meta_indexes/mathematics.md",
-    "3-index/computer_science/1-meta_indexes/programming_languages.md",
-    "3-index/root.md",
-    "4-templates/index Template.md",
-    "Welcome.md"
+    "3-index/computer_science/layer-3/web_performance.md",
+    "2-tags/web_foundations.md"
   ]
 }

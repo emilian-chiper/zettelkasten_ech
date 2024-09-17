@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5-zettelkasten/Client.md",
+                "file": "4-template/CSS Template.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5-zettelkasten/Client.md",
+                "file": "4-template/CSS Template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "5-zettelkasten/Client.md",
+                "file": "4-template/CSS Template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5-zettelkasten/Client.md"
+                "file": "4-template/CSS Template.md"
               }
             }
           },
@@ -160,6 +160,8 @@
   },
   "active": "aa6d225d9d785772",
   "lastOpenFiles": [
+    "4-template/code snippet Template.md",
+    "5-zettelkasten/Client.md",
     "3-indexes/COMPUTER SCIENCE/Web Development/backend.md",
     "2-tags/html.md",
     "3-indexes/COMPUTER SCIENCE/Web Development/frontend.md",
@@ -184,8 +186,6 @@
     "4-template/index Template.md",
     "2-tags/html main root.md",
     "2-tags/html metadata.md",
-    "2-tags/i3wm.md",
-    "2-tags/integration testing.md",
     "Untitled.canvas",
     "CI",
     "3-indexes/COMPUTER SCIENCE/Web Development/Untitled",
