@@ -4,23 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "8c9387e21bc61b98",
+        "id": "b195e3213b1031d8",
         "type": "tabs",
         "children": [
           {
-            "id": "d16985d11189b9e5",
+            "id": "5c33f1700d25d1b7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3-index/computer_science/layer-4/git.md",
+                "file": "3-index/computer_science/layer-5/linux_installations.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "eb2e7f214f1e3106",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "5-zettelkasten/installing_google_chrome.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3-index/computer_science/layer-4/git.md",
+                "file": "5-zettelkasten/installing_google_chrome.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3-index/computer_science/layer-4/git.md",
+                "file": "5-zettelkasten/installing_google_chrome.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3-index/computer_science/layer-4/git.md"
+                "file": "5-zettelkasten/installing_google_chrome.md"
               }
             }
           },
@@ -161,35 +175,35 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d16985d11189b9e5",
+  "active": "eb2e7f214f1e3106",
   "lastOpenFiles": [
-    "3-index/computer_science/layer-5/git_basic_snapshotting.md",
-    "3-index/computer_science/layer-4/git.md",
+    "3-index/computer_science/layer-5/linux_installations.md",
     "3-index/computer_science/layer-3/linux.md",
-    "3-index/tagging_convention.md",
-    "3-index/computer_science/layer-4/linux_installations.md",
-    "3-index/computer_science/layer-2/operating_systems.md",
-    "5-zettelkasten/linux_getting_started.md",
+    "5-zettelkasten/installing_google_chrome.md",
+    "5-zettelkasten/installing_git.md",
+    "5-zettelkasten/git_status.md",
+    "5-zettelkasten/git_push.md",
+    "4-templates/git_temp.md",
+    "3-index/computer_science/layer-4/javascript.md",
+    "4-templates/js_temp.md",
+    "4-templates/react_temp.md",
+    "3-index/computer_science/layer-3/programming_languages.md",
+    "3-index/computer_science/layer-3/frontend.md",
     "3-index/computer_science/layer-2/fundamentals.md",
-    "3-index/computer_science/layer-2/Untitled",
-    "2-tags/web_foundations.md",
-    "5-zettelkasten/website.md",
-    "5-zettelkasten/glossary.md",
-    "5-zettelkasten/web_server.md",
-    "5-zettelkasten/web_page.md",
-    "3-index/computer_science/layer-3/web_performance.md",
-    "5-zettelkasten/web_browser.md",
-    "5-zettelkasten/git_add.md",
-    "5-zettelkasten/search_engine.md",
-    "5-zettelkasten/dns.md",
-    "5-zettelkasten/ip_address.md",
-    "5-zettelkasten/packets.md",
-    "5-zettelkasten/internet.md",
-    "5-zettelkasten/client.md",
-    "4-templates/snip_temp.md",
-    "4-templates/snippet_temp.md",
+    "3-index/tagging_convention.md",
+    "4-templates/css_temp.md",
+    "3-index/computer_science/layer-4/css.md",
+    "4-templates/html_temp.md",
+    "3-index/computer_science/layer-4/html.md",
     "4-templates/def_temp.md",
-    "3-index/computer_science/layer-2/web_development.md",
+    "3-index/computer_science/layer-5/git_sharing_and_updating_projects.md",
+    "3-index/computer_science/layer-4/git.md",
+    "3-index/computer_science/layer-5/git_branching_and_merging.md",
+    "3-index/computer_science/layer-5/git_basic_snapshotting.md",
+    "3-index/computer_science/layer-5/git_getting_and_creating_projects.md",
+    "4-templates/index_temp.md",
+    "5-zettelkasten/git_log.md",
+    "3-index/computer_science/layer-2/Untitled",
     "3-index/computer_science/layer-6",
     "3-index/computer_science/layer-5",
     "3-index/computer_science/layer-4",

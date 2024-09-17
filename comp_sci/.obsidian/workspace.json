@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5-zettelkasten/Cloning a Github Repository.md",
+                "file": "5-zettelkasten/Installing Git on Linux.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5-zettelkasten/Cloning a Github Repository.md",
+                "file": "5-zettelkasten/Installing Git on Linux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "5-zettelkasten/Cloning a Github Repository.md",
+                "file": "5-zettelkasten/Installing Git on Linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5-zettelkasten/Cloning a Github Repository.md"
+                "file": "5-zettelkasten/Installing Git on Linux.md"
               }
             }
           },
@@ -160,14 +160,19 @@
   },
   "active": "4a6f815a4975dce4",
   "lastOpenFiles": [
+    "5-zettelkasten/i3 Reference Card.md",
+    "5-zettelkasten/git status.md",
+    "5-zettelkasten/git push.md",
+    "5-zettelkasten/git add.md",
+    "5-zettelkasten/git log.md",
+    "5-zettelkasten/Cloning a Github Repository.md",
+    "5-zettelkasten/Untitled.md",
     "2-tags/git.md",
     "2-tags/git basics.md",
-    "5-zettelkasten/Cloning a Github Repository.md",
     "3-indexes/COMPUTER SCIENCE/Operating Systems/linux.md",
     "3-indexes/COMPUTER SCIENCE/Operating Systems/operating systems.md",
     "5-zettelkasten/Client.md",
     "5-zettelkasten/Enable 2nd monitor.md",
-    "5-zettelkasten/git add.md",
     "2-tags/web foundations.md",
     "3-indexes/glossary.md",
     "5-zettelkasten/Website.md",
@@ -181,11 +186,6 @@
     "5-zettelkasten/DNS.md",
     "4-template/code snippet Template.md",
     "4-template/CSS Template.md",
-    "3-indexes/COMPUTER SCIENCE/Web Development/backend.md",
-    "2-tags/html.md",
-    "3-indexes/COMPUTER SCIENCE/Web Development/frontend.md",
-    "3-indexes/COMPUTER SCIENCE/Web Development/web security.md",
-    "2-tags/owasp.md",
     "Untitled.canvas",
     "CI",
     "3-indexes/COMPUTER SCIENCE/Web Development/Untitled",

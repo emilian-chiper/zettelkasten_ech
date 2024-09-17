@@ -51,7 +51,7 @@ The index chain has the following levels, from highest to lowest:
 	- Lists notes.
 
 #### Example
-We just created a new note called [[git_add]]. Its `tags` section will contain the following:
+We just created a new note called [[git_clone]]. Its `tags` section will contain the following:
 
 ```
 [dev-ops] [git] [basic_snapshotting]

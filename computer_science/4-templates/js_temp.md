@@ -1,6 +1,7 @@
 ### Meta
 {{date}} {{time}}
-**Tags:** [[javascript]]
+**Tags:** [[programming_languages]] [[frontend]] [[javascript]]
+**State:** #pending 
 
 ### What it looks like
 ```JavaScript file:app.js

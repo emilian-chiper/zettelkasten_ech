@@ -6,7 +6,6 @@ Specify parent index.
 
 ### Children
 - [[linux_fundamentals]]
-- [[linux_installations]]
 - [[linux_advanced_use]]
 - [[linux_system_administration]]
 - [[linux_server_administratior]]

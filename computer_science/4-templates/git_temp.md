@@ -1,10 +1,10 @@
 ### Meta
 {{date}} {{time}}
-**Tags:** [[frontend]] [[html]]
+**Tags:** [[dev-ops]] [[git]]
 **State:** #pending
 
 ### What it looks like
-```HTML file:index.html
+```bash
 /* code goes here */
 
 ```

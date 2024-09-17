@@ -1,6 +1,7 @@
 ### Meta
 {{date}} {{time}}
-**Tags:** [[css]]
+**Tags:** [[frontend]] [[css]]
+**State:** #pending 
 
 ### What it looks like
 ```CSS file:styles.css
