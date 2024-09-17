@@ -2,7 +2,7 @@
 Lists all the indexes and tags related to web development.
 
 ### Parent
-[[computer science]]
+[[computer_science]]
 
 ### Children
 - [[web_foundations]]

@@ -5,6 +5,6 @@ Lists the core indexes of the Zettelkasten.
 N/A
 
 ### Children
-- [[computer science]]
+- [[computer_science]]
 - [[glossary]]
 - [[snippets]]

@@ -2,7 +2,7 @@
 Lists the indexes of the fundamental disciplines of computer science.
 
 ### Parent
-[[computer science]]
+[[computer_science]]
 
 ### Children
 - [[DSA]]

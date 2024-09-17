@@ -2,7 +2,7 @@
 Lists the indexes of all subjects related to software engineering.
 
 ### Parent
-[[computer science]]
+[[computer_science]]
 
 ### Children
 - [[development_methodologies]]

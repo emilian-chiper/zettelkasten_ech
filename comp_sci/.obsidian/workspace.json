@@ -11,8 +11,13 @@
             "id": "aa6d225d9d785772",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "5-zettelkasten/Client.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "5-zettelkasten/Client.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "5-zettelkasten/Client.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "5-zettelkasten/Client.md"
+              }
             }
           },
           {
@@ -151,11 +160,11 @@
   },
   "active": "aa6d225d9d785772",
   "lastOpenFiles": [
+    "3-indexes/COMPUTER SCIENCE/Web Development/backend.md",
     "2-tags/html.md",
     "3-indexes/COMPUTER SCIENCE/Web Development/frontend.md",
     "3-indexes/COMPUTER SCIENCE/Web Development/web security.md",
     "2-tags/owasp.md",
-    "3-indexes/COMPUTER SCIENCE/Web Development/backend.md",
     "3-indexes/COMPUTER SCIENCE/Web Development/web performance.md",
     "2-tags/web foundations.md",
     "3-indexes/COMPUTER SCIENCE/Web Development/web development.md",
