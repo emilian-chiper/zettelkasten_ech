@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "e3a4e4e50fa5b7b0",
+            "id": "68d1c49e40c52bd0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5-zettelkasten/Client.md",
+                "file": "5-zettelkasten/Web Server.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5-zettelkasten/Client.md",
+                "file": "5-zettelkasten/Web Server.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "5-zettelkasten/Client.md",
+                "file": "5-zettelkasten/Web Server.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5-zettelkasten/Client.md"
+                "file": "5-zettelkasten/Web Server.md"
               }
             }
           },
@@ -172,9 +172,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e3a4e4e50fa5b7b0",
+  "active": "68d1c49e40c52bd0",
   "lastOpenFiles": [
     "2-tags/web foundations.md",
+    "5-zettelkasten/Web Page.md",
+    "5-zettelkasten/Web Browser.md",
+    "5-zettelkasten/Search Engine.md",
+    "5-zettelkasten/The Internet.md",
+    "5-zettelkasten/Packets.md",
+    "5-zettelkasten/IP Address.md",
+    "5-zettelkasten/DNS.md",
     "5-zettelkasten/Client.md",
     "4-template/code snippet Template.md",
     "4-template/CSS Template.md",
@@ -193,13 +200,6 @@
     "2-tags/python.md",
     "3-indexes/COMPUTER SCIENCE/Fundamentals/programming languages.md",
     "3-indexes/COMPUTER SCIENCE/Fundamentals/mathematics for computer science.md",
-    "3-indexes/COMPUTER SCIENCE/Fundamentals/dsa.md",
-    "3-indexes/COMPUTER SCIENCE/Fundamentals/fundamentals.md",
-    "3-indexes/COMPUTER SCIENCE/computer science.md",
-    "3-indexes/glossary.md",
-    "3-indexes/root.md",
-    "4-template/index Template.md",
-    "2-tags/html main root.md",
     "Untitled.canvas",
     "CI",
     "3-indexes/COMPUTER SCIENCE/Web Development/Untitled",
