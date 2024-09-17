@@ -5,6 +5,6 @@ Lists the indexes of the fundamental disciplines of computer science.
 [[computer_science]]
 
 ### Children
-- [[DSA]]
+- [[dsa]]
 - [[programming_languages]]
 - [[mathematics]]

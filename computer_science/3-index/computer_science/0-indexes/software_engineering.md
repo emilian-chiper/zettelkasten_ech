@@ -7,5 +7,5 @@ Lists the indexes of all subjects related to software engineering.
 ### Children
 - [[development_methodologies]]
 - [[software_architecture]]
-- [[testing_and_QA]]
+- [[testing_and_qa]]
 - [[dev-ops]]

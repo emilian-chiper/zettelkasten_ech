@@ -15,15 +15,31 @@ The index chain has the following levels, from highest to lowest:
 - `[root]`
 	- Zettelkasten `layer-0`.
 	- Is the highest level of abstraction in the system.
+	- 	- **DO NOT INCLUDE IN NOTE TAGS!**
 - `[hyper-index]`
 	- Zettelkasten `layer-1`.
 	- Represents fields of study, such as [[computer_science]].
-	- Lists only entries from the layer immediately below it.
-	- Is referenced only by entries from the layer immediately below it.
+	- Points only to `[root]`.
+	- Lists entries from the layer immediately below it.
+	- **DO NOT INCLUDE IN NOTE TAGS!**
 - `[super-index]`
 	- Zettelkasten `layer-2`.
-	- Represents disciplines of their respective field of study.
-	- 
+	- Represents disciplines of their respective field of study, such as [[web_development]].
+	- Points only to its `[hyperindex]`
+	- Lists entries from the layer immediately below it.
+- `[macro-index]`
+	- Zettelkasten `layer-3`.
+	- Represents the scopes (or specialties) of the discipline it belongs to, such as [[frontend]].
+	- Points to its `[super-index]`.
+	- Lists entries from the layer immediately beneath it.
+- `[micro-index]`
+	- Zettelkasten `layer-4`.
+	- Represents tools of the scope, such as [[JavaScript]].
+	- Points to its `[macro-index]`.
+	- Lists the entries from the layer immediately beneath it.
+- `[tag]`
+	- Zettelkasten `level-5`.
+	- Represents 
 
 Whilst individual notes will be internally linked in tags, the tags themselves will follow the chain of inheritance down to the "point 0" of the zettelkasten -- the `root` index.
 
