@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3-indexes/COMPUTER SCIENCE/Web Development/web security.md",
+                "file": "2-tags/html.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3-indexes/COMPUTER SCIENCE/Web Development/web security.md",
+                "file": "2-tags/html.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3-indexes/COMPUTER SCIENCE/Web Development/web security.md",
+                "file": "2-tags/html.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3-indexes/COMPUTER SCIENCE/Web Development/web security.md"
+                "file": "2-tags/html.md"
               }
             }
           },
@@ -160,9 +160,11 @@
   },
   "active": "a6b011c15bc1b0c4",
   "lastOpenFiles": [
+    "3-indexes/COMPUTER SCIENCE/Web Development/frontend.md",
+    "3-indexes/COMPUTER SCIENCE/Web Development/web security.md",
+    "2-tags/owasp.md",
     "3-indexes/COMPUTER SCIENCE/Web Development/backend.md",
     "3-indexes/COMPUTER SCIENCE/Web Development/web performance.md",
-    "3-indexes/COMPUTER SCIENCE/Web Development/frontend.md",
     "2-tags/web foundations.md",
     "3-indexes/COMPUTER SCIENCE/Web Development/web development.md",
     "3-indexes/COMPUTER SCIENCE/Software Engineering/dev-ops.md",
@@ -184,8 +186,6 @@
     "2-tags/i3wm.md",
     "2-tags/integration testing.md",
     "2-tags/html elements.md",
-    "2-tags/html.md",
-    "2-tags/graphs.md",
     "Untitled.canvas",
     "CI",
     "3-indexes/COMPUTER SCIENCE/Web Development/Untitled",

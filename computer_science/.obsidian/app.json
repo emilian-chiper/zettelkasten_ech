@@ -1,6 +1,7 @@
 {
-  "showLineNumber": true,
+  "showLineNumber": false,
   "alwaysUpdateLinks": true,
   "newFileLocation": "folder",
-  "newFileFolderPath": "5-zettelkasten"
+  "newFileFolderPath": "5-zettelkasten",
+  "readableLineLength": false
 }
