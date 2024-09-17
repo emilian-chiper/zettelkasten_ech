@@ -2,9 +2,9 @@
 Lists all indexes related to the disciplines of computer science.
 
 ### Parent
-- [[root]]
+[[root]]
 
 ### Children
-- [[computer_science_fundamentals]]
+- [[fundamentals]]
 - [[software_engineering]]
 - [[web_development]]

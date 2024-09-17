@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3-indexes/COMPUTER SCIENCE/computer science.md",
+                "file": "3-indexes/COMPUTER SCIENCE/Fundamentals/fundamentals.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4088e4bac9405cb9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3-indexes/COMPUTER SCIENCE/Fundamentals/mathematics for computer science.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3-indexes/COMPUTER SCIENCE/computer science.md",
+                "file": "3-indexes/COMPUTER SCIENCE/Fundamentals/mathematics for computer science.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3-indexes/COMPUTER SCIENCE/computer science.md",
+                "file": "3-indexes/COMPUTER SCIENCE/Fundamentals/mathematics for computer science.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3-indexes/COMPUTER SCIENCE/computer science.md"
+                "file": "3-indexes/COMPUTER SCIENCE/Fundamentals/mathematics for computer science.md"
               }
             }
           },
@@ -158,8 +172,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b1ec7c3b8a170ec7",
+  "active": "4088e4bac9405cb9",
   "lastOpenFiles": [
+    "3-indexes/COMPUTER SCIENCE/Fundamentals/dsa.md",
+    "3-indexes/COMPUTER SCIENCE/Fundamentals/fundamentals.md",
+    "3-indexes/COMPUTER SCIENCE/Fundamentals/programming languages.md",
+    "3-indexes/COMPUTER SCIENCE/Web Development/web development.md",
+    "3-indexes/COMPUTER SCIENCE/Software Engineering/software engineering.md",
+    "3-indexes/COMPUTER SCIENCE/computer science.md",
     "3-indexes/glossary.md",
     "3-indexes/root.md",
     "4-template/index Template.md",
@@ -175,17 +195,11 @@
     "2-tags/git basics.md",
     "2-tags/git.md",
     "2-tags/css.md",
-    "3-indexes/COMPUTER SCIENCE/Fundamentals/dsa.md",
     "2-tags/express.md",
     "2-tags/end-to-end testing.md",
     "2-tags/dynamic programming.md",
     "2-tags/discrete mathematics.md",
     "2-tags/database management.md",
-    "2-tags/continuous improvement and continuous development.md",
-    "2-tags/caching strategies.md",
-    "2-tags/arrays.md",
-    "2-tags/agile project management.md",
-    "4-template/tag Template.md",
     "Untitled.canvas",
     "CI",
     "3-indexes/COMPUTER SCIENCE/Web Development/Untitled",
