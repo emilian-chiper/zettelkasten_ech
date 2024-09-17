@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "a13a9ac9ab9d8c24",
+        "id": "7d06d8699d30e566",
         "type": "tabs",
         "children": [
           {
-            "id": "bab8a05cd1c85d1e",
+            "id": "1c4e681602b1fbeb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5-zettelkasten/linux.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5-zettelkasten/linux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "5-zettelkasten/linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "5-zettelkasten/linux.md"
-              }
+              "state": {}
             }
           },
           {
@@ -161,11 +152,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bab8a05cd1c85d1e",
+  "active": "1c4e681602b1fbeb",
   "lastOpenFiles": [
+    "3-index/tagging_convention.md",
+    "3-index/computer_science/layer-3/linux.md",
+    "3-index/computer_science/layer-4/linux_installations.md",
     "3-index/computer_science/layer-2/operating_systems.md",
     "5-zettelkasten/linux_getting_started.md",
-    "5-zettelkasten/linux.md",
     "3-index/computer_science/layer-2/fundamentals.md",
     "3-index/computer_science/layer-2/Untitled",
     "2-tags/web_foundations.md",
@@ -188,8 +181,6 @@
     "3-index/computer_science/layer-2/web_development.md",
     "4-templates/index_temp.md",
     "4-templates/react_temp.md",
-    "4-templates/js_temp.md",
-    "4-templates/html_temp.md",
     "3-index/computer_science/layer-6",
     "3-index/computer_science/layer-5",
     "3-index/computer_science/layer-4",

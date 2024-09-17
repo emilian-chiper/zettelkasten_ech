@@ -57,7 +57,8 @@ We just created a new note called [[git_add]]. Its `tags` section will contain t
 [dev-ops] [git] [basic_snapshotting]
 ```
 
-Whilst individual notes will be internally linked in tags, the tags themselves will follow the chain of inheritance down to the "point 0" of the zettelkasten -- the `root` index.
+#### Notes
+Whilst individual notes will be internally linked in tags, the tags themselves will follow the chain of inheritance down to `level-0` of the zettelkasten -- the `root` index.
 
 Notes may sometimes be referenced directly in indexes, most often at `level-5`, where `micro-indexes` are stored.
 
