@@ -4,37 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "6a883ed623df6a53",
+        "id": "a13a9ac9ab9d8c24",
         "type": "tabs",
         "children": [
           {
-            "id": "06e17b65d8e793e0",
+            "id": "bab8a05cd1c85d1e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2-tags/web_foundations.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "05290ef753862616",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5-zettelkasten/web_server.md",
+                "file": "5-zettelkasten/linux.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -84,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 254.51103591918945
+    "width": 368.5110321044922
   },
   "right": {
     "id": "51fcf44428386e88",
@@ -100,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5-zettelkasten/web_server.md",
+                "file": "5-zettelkasten/linux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "5-zettelkasten/web_server.md",
+                "file": "5-zettelkasten/linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5-zettelkasten/web_server.md"
+                "file": "5-zettelkasten/linux.md"
               }
             }
           },
@@ -175,9 +161,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "05290ef753862616",
+  "active": "bab8a05cd1c85d1e",
   "lastOpenFiles": [
+    "3-index/computer_science/layer-2/operating_systems.md",
+    "5-zettelkasten/linux_getting_started.md",
+    "5-zettelkasten/linux.md",
+    "3-index/computer_science/layer-2/fundamentals.md",
+    "3-index/computer_science/layer-2/Untitled",
     "2-tags/web_foundations.md",
+    "5-zettelkasten/website.md",
+    "5-zettelkasten/glossary.md",
     "5-zettelkasten/web_server.md",
     "5-zettelkasten/web_page.md",
     "3-index/computer_science/layer-3/web_performance.md",
@@ -197,12 +190,6 @@
     "4-templates/react_temp.md",
     "4-templates/js_temp.md",
     "4-templates/html_temp.md",
-    "4-templates/css_temp.md",
-    "3-index/computer_science/layer-3/frontend.md",
-    "5-zettelkasten/Untitled.md",
-    "3-index/computer_science/layer-4/react_js.md",
-    "3-index/computer_science/layer-4/html.md",
-    "3-index/computer_science/layer-4/css.md",
     "3-index/computer_science/layer-6",
     "3-index/computer_science/layer-5",
     "3-index/computer_science/layer-4",
@@ -211,7 +198,6 @@
     "3-index/computer_science/layer-2",
     "3-index/computer_science/3-1-3-web_development/web_security",
     "3-index/computer_science/3-1-3-web_development/web_performance",
-    "3-index/computer_science/3-1-3-web_development/backend",
-    "3-index/computer_science/3-1-3-web_development/frontend"
+    "3-index/computer_science/3-1-3-web_development/backend"
   ]
 }

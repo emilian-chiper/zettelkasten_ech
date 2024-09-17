@@ -1,8 +1,8 @@
 ### About
-Lists tags related to the foundations of the web.
+Stores definitions.
 
 ### Parent
-[[web_development]]
+[[root]]
 
 ### Children
 - [[client]]
@@ -10,7 +10,6 @@ Lists tags related to the foundations of the web.
 - [[ip_address]]
 - [[packets]]
 - [[search_engine]]
-- [[internet]]
 - [[web_browser]]
 - [[web_page]]
 - [[web_server]]
