@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4-template/CSS Template.md",
+                "file": "2-tags/web foundations.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e3a4e4e50fa5b7b0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "5-zettelkasten/Client.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4-template/CSS Template.md",
+                "file": "5-zettelkasten/Client.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "4-template/CSS Template.md",
+                "file": "5-zettelkasten/Client.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4-template/CSS Template.md"
+                "file": "5-zettelkasten/Client.md"
               }
             }
           },
@@ -158,17 +172,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "aa6d225d9d785772",
+  "active": "e3a4e4e50fa5b7b0",
   "lastOpenFiles": [
-    "4-template/code snippet Template.md",
+    "2-tags/web foundations.md",
     "5-zettelkasten/Client.md",
+    "4-template/code snippet Template.md",
+    "4-template/CSS Template.md",
     "3-indexes/COMPUTER SCIENCE/Web Development/backend.md",
     "2-tags/html.md",
     "3-indexes/COMPUTER SCIENCE/Web Development/frontend.md",
     "3-indexes/COMPUTER SCIENCE/Web Development/web security.md",
     "2-tags/owasp.md",
     "3-indexes/COMPUTER SCIENCE/Web Development/web performance.md",
-    "2-tags/web foundations.md",
     "3-indexes/COMPUTER SCIENCE/Web Development/web development.md",
     "3-indexes/COMPUTER SCIENCE/Software Engineering/dev-ops.md",
     "3-indexes/COMPUTER SCIENCE/Software Engineering/software engineering.md",
@@ -185,7 +200,6 @@
     "3-indexes/root.md",
     "4-template/index Template.md",
     "2-tags/html main root.md",
-    "2-tags/html metadata.md",
     "Untitled.canvas",
     "CI",
     "3-indexes/COMPUTER SCIENCE/Web Development/Untitled",

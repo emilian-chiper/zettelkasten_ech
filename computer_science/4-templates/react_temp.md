@@ -1,9 +1,9 @@
 ### Meta
 {{date}} {{time}}
-**Tags:** [[css]]
+**Tags:** [[react_js]]
 
 ### What it looks like
-```CSS file:styles.css
+```JSX file:app.jsx
 /* code goes here */
 
 ```

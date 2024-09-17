@@ -1,9 +1,9 @@
 ### Meta
 {{date}} {{time}}
-**Tags:** [[css]]
+**Tags:** [[html]]
 
 ### What it looks like
-```CSS file:styles.css
+```HTML file:index.html
 /* code goes here */
 
 ```

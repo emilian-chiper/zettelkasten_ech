@@ -5,7 +5,7 @@ Lists all indexes related to frontend web development.
 [[web_development]]
 
 ### Children
-- [[HTML]]
+- [[html]]
 - [[css]]
 - [[javascript]]
-- [[ReactJS]]
+- [[react_js]]

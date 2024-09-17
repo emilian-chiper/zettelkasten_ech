@@ -1,10 +1,11 @@
 ### Meta
 {{date}} {{time}}
-**Tags:** [[css]]
+**Tags:** [[snippets]]
+**State:** #pending 
 
 ### What it looks like
-```CSS file:styles.css
-/* code goes here */
+```Python file:app.py
+# code goes here
 
 ```
 
