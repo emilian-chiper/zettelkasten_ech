@@ -1,6 +1,8 @@
 {
   "cssTheme": "Obsidian Nord",
-  "textFontFamily": "Cascadia Mono",
+  "textFontFamily": "",
   "interfaceFontFamily": "",
-  "nativeMenus": false
+  "nativeMenus": false,
+  "monospaceFontFamily": "Cascadia Mono",
+  "baseFontSize": 18
 }
