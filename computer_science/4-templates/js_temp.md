@@ -1,6 +1,6 @@
 ### Meta
 {{date}} {{time}}
-**Tags:** [[programming_languages]] [[frontend]] [[javascript]]
+**Tags:** [[javascript]]
 **State:** #pending 
 
 ### What it looks like

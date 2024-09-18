@@ -5,6 +5,6 @@ Lists all notes regarding logical operators in JavaScript.
 [[javascript_fundamentals]]
 
 ### Children
-- [[js_logical_or]]
-- [[js_logical_and]]
-- [[js_logical_not]]
+- [[js_logical_or]] ✅
+- [[js_logical_and]] ✅
+- [[js_logical_not]] ✅
