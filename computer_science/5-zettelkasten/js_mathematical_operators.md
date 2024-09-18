@@ -107,4 +107,5 @@ console.log( +apples + +oranges); // 5
 ```
 
 ### Operator Precedence
-- See: [[Operator Precedence Table]]
+- See: [Operator Precedence Table](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_precedence#table)
+

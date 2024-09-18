@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2-tags/javascript logical operators.md",
+                "file": "5-zettelkasten/JavaScript Conditional Operator.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 273.5026054382324
+    "width": 283.5026054382324
   },
   "right": {
     "id": "aa4f7ecb893b13a8",
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2-tags/javascript logical operators.md",
+                "file": "5-zettelkasten/JavaScript Conditional Operator.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2-tags/javascript logical operators.md",
+                "file": "5-zettelkasten/JavaScript Conditional Operator.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2-tags/javascript logical operators.md"
+                "file": "5-zettelkasten/JavaScript Conditional Operator.md"
               }
             }
           },
@@ -160,6 +160,7 @@
   },
   "active": "9457f2ac99885022",
   "lastOpenFiles": [
+    "2-tags/javascript logical operators.md",
     "5-zettelkasten/JavaScript AND operator.md",
     "5-zettelkasten/JavaScript OR operator.md",
     "5-zettelkasten/JavaScript Conditional Operator.md",
@@ -169,7 +170,6 @@
     "5-zettelkasten/JavaScript Type Conversion.md",
     "2-tags/javascript fundamentals.md",
     "2-tags/javascript conditionals.md",
-    "2-tags/javascript logical operators.md",
     "2-tags/javascript data types.md",
     "5-zettelkasten/JavaScript Object Data Type.md",
     "5-zettelkasten/JavaScript 'undefined' Data Type.md",
