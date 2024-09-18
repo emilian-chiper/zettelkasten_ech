@@ -3,6 +3,6 @@
   "textFontFamily": "",
   "interfaceFontFamily": "",
   "nativeMenus": false,
-  "monospaceFontFamily": "Cascadia Mono",
+  "monospaceFontFamily": "mononoki",
   "baseFontSize": 16
 }

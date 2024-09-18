@@ -36,12 +36,12 @@
             }
           },
           {
-            "id": "00bfd2c1a47996e8",
+            "id": "0e44dd5b3d9960e9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5-zettelkasten/js_function_declaration.md",
+                "file": "5-zettelkasten/js_default_values.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5-zettelkasten/js_function_declaration.md",
+                "file": "5-zettelkasten/js_default_values.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "5-zettelkasten/js_function_declaration.md",
+                "file": "5-zettelkasten/js_default_values.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5-zettelkasten/js_function_declaration.md"
+                "file": "5-zettelkasten/js_default_values.md"
               }
             }
           },
@@ -190,9 +190,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "00bfd2c1a47996e8",
+  "active": "0e44dd5b3d9960e9",
   "lastOpenFiles": [
     "2-tags/javascript_functions.md",
+    "5-zettelkasten/js_default_values.md",
+    "5-zettelkasten/js_function_parameters.md",
+    "5-zettelkasten/js_outer_variables.md",
+    "5-zettelkasten/js_local_variables.md",
     "5-zettelkasten/js_function_declaration.md",
     "3-index/computer_science/layer-5/javascript_fundamentals.md",
     "5-zettelkasten/js_switch_construct.md",
@@ -214,10 +218,6 @@
     "5-zettelkasten/js_nullish_coalescing_operator.md",
     "5-zettelkasten/js_mathematical_operators.md",
     "3-index/computer_science/layer-4/javascript.md",
-    "5-zettelkasten/js_data_types.md",
-    "2-tags/javascript_interaction.md",
-    "5-zettelkasten/js_conditional_operator.md",
-    "5-zettelkasten/js_boolean_conversion.md",
     "3-index/computer_science/layer-2/Untitled",
     "3-index/computer_science/layer-6",
     "3-index/computer_science/layer-5",

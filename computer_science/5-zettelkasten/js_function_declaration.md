@@ -1,7 +1,7 @@
 ### Meta
 2024-09-18 11:31
 **Tags:** [[javascript]] [[javascript_fundamentals]] [[javascript_functions]]
-**State:** #pending 
+**State:** #completed  
 
 ### What it looks like
 ```JavaScript title:app.js
@@ -21,3 +21,17 @@ function name(parameter1, parameter2, ... parameterN) {
 	// body
 }
 ```
+
+### Function invocation
+- Our new function can be called (invoked) by its name: `showMessage()`.
+
+```JavaScript title:app.js
+function showMessage() {
+	console.log( 'Hello bratwurst!' );
+}
+
+showMessage(); // 'Hello bratwurst!'
+showMessage(); // 'Hello bratwurst!'
+```
+
+- The call `showMessage()` executes the code of the function.
