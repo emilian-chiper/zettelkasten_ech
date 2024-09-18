@@ -1,22 +1,79 @@
 {
-  "collapse-filter": false,
+  "collapse-filter": true,
   "search": "",
-  "showTags": false,
-  "showAttachments": false,
-  "hideUnresolved": true,
+  "showTags": true,
+  "showAttachments": true,
+  "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
-  "colorGroups": [],
-  "collapse-display": false,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "file:root",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
+      }
+    },
+    {
+      "query": "path:3-index/computer_science  ",
+      "color": {
+        "a": 1,
+        "rgb": 14069084
+      }
+    },
+    {
+      "query": "path:3-index/computer_science/layer-2  ",
+      "color": {
+        "a": 1,
+        "rgb": 14246176
+      }
+    },
+    {
+      "query": "path:3-index/computer_science/layer-3  ",
+      "color": {
+        "a": 1,
+        "rgb": 6084208
+      }
+    },
+    {
+      "query": "path:3-index/computer_science/layer-4",
+      "color": {
+        "a": 1,
+        "rgb": 6073814
+      }
+    },
+    {
+      "query": "path:3-index/computer_science/layer-5  ",
+      "color": {
+        "a": 1,
+        "rgb": 6053078
+      }
+    },
+    {
+      "query": "path:5-zettelkasten  ",
+      "color": {
+        "a": 1,
+        "rgb": 55541
+      }
+    },
+    {
+      "query": "file:glossary",
+      "color": {
+        "a": 1,
+        "rgb": 10486000
+      }
+    }
+  ],
+  "collapse-display": true,
   "showArrow": false,
-  "textFadeMultiplier": -0.9,
-  "nodeSizeMultiplier": 1.19090909090909,
-  "lineSizeMultiplier": 0.562545454545455,
-  "collapse-forces": true,
-  "centerStrength": 0,
+  "textFadeMultiplier": -1.5,
+  "nodeSizeMultiplier": 2.04064449064449,
+  "lineSizeMultiplier": 1.26642411642412,
+  "collapse-forces": false,
+  "centerStrength": 0.354469854469854,
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 500,
-  "scale": 0.03823796539977391,
+  "scale": 0.053608973536237586,
   "close": false
 }

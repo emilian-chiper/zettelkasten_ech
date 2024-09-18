@@ -23,29 +23,11 @@
             }
           },
           {
-            "id": "a25015e0e77cda2e",
+            "id": "d3fe1325d2755014",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2-tags/javascript_functions.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "74d578dd73eae273",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2-tags/javascript_function_expressions.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ],
@@ -115,7 +97,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2-tags/javascript_functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +113,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2-tags/javascript_functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,9 +134,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2-tags/javascript_functions.md"
-              }
+              "state": {}
             }
           },
           {
@@ -190,13 +168,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a25015e0e77cda2e",
+  "active": "d3fe1325d2755014",
   "lastOpenFiles": [
     "3-index/computer_science/layer-5/javascript_fundamentals.md",
-    "2-tags/javascript_conditionals.md",
-    "5-zettelkasten/js_comparison_operators.md",
+    "2-tags/javascript_loops.md",
+    "2-tags/javascript_logical_operators.md",
     "2-tags/javascript_function_expressions.md",
     "2-tags/javascript_functions.md",
+    "2-tags/javascript_conditionals.md",
+    "5-zettelkasten/js_comparison_operators.md",
     "5-zettelkasten/js_naming_functions.md",
     "5-zettelkasten/js_returning_values.md",
     "5-zettelkasten/js_alternative_default_parameters.md",
@@ -206,9 +186,7 @@
     "5-zettelkasten/js_local_variables.md",
     "5-zettelkasten/js_function_declaration.md",
     "5-zettelkasten/js_switch_construct.md",
-    "2-tags/javascript_logical_operators.md",
     "5-zettelkasten/js_type_coercion.md",
-    "2-tags/javascript_loops.md",
     "5-zettelkasten/js_labels_for_break_continue.md",
     "4-templates/js_snip.md",
     "5-zettelkasten/js_no_conditional_break_continue.md",

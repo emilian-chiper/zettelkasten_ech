@@ -10,6 +10,6 @@ Lists notes related to functions in the JavaScript programming language.
 - [[js_function_declaration]] ✅
 - [[js_function_parameters]] ✅
 - [[js_local_variables]] ✅
+- [[js_naming_functions]] ✅
 - [[js_outer_variables]] ✅
 - [[js_returning_values]] ✅
-- [[js_naming_functions]] ✅
