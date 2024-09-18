@@ -1,7 +1,7 @@
 ### Meta
 2024-09-18 13:32
 **Tags:** [[javascript]] [[javascript_fundamentals]] [[javascript_functions]]
-**State:** #pending 
+**State:** #completed  
 
 ### What it looks like
 ```JavaScript title:app.js
@@ -32,3 +32,6 @@ function showMessage(from, text = anotherFunction());
 ```
 
 #### Evaluation of default parameters
+- In JavaScript, a default parameter is evaluated every time the function is called without the respective parameter.
+- In the example above, `anotherFunction()` is not called if the `text` parameter is provided.
+- It is independently called each time when `text` is missing.
