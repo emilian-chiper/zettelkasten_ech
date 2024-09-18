@@ -21,35 +21,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "17559118a0b0b92e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2-tags/javascript_logical_operators.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "051f281d1ebf616c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5-zettelkasten/js_logical_not.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -95,8 +68,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -116,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5-zettelkasten/js_logical_not.md",
+                "file": "3-index/computer_science/layer-5/javascript_fundamentals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "5-zettelkasten/js_logical_not.md",
+                "file": "3-index/computer_science/layer-5/javascript_fundamentals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5-zettelkasten/js_logical_not.md"
+                "file": "3-index/computer_science/layer-5/javascript_fundamentals.md"
               }
             }
           },
@@ -191,13 +163,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "051f281d1ebf616c",
+  "active": "8776e0633a0a8efb",
   "lastOpenFiles": [
+    "3-index/computer_science/layer-5/javascript_fundamentals.md",
+    "3-index/tagging_convention.md",
+    "5-zettelkasten/Untitled.md",
+    "2-tags/javascript_interaction.md",
     "2-tags/javascript_logical_operators.md",
     "5-zettelkasten/js_logical_not.md",
     "5-zettelkasten/js_logical_and.md",
     "5-zettelkasten/js_logical_or.md",
-    "3-index/computer_science/layer-5/javascript_fundamentals.md",
     "2-tags/javascript_conditionals.md",
     "5-zettelkasten/js_conditional_operator.md",
     "5-zettelkasten/js_else_clause.md",
@@ -216,9 +191,6 @@
     "5-zettelkasten/js_if_statement.md",
     "4-templates/snip_temp.md",
     "4-templates/css_temp.md",
-    "4-templates/git_temp.md",
-    "4-templates/html_temp.md",
-    "4-templates/index_temp.md",
     "3-index/computer_science/layer-2/Untitled",
     "3-index/computer_science/layer-6",
     "3-index/computer_science/layer-5",
