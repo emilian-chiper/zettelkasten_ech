@@ -1,11 +1,11 @@
 {
-  "collapse-filter": true,
+  "collapse-filter": false,
   "search": "",
-  "showTags": true,
-  "showAttachments": true,
-  "hideUnresolved": false,
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "file:root",
@@ -74,6 +74,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 137,
-  "scale": 0.13524118108385658,
+  "scale": 0.184105222909976,
   "close": true
 }
