@@ -5,7 +5,7 @@ Lists all tags and notes related to the building blocks of the JavaScript progra
 [[javascript]]
 
 ### Children
-- [[javascript_arrow_functions]] ⏳
+- [[javascript_arrow_functions]] ✅
 - [[javascript_conditionals]] ✅
 - [[javascript_functions]] ✅
 - [[javascript_function_expressions]] ✅

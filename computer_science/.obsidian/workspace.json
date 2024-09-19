@@ -18,13 +18,13 @@
             }
           },
           {
-            "id": "8776e0633a0a8efb",
+            "id": "768add52ff505dba",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3-index/computer_science/layer-5/javascript_fundamentals.md",
+                "file": "3-index/computer_science/layer-5/javascript_object_basics.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -33,16 +33,18 @@
             }
           },
           {
-            "id": "8d16618fe773bf53",
+            "id": "db21acbbbbfd8b34",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2-tags/javascript_arrow_functions.md",
+                "file": "2-tags/javavscript_objects_101.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              }
+              },
+              "pinned": true
             }
           }
         ],
@@ -112,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2-tags/javascript_arrow_functions.md",
+                "file": "2-tags/javavscript_objects_101.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2-tags/javascript_arrow_functions.md",
+                "file": "2-tags/javavscript_objects_101.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2-tags/javascript_arrow_functions.md"
+                "file": "2-tags/javavscript_objects_101.md"
               }
             }
           },
@@ -187,15 +189,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8d16618fe773bf53",
+  "active": "db21acbbbbfd8b34",
   "lastOpenFiles": [
+    "5-zettelkasten/js_object_literals_and_properties.md",
+    "2-tags/javavscript_objects_101.md",
+    "5-zettelkasten/js_objects.md",
+    "3-index/computer_science/layer-5/javascript_object_basics.md",
+    "3-index/computer_science/layer-4/javascript.md",
     "3-index/computer_science/layer-5/javascript_fundamentals.md",
+    "2-tags/javascript_arrow_functions.md",
+    "5-zettelkasten/js_multiline_arrow_functions.md",
+    "5-zettelkasten/js_arrow_functions_basics.md",
     "2-tags/javascript_function_expressions.md",
     "5-zettelkasten/js_function_expression_vs_function_declaration.md",
     "5-zettelkasten/js_callback_functions.md",
     "5-zettelkasten/js_function_expressions.md",
     "5-zettelkasten/js_functions_as_values.md",
-    "2-tags/javascript_arrow_functions.md",
     "2-tags/javascript_loops.md",
     "2-tags/javascript_logical_operators.md",
     "2-tags/javascript_functions.md",
@@ -208,13 +217,6 @@
     "5-zettelkasten/js_function_parameters.md",
     "5-zettelkasten/js_outer_variables.md",
     "5-zettelkasten/js_local_variables.md",
-    "5-zettelkasten/js_function_declaration.md",
-    "5-zettelkasten/js_switch_construct.md",
-    "5-zettelkasten/js_type_coercion.md",
-    "5-zettelkasten/js_labels_for_break_continue.md",
-    "4-templates/js_snip.md",
-    "5-zettelkasten/js_no_conditional_break_continue.md",
-    "5-zettelkasten/js_continue_statement.md",
     "3-index/computer_science/layer-2/Untitled",
     "3-index/computer_science/layer-6",
     "3-index/computer_science/layer-5",

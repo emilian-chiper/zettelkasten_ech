@@ -1,8 +1,8 @@
 {
   "cssTheme": "Obsidian Nord",
-  "textFontFamily": "",
-  "interfaceFontFamily": "",
+  "textFontFamily": "Atkinson Hyperlegible",
+  "interfaceFontFamily": "Atkinson Hyperlegible",
   "nativeMenus": false,
-  "monospaceFontFamily": "JetBrains Mono",
+  "monospaceFontFamily": "JetBrains Mono NL",
   "baseFontSize": 16
 }
