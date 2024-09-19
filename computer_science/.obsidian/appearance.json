@@ -3,6 +3,6 @@
   "textFontFamily": "",
   "interfaceFontFamily": "",
   "nativeMenus": false,
-  "monospaceFontFamily": "mononoki",
+  "monospaceFontFamily": "JetBrains Mono",
   "baseFontSize": 16
 }

@@ -8,6 +8,16 @@
         "type": "tabs",
         "children": [
           {
+            "id": "d3fe1325d2755014",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "graph",
+              "state": {},
+              "pinned": true
+            }
+          },
+          {
             "id": "8776e0633a0a8efb",
             "type": "leaf",
             "pinned": true,
@@ -23,15 +33,20 @@
             }
           },
           {
-            "id": "d3fe1325d2755014",
+            "id": "8d16618fe773bf53",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "2-tags/javascript_arrow_functions.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -97,6 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2-tags/javascript_arrow_functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "2-tags/javascript_arrow_functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +151,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2-tags/javascript_arrow_functions.md"
+              }
             }
           },
           {
@@ -168,12 +187,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d3fe1325d2755014",
+  "active": "8d16618fe773bf53",
   "lastOpenFiles": [
     "3-index/computer_science/layer-5/javascript_fundamentals.md",
+    "2-tags/javascript_function_expressions.md",
+    "5-zettelkasten/js_function_expression_vs_function_declaration.md",
+    "5-zettelkasten/js_callback_functions.md",
+    "5-zettelkasten/js_function_expressions.md",
+    "5-zettelkasten/js_functions_as_values.md",
+    "2-tags/javascript_arrow_functions.md",
     "2-tags/javascript_loops.md",
     "2-tags/javascript_logical_operators.md",
-    "2-tags/javascript_function_expressions.md",
     "2-tags/javascript_functions.md",
     "2-tags/javascript_conditionals.md",
     "5-zettelkasten/js_comparison_operators.md",
@@ -191,11 +215,6 @@
     "4-templates/js_snip.md",
     "5-zettelkasten/js_no_conditional_break_continue.md",
     "5-zettelkasten/js_continue_statement.md",
-    "5-zettelkasten/Untitled.md",
-    "5-zettelkasten/js_break_statement.md",
-    "5-zettelkasten/js_for_loop.md",
-    "5-zettelkasten/js_do_while_loop.md",
-    "4-templates/js_temp.md",
     "3-index/computer_science/layer-2/Untitled",
     "3-index/computer_science/layer-6",
     "3-index/computer_science/layer-5",
