@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d3fe1325d2755014",
+            "id": "335f3d47fc63f16b",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -33,12 +33,25 @@
             }
           },
           {
-            "id": "c52308aee46f01be",
+            "id": "6a857a80dbe1de1d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2-tags/javascript_object_references_and_copying.md",
+                "file": "2-tags/javascript_object_methods_this.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2851cd486e5ad057",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "5-zettelkasten/js_this.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -46,7 +59,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -112,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2-tags/javascript_object_references_and_copying.md",
+                "file": "5-zettelkasten/js_this.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2-tags/javascript_object_references_and_copying.md",
+                "file": "5-zettelkasten/js_this.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2-tags/javascript_object_references_and_copying.md"
+                "file": "5-zettelkasten/js_this.md"
               }
             }
           },
@@ -188,11 +201,17 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "c52308aee46f01be",
+  "active": "2851cd486e5ad057",
   "lastOpenFiles": [
-    "5-zettelkasten/js_object_cloning_and_merging.md",
+    "2-tags/javascript_object_methods_this.md",
+    "5-zettelkasten/js_this.md",
+    "5-zettelkasten/js_method_shorthand.md",
     "3-index/computer_science/layer-5/javascript_object_basics.md",
+    "5-zettelkasten/js_method_examples.md",
+    "5-zettelkasten/javascript_garbage_collection.md",
     "2-tags/javascript_object_references_and_copying.md",
+    "5-zettelkasten/js_object_nested_cloning.md",
+    "5-zettelkasten/js_object_cloning_and_merging.md",
     "5-zettelkasten/js_object_comparison_by_reference.md",
     "5-zettelkasten/js_object_references.md",
     "2-tags/javascript_object_to_primitive_conversion.md",
@@ -210,12 +229,6 @@
     "5-zettelkasten/js_multiline_arrow_functions.md",
     "5-zettelkasten/js_arrow_functions_basics.md",
     "2-tags/javascript_function_expressions.md",
-    "5-zettelkasten/js_function_expression_vs_function_declaration.md",
-    "5-zettelkasten/js_callback_functions.md",
-    "5-zettelkasten/js_function_expressions.md",
-    "5-zettelkasten/js_functions_as_values.md",
-    "2-tags/javascript_loops.md",
-    "2-tags/javascript_logical_operators.md",
     "3-index/computer_science/layer-2/Untitled",
     "3-index/computer_science/layer-6",
     "3-index/computer_science/layer-5",

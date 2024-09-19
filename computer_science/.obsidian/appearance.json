@@ -1,9 +1,9 @@
 {
   "cssTheme": "Obsidian Nord",
-  "textFontFamily": "Mona Sans",
-  "interfaceFontFamily": "Mona Sans",
+  "textFontFamily": "SF Pro Rounded",
+  "interfaceFontFamily": "SF Pro",
   "nativeMenus": false,
-  "monospaceFontFamily": "JetBrains Mono NL",
+  "monospaceFontFamily": "SF Mono",
   "baseFontSize": 18,
   "theme": "system"
 }
