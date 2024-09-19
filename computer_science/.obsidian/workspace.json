@@ -33,7 +33,7 @@
             }
           },
           {
-            "id": "02bca7f661ec5fbf",
+            "id": "c52308aee46f01be",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -44,22 +44,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "32c7845a264b211c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5-zettelkasten/js_object_cloning_and_merging.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -125,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5-zettelkasten/js_object_cloning_and_merging.md",
+                "file": "2-tags/javascript_object_references_and_copying.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "5-zettelkasten/js_object_cloning_and_merging.md",
+                "file": "2-tags/javascript_object_references_and_copying.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5-zettelkasten/js_object_cloning_and_merging.md"
+                "file": "2-tags/javascript_object_references_and_copying.md"
               }
             }
           },
@@ -201,12 +188,12 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "32c7845a264b211c",
+  "active": "c52308aee46f01be",
   "lastOpenFiles": [
     "5-zettelkasten/js_object_cloning_and_merging.md",
+    "3-index/computer_science/layer-5/javascript_object_basics.md",
     "2-tags/javascript_object_references_and_copying.md",
     "5-zettelkasten/js_object_comparison_by_reference.md",
-    "3-index/computer_science/layer-5/javascript_object_basics.md",
     "5-zettelkasten/js_object_references.md",
     "2-tags/javascript_object_to_primitive_conversion.md",
     "2-tags/javavscript_objects_101.md",
