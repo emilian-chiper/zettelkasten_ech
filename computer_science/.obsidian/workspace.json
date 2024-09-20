@@ -47,22 +47,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "4cf8488d772beb75",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5-zettelkasten/js_numbers_syntax.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -128,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5-zettelkasten/js_numbers_syntax.md",
+                "file": "2-tags/javascript_numbers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "5-zettelkasten/js_numbers_syntax.md",
+                "file": "2-tags/javascript_numbers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5-zettelkasten/js_numbers_syntax.md"
+                "file": "2-tags/javascript_numbers.md"
               }
             }
           },
@@ -204,10 +191,10 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "4cf8488d772beb75",
+  "active": "9d6c27df3c74b446",
   "lastOpenFiles": [
-    "2-tags/javascript_numbers.md",
     "5-zettelkasten/js_numbers_syntax.md",
+    "2-tags/javascript_numbers.md",
     "3-index/computer_science/layer-5/javascript_data_types_deep_dive.md",
     "3-index/computer_science/layer-5/javascript_object_basics.md",
     "3-index/computer_science/layer-4/javascript.md",
