@@ -6,7 +6,7 @@ Lists all indexes related to javascript.
 - [[frontend]]
 
 ### Children
-- [[javascript_adanced_data_types]] ⏳
+- [[javascript_data_types_deep_dive]] 🔍
 - [[javascript_advanced_functions]] ⏳
 - [[javascript_classes]] ⏳
 - [[javascript_code_quality]] ⏳
@@ -15,7 +15,7 @@ Lists all indexes related to javascript.
 - [[javascript_iterators_advanced_iteration]] ⏳
 - [[javascript_misc]] ⏳
 - [[javascript_modules]] ⏳
-- [[javascript_object_basics]] 🔍
+- [[javascript_object_basics]] ✅
 - [[javascript_object_properties_configuration]] ⏳
 - [[javascript_prototypes_inheritance]] ⏳
 - [[javascript_promises_async-await]] ⏳

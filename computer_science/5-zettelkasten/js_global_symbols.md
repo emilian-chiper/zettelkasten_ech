@@ -1,7 +1,7 @@
 ### Meta
 2024-09-20 11:48
 **Tags:** [[javascript]] [[javascript_object_basics]] [[javascript_symbol_type]]
-**State:** #pending 
+**State:** #completed  
 
 ### What it looks like
 ```JavaScript title:app.js
