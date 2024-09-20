@@ -7,5 +7,5 @@ Lists all notes related to constructor functions and the new operator in the Jav
 ### Children
 - [[js_constructor_function]] ✅
 - [[js_constructor_mode_test_new.target]] ✅
-- [[js_return_from_constructors]] ✅
 - [[js_methods_in_constructor]] ✅
+- [[js_return_from_constructors]] ✅

@@ -1,7 +1,7 @@
 [
   "better-word-count",
-  "code-styler",
   "obsidian-git",
   "node-auto-resize",
-  "shrink-pinned-tabs"
+  "shrink-pinned-tabs",
+  "code-styler"
 ]
