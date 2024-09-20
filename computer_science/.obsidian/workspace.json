@@ -8,17 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "335f3d47fc63f16b",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "graph",
-              "state": {},
-              "pinned": true
-            }
-          },
-          {
-            "id": "768add52ff505dba",
+            "id": "81a21118e95f8d9a",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -33,33 +23,15 @@
             }
           },
           {
-            "id": "3bf8e994cf727ada",
+            "id": "3791e325e062e35f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2-tags/javascript_optional_chaining.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "89637cf302e5c3be",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5-zettelkasten/js_short_circuiting.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -125,7 +97,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5-zettelkasten/js_short_circuiting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +113,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "5-zettelkasten/js_short_circuiting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,9 +134,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "5-zettelkasten/js_short_circuiting.md"
-              }
+              "state": {}
             }
           },
           {
@@ -201,13 +169,15 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "89637cf302e5c3be",
+  "active": "3791e325e062e35f",
   "lastOpenFiles": [
+    "3-index/computer_science/layer-5/javascript_object_basics.md",
+    "2-tags/javascript_object_to_primitive_conversion.md",
     "2-tags/javascript_optional_chaining.md",
+    "5-zettelkasten/js_optional_chaining_variants.md",
     "5-zettelkasten/js_short_circuiting.md",
     "5-zettelkasten/js_optional_chaining.md",
     "5-zettelkasten/js_non-existing_property_problem.md",
-    "3-index/computer_science/layer-5/javascript_object_basics.md",
     "2-tags/javascript_constructor_operator_new.md",
     "5-zettelkasten/js_return_from_constructors.md",
     "2-tags/javavscript_objects_101.md",
@@ -224,11 +194,9 @@
     "5-zettelkasten/js_object_cloning_and_merging.md",
     "5-zettelkasten/js_object_comparison_by_reference.md",
     "5-zettelkasten/js_object_references.md",
-    "2-tags/javascript_object_to_primitive_conversion.md",
     "5-zettelkasten/js_for_in_loop.md",
     "5-zettelkasten/js_property_existence_test.md",
     "5-zettelkasten/js_property_names_limitations.md",
-    "5-zettelkasten/js_objects_property_value_shorthand.md",
     "3-index/computer_science/layer-2/Untitled",
     "3-index/computer_science/layer-6",
     "3-index/computer_science/layer-5",
