@@ -7,4 +7,4 @@ Lists tags related to object methods in the JavaScript programming language.
 ### Children
 - [[js_method_examples]] ✅
 - [[js_method_shorthand]] ✅
-- [[js_this]] 
+- [[js_this]] ✅

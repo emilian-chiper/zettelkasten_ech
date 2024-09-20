@@ -31,35 +31,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "6a857a80dbe1de1d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2-tags/javascript_object_methods_this.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2851cd486e5ad057",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5-zettelkasten/js_this.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -125,7 +98,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5-zettelkasten/js_this.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +114,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "5-zettelkasten/js_this.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,9 +135,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "5-zettelkasten/js_this.md"
-              }
+              "state": {}
             }
           },
           {
@@ -201,12 +170,17 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "2851cd486e5ad057",
+  "active": "335f3d47fc63f16b",
   "lastOpenFiles": [
+    "3-index/computer_science/layer-5/javascript_object_basics.md",
+    "2-tags/javascript_constructor_operator_new.md",
+    "5-zettelkasten/js_methods_in_constructor.md",
+    "5-zettelkasten/js_return_from_constructors.md",
+    "5-zettelkasten/js_constructor_mode_test_new.target.md",
+    "5-zettelkasten/js_constructor_function.md",
     "2-tags/javascript_object_methods_this.md",
     "5-zettelkasten/js_this.md",
     "5-zettelkasten/js_method_shorthand.md",
-    "3-index/computer_science/layer-5/javascript_object_basics.md",
     "5-zettelkasten/js_method_examples.md",
     "5-zettelkasten/javascript_garbage_collection.md",
     "2-tags/javascript_object_references_and_copying.md",
@@ -224,11 +198,6 @@
     "5-zettelkasten/js_object_literals_and_properties.md",
     "5-zettelkasten/js_objects.md",
     "3-index/computer_science/layer-4/javascript.md",
-    "3-index/computer_science/layer-5/javascript_fundamentals.md",
-    "2-tags/javascript_arrow_functions.md",
-    "5-zettelkasten/js_multiline_arrow_functions.md",
-    "5-zettelkasten/js_arrow_functions_basics.md",
-    "2-tags/javascript_function_expressions.md",
     "3-index/computer_science/layer-2/Untitled",
     "3-index/computer_science/layer-6",
     "3-index/computer_science/layer-5",
