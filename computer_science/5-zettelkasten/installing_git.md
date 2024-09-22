@@ -5,7 +5,7 @@
 
 ### What it looks like
 ```bash
-sudo apt-get update && sudo apt upgrade -y
+sudo apt-get update && apt update -y
 sudo add-apt-repository ppa:git-core/ppa
 sudo apt update
 sudo apt install git

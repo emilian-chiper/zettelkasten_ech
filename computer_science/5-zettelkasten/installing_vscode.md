@@ -5,7 +5,7 @@
 
 ### What it looks like
 ```bash
-sudo apt-get update && sudo apt updgrade -y
+sudo apt-get update && apt update -y
 wget -O code-latest.deb 'https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64'
 sudo apt install ./code-latest.deb
 rm code-latest.dev

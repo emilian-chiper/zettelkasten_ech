@@ -5,7 +5,7 @@
 
 ### What it looks like
 ```bash
-sudo apt-get update && sudo apt upgrade -y
+sudo apt-get update && apt update -y
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install ./google-chrome-stable_current_amd64.deb
 rm google-chrome-stable_current_amd64.deb

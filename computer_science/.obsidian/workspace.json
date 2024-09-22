@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "8eff372bf382a886",
+        "id": "504c49b705557574",
         "type": "tabs",
         "children": [
           {
-            "id": "2a2b0925932de783",
+            "id": "3625e222da63d25f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "5-zettelkasten/neovim_lesson_01.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 221.51103591918945
+    "width": 200
   },
   "right": {
     "id": "51fcf44428386e88",
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "5-zettelkasten/neovim_lesson_01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "5-zettelkasten/neovim_lesson_01.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "5-zettelkasten/neovim_lesson_01.md"
+              }
             }
           },
           {
@@ -153,13 +162,16 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "2a2b0925932de783",
+  "active": "3625e222da63d25f",
   "lastOpenFiles": [
+    "5-zettelkasten/xrandr_enable_HDMI_monitor.md",
+    "2-tags/javascript_number_type.md",
+    "3-index/computer_science/layer-4/react_js.md",
+    "5-zettelkasten/neovim_lesson_01.md",
     "3-index/computer_science/layer-5/javascript_object_basics.md",
     "5-zettelkasten/js_methods_of_prmitives.md",
     "2-tags/javascript_methods_of_primitives.md",
     "3-index/computer_science/layer-5/javascript_data_types_deep_dive.md",
-    "5-zettelkasten/xrandr_enable_HDMI_monitor.md",
     "4-templates/snip_temp.md",
     "2-tags/javascript_numbers.md",
     "5-zettelkasten/installing_vscode.md",
@@ -178,9 +190,6 @@
     "5-zettelkasten/js_global_symbols.md",
     "5-zettelkasten/js_system_symbols.md",
     "2-tags/javascript_optional_chaining.md",
-    "5-zettelkasten/js_optional_chaining_variants.md",
-    "5-zettelkasten/js_short_circuiting.md",
-    "5-zettelkasten/js_optional_chaining.md",
     "3-index/computer_science/layer-2/Untitled",
     "3-index/computer_science/layer-6",
     "3-index/computer_science/layer-5",
