@@ -7,7 +7,7 @@
 - [Math.floor]([[js_Math.floor()]])
 	- Rounds down: `3.1` becomes `3`, and `-1.1` becomes `-2`.
 - [Math.ceil]([[js_Math.ceil()]])
-	- Rounds up: `3.1` becomes `4`, and `-1.1` becomes `-1`.
+	- Rounds up: `3.1` becomes `4`, and `-1.1` becomes `-1`. kjhkjh
 - [Math.round]([[js_Math.round()]])
 	- Rounds to the nearest integer: `3.1` becomes `3`, `3.6` becomes `4`. In the middle cases, `3.5` rounds up to `4`, and `-3.5` rounds up to `-3`.
 - [Math.trunc]([[js_Math.trunc()]]) (not supported by Internet Explorer)
