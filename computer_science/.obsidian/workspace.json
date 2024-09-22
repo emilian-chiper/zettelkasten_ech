@@ -54,7 +54,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5-zettelkasten/js_rounding.md",
+                "file": "5-zettelkasten/installing_vscode.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -112,8 +112,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 221.51103591918945,
-    "collapsed": true
+    "width": 221.51103591918945
   },
   "right": {
     "id": "51fcf44428386e88",
@@ -129,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5-zettelkasten/js_rounding.md",
+                "file": "5-zettelkasten/installing_vscode.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "5-zettelkasten/js_rounding.md",
+                "file": "5-zettelkasten/installing_vscode.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5-zettelkasten/js_rounding.md"
+                "file": "5-zettelkasten/installing_vscode.md"
               }
             }
           },
@@ -207,8 +206,11 @@
   },
   "active": "8d6b3f3860abc61b",
   "lastOpenFiles": [
-    "2-tags/javascript_numbers.md",
+    "5-zettelkasten/installing_google_chrome.md",
+    "5-zettelkasten/installing_git.md",
+    "3-index/computer_science/layer-5/linux_installations.md",
     "5-zettelkasten/js_rounding.md",
+    "2-tags/javascript_numbers.md",
     "5-zettelkasten/js_toString(base).md",
     "5-zettelkasten/js_numbers_syntax.md",
     "3-index/computer_science/layer-5/javascript_data_types_deep_dive.md",
@@ -230,9 +232,6 @@
     "5-zettelkasten/js_non-existing_property_problem.md",
     "2-tags/javascript_constructor_operator_new.md",
     "5-zettelkasten/js_return_from_constructors.md",
-    "2-tags/javavscript_objects_101.md",
-    "2-tags/javascript_object_references_and_copying.md",
-    "2-tags/javascript_object_methods_this.md",
     "3-index/computer_science/layer-2/Untitled",
     "3-index/computer_science/layer-6",
     "3-index/computer_science/layer-5",
