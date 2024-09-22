@@ -47,22 +47,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "8d6b3f3860abc61b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5-zettelkasten/installing_vscode.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -128,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5-zettelkasten/installing_vscode.md",
+                "file": "2-tags/javascript_numbers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "5-zettelkasten/installing_vscode.md",
+                "file": "2-tags/javascript_numbers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5-zettelkasten/installing_vscode.md"
+                "file": "2-tags/javascript_numbers.md"
               }
             }
           },
@@ -204,8 +191,9 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "8d6b3f3860abc61b",
+  "active": "9d6c27df3c74b446",
   "lastOpenFiles": [
+    "5-zettelkasten/installing_vscode.md",
     "5-zettelkasten/installing_google_chrome.md",
     "5-zettelkasten/installing_git.md",
     "3-index/computer_science/layer-5/linux_installations.md",
@@ -231,7 +219,6 @@
     "5-zettelkasten/js_optional_chaining.md",
     "5-zettelkasten/js_non-existing_property_problem.md",
     "2-tags/javascript_constructor_operator_new.md",
-    "5-zettelkasten/js_return_from_constructors.md",
     "3-index/computer_science/layer-2/Untitled",
     "3-index/computer_science/layer-6",
     "3-index/computer_science/layer-5",
