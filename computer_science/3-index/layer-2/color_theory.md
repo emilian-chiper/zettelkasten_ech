@@ -2,12 +2,10 @@
 Lists all indexes related to color theory.
 
 ### Parent
-[[root]]
+[[visual_design]]
 
 ### Children
-- [[color_models]] 
+- [[color_models]]
 - [[color_vision_principles]]
-- [[color_gamut]]
-- [[color_spaces]]
-- [[color_systems]]
+- [[color_gamut_spaces_systems]] 
 - [[color_harmony]]

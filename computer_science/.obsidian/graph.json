@@ -5,65 +5,8 @@
   "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [
-    {
-      "query": "file:root",
-      "color": {
-        "a": 1,
-        "rgb": 16711680
-      }
-    },
-    {
-      "query": "path:3-index/computer_science  ",
-      "color": {
-        "a": 1,
-        "rgb": 14069084
-      }
-    },
-    {
-      "query": "path:3-index/computer_science/layer-2  ",
-      "color": {
-        "a": 1,
-        "rgb": 14246176
-      }
-    },
-    {
-      "query": "path:3-index/computer_science/layer-3  ",
-      "color": {
-        "a": 1,
-        "rgb": 6084208
-      }
-    },
-    {
-      "query": "path:3-index/computer_science/layer-4",
-      "color": {
-        "a": 1,
-        "rgb": 6073814
-      }
-    },
-    {
-      "query": "path:3-index/computer_science/layer-5  ",
-      "color": {
-        "a": 1,
-        "rgb": 6053078
-      }
-    },
-    {
-      "query": "path:5-zettelkasten  ",
-      "color": {
-        "a": 1,
-        "rgb": 55541
-      }
-    },
-    {
-      "query": "file:glossary",
-      "color": {
-        "a": 1,
-        "rgb": 10486000
-      }
-    }
-  ],
+  "collapse-color-groups": false,
+  "colorGroups": [],
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": -1.5,
@@ -74,6 +17,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 500,
-  "scale": 0.08126076317962189,
+  "scale": 0.05969304626171,
   "close": true
 }
