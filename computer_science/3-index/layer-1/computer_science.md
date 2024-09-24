@@ -5,6 +5,6 @@ Lists all indexes related to the disciplines of computer science.
 [[root]]
 
 ### Children
-- [[fundamentals]]
-- [[software_engineering]]
-- [[web_development]]
+- [[cs_fundamentals]]
+- [[cs_software_engineering]]
+- [[cs_web_development]]

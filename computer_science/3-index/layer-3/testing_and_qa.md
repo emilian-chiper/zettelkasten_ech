@@ -2,7 +2,7 @@
 Lists all indexes related to software testing and quality assurance.
 
 ### Parent
-[[software_engineering]]
+[[cs_software_engineering]]
 
 ### Children
 - [[unit_testing]]

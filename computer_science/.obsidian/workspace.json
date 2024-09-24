@@ -4,20 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "504c49b705557574",
+        "id": "339499ca659461b4",
         "type": "tabs",
         "children": [
           {
-            "id": "3625e222da63d25f",
+            "id": "b482a92b13dbb50e",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5-zettelkasten/neovim_lesson_01.md",
+                "file": "3-index/layer-1/color_theory.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              }
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "99d6bb545969c973",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "5-zettelkasten/color_models.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "pinned": true
             }
           }
         ]
@@ -49,7 +66,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#completed",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5-zettelkasten/neovim_lesson_01.md",
+                "file": "3-index/layer-1/color_theory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "5-zettelkasten/neovim_lesson_01.md",
+                "file": "3-index/layer-1/color_theory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5-zettelkasten/neovim_lesson_01.md"
+                "file": "3-index/layer-1/color_theory.md"
               }
             }
           },
@@ -158,47 +175,46 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
-      "obsidian-git:Open Git source control": false,
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "3625e222da63d25f",
+  "active": "b482a92b13dbb50e",
   "lastOpenFiles": [
+    "5-zettelkasten/client.md",
+    "5-zettelkasten/color_models.md",
+    "3-index/layer-1/color_theory.md",
+    "3-index/root.md",
+    "3-index/layer-1/computer_science.md",
+    "3-index/layer-2/cs_web_development.md",
+    "3-index/layer-2/web_development.md",
+    "3-index/layer-2/software_engineering.md",
+    "3-index/layer-2/cs_software_engineering.md",
+    "3-index/layer-2/cs_operating_systems.md",
+    "3-index/layer-2/operating_systems.md",
+    "3-index/layer-2/cs_fundamentals.md",
+    "3-index/layer-2/fundamentals.md",
+    "3-index/tagging_convention.md",
+    "5-zettelkasten/project_coleur.md",
+    "3-index/color_theory",
+    "4-templates/index_temp.md",
+    "4-templates/project_temp.md",
+    "4-templates/js_temp.md",
+    "4-templates/js_snip.md",
+    "4-templates/react_temp.md",
+    "1-sources",
     "5-zettelkasten/xrandr_enable_HDMI_monitor.md",
-    "2-tags/javascript_number_type.md",
-    "3-index/computer_science/layer-4/react_js.md",
+    "0-rough-notes/placeholder.md",
     "5-zettelkasten/neovim_lesson_01.md",
-    "3-index/computer_science/layer-5/javascript_object_basics.md",
-    "5-zettelkasten/js_methods_of_prmitives.md",
-    "2-tags/javascript_methods_of_primitives.md",
-    "3-index/computer_science/layer-5/javascript_data_types_deep_dive.md",
-    "4-templates/snip_temp.md",
-    "2-tags/javascript_numbers.md",
-    "5-zettelkasten/installing_vscode.md",
-    "5-zettelkasten/installing_google_chrome.md",
-    "5-zettelkasten/installing_git.md",
-    "3-index/computer_science/layer-5/linux_installations.md",
-    "5-zettelkasten/js_rounding.md",
-    "5-zettelkasten/js_toString(base).md",
-    "5-zettelkasten/js_numbers_syntax.md",
-    "3-index/computer_science/layer-4/javascript.md",
-    "5-zettelkasten/js_primitives_as_objects.md",
-    "2-tags/js_object_to_primitive_conversion.md",
-    "2-tags/javascript_symbol_type.md",
-    "5-zettelkasten/js_hidden_properties.md",
-    "5-zettelkasten/js_symbols.md",
-    "5-zettelkasten/js_global_symbols.md",
-    "5-zettelkasten/js_system_symbols.md",
-    "2-tags/javascript_optional_chaining.md",
+    "conflict-files-obsidian-git.md",
+    "2-tags/javascript_number_type.md",
+    "3-index/layer-4/react_js.md",
     "3-index/computer_science/layer-2/Untitled",
     "3-index/computer_science/layer-6",
-    "3-index/computer_science/layer-5",
-    "3-index/computer_science/layer-4",
-    "3-index/computer_science/layer-1",
-    "3-index/computer_science/layer-3",
-    "3-index/computer_science/layer-2",
-    "3-index/computer_science/3-1-3-web_development/web_security",
-    "3-index/computer_science/3-1-3-web_development/web_performance",
-    "3-index/computer_science/3-1-3-web_development/backend"
+    "3-index/layer-5",
+    "3-index/layer-4",
+    "3-index/layer-1",
+    "3-index/layer-3",
+    "3-index/layer-2",
+    "3-index/computer_science/3-1-3-web_development/web_security"
   ]
 }

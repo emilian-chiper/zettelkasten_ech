@@ -2,7 +2,7 @@
 Lists indexes of all topics related to software development methodologies.
 
 ### Parent
-[[software_engineering]]
+[[cs_software_engineering]]
 
 ### Children
 - [[agile_project_management]]

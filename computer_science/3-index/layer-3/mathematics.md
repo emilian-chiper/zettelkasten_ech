@@ -2,7 +2,7 @@
 Lists the indexes for all topics related to mathematics for computer science.
 
 ### Parent
-[[fundamentals]]
+[[cs_fundamentals]]
 
 ### Children
 - [[discrete_mathematics]]

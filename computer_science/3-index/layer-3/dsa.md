@@ -2,7 +2,7 @@
 Lists indexes for data structures and algorithms.
 
 ### Parent
-[[fundamentals]]
+[[cs_fundamentals]]
 
 ### Children
 - [[arrays]]

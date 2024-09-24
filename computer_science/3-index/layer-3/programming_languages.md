@@ -2,7 +2,7 @@
 List all indexes for programming languages.
 
 ### Parent
-[[fundamentals]]
+[[cs_fundamentals]]
 
 ### Children
 - [[Python]]

@@ -2,7 +2,7 @@
 Lists all indexes related to web security.
 
 ### Parent
-[[web_development]]
+[[cs_web_development]]
 
 ### Children
 - [[owasp]]

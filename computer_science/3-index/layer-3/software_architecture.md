@@ -2,7 +2,7 @@
 Lists indexes related to software architecture.
 
 ### Parent
-[[software_engineering]]
+[[cs_software_engineering]]
 
 ### Children
 - [[microservivces]]

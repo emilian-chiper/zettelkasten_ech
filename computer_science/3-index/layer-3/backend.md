@@ -2,7 +2,7 @@
 Lists all indexes related to backend web development.
 
 ### Parent
-[[web_development]]
+[[cs_web_development]]
 
 ### Children
 - [[NodeJS]]

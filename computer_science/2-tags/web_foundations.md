@@ -2,7 +2,7 @@
 Lists tags related to the foundations of the web.
 
 ### Parent
-[[web_development]]
+[[cs_web_development]]
 
 ### Children
 - [[client]]
