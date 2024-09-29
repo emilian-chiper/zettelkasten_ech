@@ -1,8 +1,7 @@
 ### Meta
 2024-09-22 20:28
-**Tags:** [[vim]]  [[neovim-tutorial]]
-**State:** #pending 
-
+**Tags:** [[vim]]  [[neovim]] [[neovim-tutorial]]
+**State:** #completed  
 
 ### Sections
 ##### 1.1. Moving the cursor
@@ -30,7 +29,6 @@
 - `:wq` – write a file and quit.
 
 ### Summary
-
 - The cursor is moved using either the arrow keys or the `hjkl` keys:
 	- `h` (left)
 	- `j` (down)

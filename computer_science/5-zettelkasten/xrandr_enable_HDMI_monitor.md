@@ -1,7 +1,7 @@
 ### Meta
 2024-09-22 18:50
 **Tags:** [[snippets]]
-**State:** #pending 
+**State:** #completed  
 
 ### What it looks like
 ```BASH file:example.sh

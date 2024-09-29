@@ -1,7 +1,7 @@
 ### Meta
 2024-09-24 22:16
 **Tags:** [[color_theory]] [[color_vision_principles]] [[trichromacy_metamerism_constancy]]
-**Status:** #pending 
+**Status:** #completed  
 
 ### Trichromacy
 - Each of the retina’s three types of cone cells contains a different kind of *photosensitive pigment*.

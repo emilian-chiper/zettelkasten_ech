@@ -3,7 +3,7 @@
   "textFontFamily": "SF Pro Rounded",
   "interfaceFontFamily": "SF Pro",
   "nativeMenus": false,
-  "monospaceFontFamily": "SF Mono",
+  "monospaceFontFamily": "JetBrainsMonoNL Nerd Font Mono",
   "baseFontSize": 18,
   "theme": "system"
 }

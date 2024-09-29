@@ -1,7 +1,7 @@
 ### Meta
 2024-09-24 22:34
 **Tags:** [[color_theory]] [[color_vision_principles]] [[trichromacy_metamerism_constancy]]
-**Status:** #pending 
+**Status:** #completed  
 
 ### Metamerism for Color
 - Let us assume that a set of Yellow 🟡 wavelenghts (577-587 nm) enters the eye and strikes the retina.
