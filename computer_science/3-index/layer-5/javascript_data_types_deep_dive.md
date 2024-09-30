@@ -6,8 +6,8 @@ Lists all tags and notes related to data types in the JavaScript programming lan
 
 ### Children
 - [[javascript_methods_of_primitives]] ✅
-- [[javascript_numbers]] 🔍
-- [[javascript_strings]] ⏳
+- [[javascript_numbers]] ✅
+- [[javascript_strings]] ✅
 - [[javascript_arrays]] ⏳
 - [[javascript_array_methods]] ⏳
 - [[javascript_iterables]] ⏳

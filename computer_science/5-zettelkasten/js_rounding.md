@@ -38,8 +38,25 @@ alert( Math.round(num * 100) / 100 ); // 1.23456 > 123.456 > 123 > 1.23
 ```
 
 ###### toFixed(n)
-- The method `toFixed(n)` rounds the number to `n` digits after the point and returns a string representation of the result.
+- The method `toFixed(n)` rounds the number to `n` digits after the point and returns a *string* representation of the result.
 
 ```JavaScript title:app.js
-
+let num = 12.34;
+alert( num.toFixed(1) ); // "12.3"
 ```
+
+- This rounds up or down to the nearest value, similar to `Math.round`:
+
+```JavaScript title:app.js
+let num = 12.36;
+alert( num.toFixed(1) ); // "12.4"
+```
+
+- **Note:** The result of `toFixed` is a string. If the decimal part is shorter than required, zeroes are appended to the end:
+
+```JavaScript title:app.js
+let num = 12.34;
+alert( num.toFixed(5) ); // "12.34000"
+```
+
+- We can convert it to a number using the unary plus or a `Number()` call, e.g. write `+num.toFixed(5)`.

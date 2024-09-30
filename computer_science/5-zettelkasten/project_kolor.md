@@ -17,9 +17,10 @@
 - **Core**
 	- HTML
 	- CSS
-	- JavaScript
+	- JavaScript / TypeScript
 	- SQL.
 - **Tools**
+	- React
 	- NodeJS
 	- Parcel (build tool)
 	- CoreJS
@@ -116,11 +117,24 @@
 
 #### Research
 - [x] 2024-09-26 21:10 – completed research on [[color_theory]]
-- [ ] 2024-09-26 22:08 – research how to develop a REST API with Go.
-- [ ] Learn how to use tmux, dummie!
+- [x] 2024-09-26 22:08 – research how to develop a REST API with Go.
+- [x] Learn how to use tmux, dummie!
+- [ ] 2024-09-30 13:01 – study the ExpressJS documentation.
 
 #### User Stories
-- List user stories
+- As a user, I want to be able to pick a color.
+- As a user, I want to be able to convert the picked color into various formats.
+- As a user, I want to be able to select a color harmony.
+- As a user, I want to be able to visualize how the selected color harmony might look on some boilerplate application.
+- As a user, I want to obtain said color harmony in a CSS (and derivatives) variable format.
+- As a user, I want to be able to copy the choice output to clipboard.
+- As a user, I want to bookmark my color harmonies.
+- As a user, I want to be able to see all my bookmarked harmonies.
+- As a user, I want to be able to authenticate into the application.
+- As a user, I want to understand how the application works.
+
+##### Future development direction
+- As a user, I want to be able to use this application in terminal.
 
 #### Milestones
 - Break the project into key achievements or deliverables.
@@ -142,7 +156,7 @@
 ### Architecture
 
 #### Frontend
-- Organize the structure of the frontend code (e.g., components, views).
+- **Model:** The model represents the data and the business logic of your application. It encapsulates data-related operations and ensures the integrity of your data. In our case, here we’ll have our SQL schema.
 
 #### Backend
 - Server-side logic, APIs, business logic.

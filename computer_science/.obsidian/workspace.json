@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7612a9f49fe5eb55",
+        "id": "f08e51db1bc9d62e",
         "type": "tabs",
         "children": [
           {
-            "id": "a8ecdd99a37b90d2",
+            "id": "4316158969299d02",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5-zettelkasten/developing_a_RESTful_API_with_Go_and_Gin.md",
+                "file": "5-zettelkasten/project_kolor.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "51fcf44428386e88",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5-zettelkasten/developing_a_RESTful_API_with_Go_and_Gin.md",
+                "file": "5-zettelkasten/project_kolor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "5-zettelkasten/developing_a_RESTful_API_with_Go_and_Gin.md",
+                "file": "5-zettelkasten/project_kolor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5-zettelkasten/developing_a_RESTful_API_with_Go_and_Gin.md"
+                "file": "5-zettelkasten/project_kolor.md"
               }
             }
           },
@@ -162,34 +163,34 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a8ecdd99a37b90d2",
+  "active": "4316158969299d02",
   "lastOpenFiles": [
+    "3-index/layer-5/javascript_data_types_deep_dive.md",
+    "2-tags/javascript_strings.md",
+    "5-zettelkasten/js_strings_comparison.md",
+    "2-tags/js_strings_get_substrings.md",
+    "5-zettelkasten/js_str.substr.md",
+    "5-zettelkasten/js_str.substring.md",
+    "5-zettelkasten/js_str.slice.md",
+    "2-tags/js_strings_search_substrings.md",
+    "5-zettelkasten/js_str.startsWith.md",
+    "5-zettelkasten/js_str.endsWith.md",
+    "5-zettelkasten/js_str.includes.md",
+    "5-zettelkasten/js_str.indexOf.md",
+    "5-zettelkasten/js_strings_changing_case.md",
+    "5-zettelkasten/js_strings_immutability.md",
+    "5-zettelkasten/js_strings_accessing_characters.md",
+    "5-zettelkasten/js_strings_length.md",
+    "5-zettelkasten/js_strings_special_characters.md",
+    "3-index/layer-4/javascript.md",
     "5-zettelkasten/developing_a_RESTful_API_with_Go_and_Gin.md",
-    "5-zettelkasten/neovim-tutorial.md",
-    "5-zettelkasten/neovim_lesson_05.md",
-    "5-zettelkasten/neovim_lesson_04.md",
-    "5-zettelkasten/neovim_lesson_03.md",
-    "5-zettelkasten/neovim_lesson_02.md",
+    "5-zettelkasten/js_strings_quotes.md",
+    "2-tags/javascript_methods_of_primitives.md",
+    "2-tags/javascript_numbers.md",
+    "5-zettelkasten/js_other_math_functions.md",
+    "5-zettelkasten/js_parseInt_parseFloat.md",
+    "5-zettelkasten/js_tests_isFinite_isNaN.md",
     "5-zettelkasten/neovim_lesson_01.md",
-    "3-index/layer-3/linux.md",
-    "5-zettelkasten/vim.md",
-    "5-zettelkasten/xrandr_enable_HDMI_monitor.md",
-    "5-zettelkasten/tmux_cheatsheet_reference.md",
-    "5-zettelkasten/project_kolor.md",
-    "4-templates/date_time_temp.md",
-    "3-index/layer-3/color_theory.md",
-    "3-index/layer-4/color_harmonies.md",
-    "5-zettelkasten/triad_harmony.md",
-    "5-zettelkasten/square_harmony.md",
-    "5-zettelkasten/diad_harmony.md",
-    "3-index/layer-5/tetrad_harmonies.md",
-    "5-zettelkasten/analogous_harmony.md",
-    "5-zettelkasten/rectangular_harmony.md",
-    "5-zettelkasten/double_complementary_harmony.md",
-    "5-zettelkasten/tetrad_harmony.md",
-    "5-zettelkasten/complementary_harmony.md",
-    "5-zettelkasten/analogous_complementary_harmony.md",
-    "5-zettelkasten/split_complementary_harmony.md",
     "6-assets/CIE_LAB_color_space_3d_representation.png",
     "6-assets/CIE_u'-v'_chromaticity_diagram.png",
     "6-assets/CIE_x-y_chromaticity_diagram.png",
