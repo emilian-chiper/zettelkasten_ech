@@ -1,7 +1,8 @@
 {
-  "cssTheme": "Obsidian Nord",
-  "baseFontSize": 18,
+  "cssTheme": "Kanagawa",
+  "baseFontSize": 20,
   "monospaceFontFamily": "JetBrainsMonoNL Nerd Font Mono",
   "textFontFamily": "SF Pro Rounded",
-  "interfaceFontFamily": "SF Pro Display"
+  "interfaceFontFamily": "SF Pro Rounded",
+  "theme": "moonstone"
 }

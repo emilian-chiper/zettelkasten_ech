@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "642df52cc6e7f26d",
+        "id": "d9bdabce59f024a8",
         "type": "tabs",
         "children": [
           {
-            "id": "64b73f45da3a897d",
+            "id": "bc4149111862e030",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computer_science/5-zettelkasten/project_kolor.md",
+                "file": "computer_science/5-zettelkasten/study_express.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "d4c4a796788249f3",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer_science/5-zettelkasten/project_kolor.md",
+                "file": "computer_science/5-zettelkasten/study_express.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "computer_science/5-zettelkasten/project_kolor.md",
+                "file": "computer_science/5-zettelkasten/study_express.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer_science/5-zettelkasten/project_kolor.md"
+                "file": "computer_science/5-zettelkasten/study_express.md"
               }
             }
           }
@@ -147,8 +148,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "64b73f45da3a897d",
+  "active": "bc4149111862e030",
   "lastOpenFiles": [
+    "computer_science/5-zettelkasten/project_kolor.md",
+    "computer_science/5-zettelkasten/study_express.md",
     "computer_science/5-zettelkasten/js_function_parameters.md",
     "computer_science/5-zettelkasten/blue_cone_color_deficiency.md",
     "computer_science/5-zettelkasten/analogous_complementary_harmony.md",
