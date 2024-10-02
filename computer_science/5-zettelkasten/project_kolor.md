@@ -21,14 +21,12 @@
 	- SQL.
 - **Tools**
 	- React
+	- Vite
 	- NodeJS
-	- Parcel (build tool)
-	- CoreJS
-	- Regenerator Runtime
-	- BabelJS ???
-	- AJAX
+	- AJAX ??
 	- PostgreSQL ?
-	- sequelize
+	- sequelize ??
+	- pg
 	- Express
 	- Nodemon
 	- Dotenv
@@ -64,7 +62,7 @@
 - [ ] **Phase 5 – Frontend Architecture**
 	- Research frontend architecture models.
 	- Study the elected architecture.
-	- Figure out state management.
+	- Figure out state management test.
 - [ ] **Phase 6 – Backend Architecture**
 	- Research backend architecture models.
 	- Study the elected architecture.
