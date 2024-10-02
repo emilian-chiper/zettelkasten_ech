@@ -62,7 +62,7 @@
 - [ ] **Phase 5 – Frontend Architecture**
 	- Research frontend architecture models.
 	- Study the elected architecture.
-	- Figure out state management test.
+	- Figure out state management test. test again
 - [ ] **Phase 6 – Backend Architecture**
 	- Research backend architecture models.
 	- Study the elected architecture.
