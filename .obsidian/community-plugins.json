@@ -1,5 +1,7 @@
 [
   "code-styler",
   "better-word-count",
-  "node-auto-resize"
+  "node-auto-resize",
+  "typewriter-mode",
+  "table-editor-obsidian"
 ]

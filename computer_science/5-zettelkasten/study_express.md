@@ -971,3 +971,412 @@ The view engine cache does not cache the contents of the template's output, only
 ***Error Handling*** refers to how Express catches and processes errors that occur both synchronously and asynchronously. Express comes with a default error handler so you don't need to write your own to get started.
 
 #### Catching Errors
+It's important to ensure that Express catches all errors that occur while running route handlers and middleware.
+
+Errors that occur in synchronous code inside route handlers and middleware require no extra work. If synchronous code throws an error, then Express will catch and process it. For example:
+
+```JavaScript title:app.js
+app.get('/', (req, res) => {
+	throw new Error('BROKEN') // Express will catch this on its own
+})
+```
+
+For errors returned from asynchronous functions invoked by route handlers and middleware, you must pass them to the `nex()` function, where Express will catch and process them. For example:
+
+```JavaScript title:app.js
+app.get('/', (req, res, next) => {
+	fs.readFile('/file-does-not-exist', (err, data) => {
+		if (err) {
+			next(err) // Pass errors to Express.
+		} else {
+			res.send(data)
+		}
+	})	
+})
+```
+
+Starting with Express 5, route handlers and middleware that return a Promise call `next(value)` automatically when they reject or throw an error. For example:
+
+```JavaScript title:app.js
+app.get('user/:id', async (req, res, next)) {
+	const user = await getUserById(req.params.id)
+	res.send(user)
+}
+ ```
+
+If `getUserById` throws an error or rejects, `next` will be called with either the thrown error or the rejected value. If no rejected value is provided, `next` will be called with a default Error object provided by the Express router.
+
+If you pass anything to the `next()` function (except the string `'route'`), Express regards the current request as being an error and will skip any remaining non-error handling routing and middleware functions.
+
+If the callback in a sequence provides no data, only errors, you can simplify this code as follows:
+
+```JavaScript title:app.js
+app.get('/', [
+	function (req, res, next) {
+		fs.writeFile('/inaccessible-path', 'data', next)
+	},
+	function (req, res) {
+		res.send('OK')
+	}
+])
+```
+
+In the above example, `next` is provided as the callback for `fs.writeFile`, which is called with or without errors. If there's no error, the second handler is executed, otherwise Express catches and processes the error.
+
+You must catch errors that occur in asynchronous code invoked by route handlers or middleware and pass them to Express for processing. For example:
+
+```JavaScript title:app.js
+app.get('/', (req, res, next) => {
+	setTimeout(() => {
+		try {
+			thrown new Error('BROKEN')
+		} catch (err) {
+			next(err)
+		}
+	}, 100)
+})
+```
+
+The above example uses a `try ... catch` block to catch errors in the asynchronous code and pass them to Express. If the `try ... catch` block were omitted, Express would not catch the error since it is not part of the synchronous handler code.
+
+Use promises to avoid the overhead of the `try ... catch` block or when using functions that return promises. For example:
+
+```JavaScript title:app.js
+app.get('/', (req, res, next) => {
+	Promise.resolve().then(() => {
+		throw new Error('BROKEN')
+	}).catch(next) // Errors will be passed to Express.
+})
+```
+
+Since promises automatically catch both synchronous errors and rejected promises, you can simply provide `next` as the final catch handler and Express will catch errors, because the catch handler is given the error as the first argument.
+
+You could also use a chain of handlers to rely on synchronous error catching, by reducing the asynchronous code to something trivial. For example:
+
+```JavaScript title:app.js
+app.get('/', [
+	function (req, res, next) {
+		fs.readFile('/maybe-valid-file', 'utf-8', (err, data) => {
+			res.locals.data = data
+			next(err)
+		})
+	},
+	function (req, res) {
+		res.locals.data = res.locals.data.split(',')[1]
+		res.send(res.locals.data)
+	}
+])
+```
+
+The above example has a couple of trivial statements from the `readFile` call. If `readFile` causes an error, the it passes the error to Express, otherwise you quickly return to the world of synchronous error handling in the next handler in the chain. Then, the example tries to process the data. If this fails, then the synchronous error  handler will catch it. If you had done the processing inside the `readFile` callback, then the application might exit and the Express error handlers would not run.
+
+Whichever method you use, if you want Express error handlers to be called in and the application to survive, you must ensure that Express receives the error.
+
+#### The default error handler
+Express comes with a built-in error handler that takes care of any errors that might be encountered in the app. This default error-handling middleware function is added at the end of the middleware function stack.
+
+If you pass an error to `next()` and you do not handle it in the custom error handler, it will be handled by the built-in error handler; the error will be written to the client with the stack trace. The stack trace is not included in the production environment.
+
+**Note:** Set the environment variable `NODE_ENV` to `production`, to run the app in production mode.
+
+When an error is written, the following information is added to the response:
+- The `res.statusCode` is set from `err.status` (or `err.statusCode`. If this value is outside the `4xx` or `5xx` range, it will be set to `500`.
+- The `res.statusMessage` is set according to the status code.
+- The body will be the HTML of the status code message when in production environment, otherwise will be `err.stack`.
+- Any headers specified in an `err.headers` object.
+
+If you call `next()` with an error after you have started writing the response (for example, if you encounter an error while streaming the response to the client), the Express default error handler closes the connection and fails the request.
+
+So, when you add a custom error handler, you must delegate to the default Express error handler, when the headers have already been sent to the client:
+
+```JavaScript title:app.js
+function erroHandler(err, req, res, next) {
+  if (res.headersSent) {
+    return next(err)
+  }
+  res.status(500)
+  res.render('error', { error: err })
+}
+```
+
+Note that the default error handler can get triggered if you call `next()` with an error in your code more than once, even if custom error handling middleware is in place.
+
+#### Writing error handlers
+Define error-handling middleware functions in the same way as other middleware functions, except error-handling functions have four arguments instead of three: `(err, req, res, next)`. For example:
+
+```JavaScript title:app.js
+app.use((err, req, res, next) => {
+	console.error(err.stack)
+	res.status(500).send('Something broke!')
+})
+```
+
+You define error-handling middleware last, after other `app.use()` and routes calls; for example:
+
+```JavaScript title:app.js
+const bodyParser = require('body-parser')
+const methodOverrider = reuire('method-override')
+
+app.use(bodyParser.urlencoded({
+	extended: true
+}))
+app.use(bodyParser.json())
+app.use(methodOverride())
+app.use((err, req, res, next) => {
+	// logic
+})
+```
+
+Responses from within a middleware function can be in any format, such as an HTML error page, a simple message, or a JSON string.
+
+For organizational (and higher-level framework) purposes, you can define several error-handling middleware functions, much as you would with regular middleware functions. For example, to define an error-handler for requests made by using `XHR` and those without:
+
+```JavaScript title:app.js
+const bodyParser = require('body-parser')
+const methodOverrride = require('method-override')
+
+app.use(bodyParser.urlencoded({
+  extended: true
+}))
+app.use(bodyParser.json())
+app.use(methodOverride())
+app.use(logErrors)
+app.use(logErrors)
+app.ue(clientErrorHandler)
+app.use(errorHandler)
+```
+
+In this example, the generic `logErrors` might write request and error information to `stderr`, for example:
+
+```JavaScript title:app.js
+function logErrors (err, req, res, next) {
+	console.error(err.stack)
+	next(err)
+}
+```
+
+Also in this example, `clientErrorHandler` is defined as follows.
+
+```JavaScript title:app.js
+function clientErrorHandler (err, req, res, next) {
+	if (req.xhr) {
+		req.status(500).send({ error: 'Something failed!' })
+	} else {
+		next(err)
+	}
+}
+```
+
+In this case, the error is explicitly passed along to the next one.
+
+Notice that when ***not*** calling "next" in an error-handling function, you are responsible for writing (and ending) the response. Otherwise, those requests will "hang" and will not be eligible for garbage collection.
+
+Implement the "catch-all" `errorHandler` function as follows:
+
+```JavaScript title:app.js
+function errorHandler (err, req, res, next) {
+	res.status(500)
+	res.render('error', { error: err })
+}
+```
+
+If you have a route handler with multiple callback functions, you can use the `route` parameter to skip to the next route handler. For example:
+
+```JavaScript title:app.js
+app.get('/a_route_behind_paywall',
+  (req, res, next) => {
+	  if (!req.user.hasPaid) {
+	    // continue handling this request
+	    next('route')
+	  } else {
+	    next()
+	  }
+  }, (req, res, next) => {
+    PaidContent.find((err, doc) => {
+      if (err) return next(err)
+      res.json(doc)
+    })
+  }
+)
+```
+
+In this example, the `getPaidContent` handler will be skipped but any remaining handlers in `app` for `/a_route_behind_paywall` would continue to be executed.
+
+**Note:** Calls to `next()` and `next(err)` indicate that the current handler is complete and in what state. `next(err)` will skip all remaining handlers in the chain except for those that are set up handle errors as described above.
+
+### Debugging Express
+To see all the internal logs used in Express, set the `DEBUG` environment variable to `express:*` when launching your app.
+
+```BASH title:debug_express.sh
+DEBUG=express:* node index.js
+```
+
+Running the command on the default app generated by the express generator prints the following output:
+
+```BASH title:debug_express.sh
+DEBUG=express:* node ./bin/www
+  express:router:route new / +0ms
+  express:router:layer new / +1ms
+  express:router:route get / +1ms
+  express:router:layer new / +0ms
+  express:router:route new / +1ms
+  express:router:layer new / +0ms
+  express:router:route get / +0ms
+  express:router:layer new / +0ms
+  express:application compile etag weak +1ms
+  express:application compile query parser extended +0ms
+  express:application compile trust proxy false +0ms
+  express:application booting in development mode +1ms
+  express:router use / query +0ms
+  express:router:layer new / +0ms
+  express:router use / expressInit +0ms
+  express:router:layer new / +0ms
+  express:router use / favicon +1ms
+  express:router:layer new / +0ms
+  express:router use / logger +0ms
+  express:router:layer new / +0ms
+  express:router use / jsonParser +0ms
+  express:router:layer new / +1ms
+  express:router use / urlencodedParser +0ms
+  express:router:layer new / +0ms
+  express:router use / cookieParser +0ms
+  express:router:layer new / +0ms
+  express:router use / stylus +90ms
+  express:router:layer new / +0ms
+  express:router use / serveStatic +0ms
+  express:router:layer new / +0ms
+  express:router use / router +0ms
+  express:router:layer new / +1ms
+  express:router use /users router +0ms
+  express:router:layer new /users +0ms
+  express:router use / &lt;anonymous&gt; +0ms
+  express:router:layer new / +0ms
+  express:router use / &lt;anonymous&gt; +0ms
+  express:router:layer new / +0ms
+  express:router use / &lt;anonymous&gt; +0ms
+  express:router:layer new / +0ms
+```
+
+When a request is then made to the app, you will see the logs specified in the Express code:
+
+```BASH title:debug_express.sh
+    express:router dispatching GET / +4h
+  express:router query  : / +2ms
+  express:router expressInit  : / +0ms
+  express:router favicon  : / +0ms
+  express:router logger  : / +1ms
+  express:router jsonParser  : / +0ms
+  express:router urlencodedParser  : / +1ms
+  express:router cookieParser  : / +0ms
+  express:router stylus  : / +0ms
+  express:router serveStatic  : / +2ms
+  express:router router  : / +2ms
+  express:router dispatching GET / +1ms
+  express:view lookup "index.pug" +338ms
+  express:view stat "/projects/example/views/index.pug" +0ms
+  express:view render "/projects/example/views/index.pug" +1ms
+```
+
+To see the logs only from the router implementation, set the value of `DEBUG` to `express:router`. Likewise, to see logs only from the application implementation, set the value of `DEBUG` to `express:application`, and so on.
+
+#### Applications generated by `express`
+An app generated by the `express` command uses the `debug` module and its debug namespace is scoped to the name of the app.
+
+For example, if you generated the app with `$ express sample-app`, you can enable the debug statements with the following command:
+
+```BASH title:debug_express.sh
+DEBUG=sample-app:* node ./bin/www
+```
+
+You can specify more than one debug namespace by assigning a comma-separated list of names:
+
+```BASH title:debug_express.sh
+DEBUG=http,mail,express:* node index.js
+```
+
+#### Advanced options
+When running through Node.js, you can set a few environment variables that will change the behavior of the debug logging.
+
+
+| **Name**            | **Purpose**                                      |
+| ------------------- | ------------------------------------------------ |
+| `DEBUG`             | Enables/disables specific debugging namesapces.  |
+| `DEBUG-COLORs`      | Whether or not to use colors in the debug output |
+| `DEBUG-DEPTH`       | Object inspection depth.                         |
+| `DEBUG_FD`          | File descriptor to write debug output to.        |
+| `DEBUG_SHOW_HIDDEN` | Shows hidden properties on inspected objects.    |
+
+**Note:** The environment variables beginning with `DEBUG_` end up being converted into an Options object that gets used with `%o` / `%0` formatters. See the Node.js docs for `util.inspect()` for the complete list.
+
+### Express behind proxies
+When running an Express app behind a reverse proxy, some of the Express APIs may return different values than expected. In order to adjust for this, the `trust proxy` application setting may be used to expose information provided by the reverse proxy in the Express APIs. The most  common issue is express APIs that expose the client's IP address may instead show an internal IP address of the reverse proxy.
+
+**Note:** When configuring the `trust proxy` setting, it is important to understand the exact setup of the reverse proxy. Since the setting will trust values provided in the request, it is important that the combination of the setting in Express matches how the reverse proxy operates.
+
+The application setting `trust proxy` may be set to one of the values listed bellow.
+
+##### Boolean
+If `true`, the client's IP address is understood as the left-most entry in the `X-Forwarded-For` header.
+
+If `false`, the app is understood as directly facing the client and the client's IP address is derived from `req.socket.remoteAddress`. This is the default setting.
+
+**Warning!** When setting to `true`, it is important to ensure that the last reverse proxy trusted is removing/overwriting all of the following HTTP headers: `X-Forwarded-For`, `X-Forwarded-Host`, and `X-Forwarded-Proto`, otherwise it may be possible for the client to provide any value.
+
+##### IP addresses
+An IP address, subnet, or an array of IP addresses and subnets to trust as being a reverse proxy. The following list shows the pre-configured subnet names:
+- loopback - `127.0.0.1/8`, `::1/128`
+- linklocal - `169.254.0.0/16`, `fe80::/10`
+- uniquelocal - `10.0.0.0/8`, `172.16.0.0/12`, `192.168.0.0/16`, `fc00::/7`
+
+You can set IP addresses in any of the following ways:
+
+```JavaScript title:app.js
+app.set('trust proxy', 'loopback') // specify a single subnet
+app.set('trust proxy', 'loopback, 123.123.123.123') // specify a subnet and an address
+app.set('trust proxy', 'loopback, linklocal, uniquelocal') // specify multiple subnets as CSV
+app.set('trust proxy', ['loopback', 'linklocal', 'uniquelocal']) // specify multiple subnets as an array
+```
+
+When specified, the IP addresses or the subnets are excluded from the address determination process, and the untrusted IP address nearest to application server is determined as the client's IP address. This works by checking if `req.socket.remoteAddress` is trusted. If so, then each address in `X-Forwarded-For` is checked from right to left until the first non-trusted address.
+
+##### Number
+Use the address that is at most `n` number of hops away from the Express application. `req.socket.remoteAddress` is the first hop, and the rest are looked for in the `X-Forwarded-For` header from right to left. A value of `0` means that the first untrusted address would be `req.socket.remoteAddress`, i.e. there is no reverse proxy.
+
+**Warning!** When using this setting, it is important to ensure there are not multiple, different-length paths to the Express app such that the client can be less than the configured number of hops away, otherwise it may be possible for the client to provide any value.
+
+##### Function
+Custom trust implementation.
+
+```JavaScript title:app.js
+app.set('trust proxy', (ip) => {
+  if (ip === '127.0.0.1' || ip === '123.123.123.123') return true // truste IPs
+  else return false
+})
+```
+
+
+Enabling `trust proxy` will have the following impact:
+- The value of `req.hostname` is derived from the value set in the `X-Forwarded-Host` header, which can be set by the client or by the proxy.
+- `X-Forwarded-Proto` can be set by the reverse proxy to tell the app whether it is `https` or `http` or even an invalid name. This value is reflected by `req.protocol`.
+- The `req.ip` and `req.ips` values are populated based on the socked address and `X-Forwarded-For` header, starting at the first untrusted address.
+
+The `trust proxy` setting is implemented using the `proxy-addr` package (see docs).
+
+### PostgreSQL database integration
+**Module:** `pg-promise`
+**Installation**
+`$ nmp install pg-promise`
+
+**Example**
+```JavaScript title:app.js
+const pgp = require('pg-promise')(/* options */)
+const dp = pgp('postgress://username:password@host:port/database')
+
+db.one('SELECT $1 AS value', 123)
+  .then((data) => {
+    console.log('DATA:', data.value)
+  })
+  .catch((error) => {
+    console.log('ERROR:', error)
+  })
+```

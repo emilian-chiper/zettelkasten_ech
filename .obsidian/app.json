@@ -2,5 +2,9 @@
   "alwaysUpdateLinks": true,
   "newFileLocation": "folder",
   "newFileFolderPath": "computer_science/5-zettelkasten",
-  "vimMode": true
+  "vimMode": true,
+  "tabSize": 2,
+  "showLineNumber": true,
+  "livePreview": true,
+  "readableLineLength": false
 }

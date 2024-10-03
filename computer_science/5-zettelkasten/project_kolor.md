@@ -117,7 +117,8 @@
 - [x] 2024-09-26 21:10 – completed research on [[color_theory]]
 - [x] 2024-09-26 22:08 – research how to develop a REST API with Go.
 - [x] Learn how to use tmux, dummie!
-- [ ] 2024-09-30 13:01 – study the ExpressJS documentation.
+- [x] 2024-09-30 13:01 – study the ExpressJS documentation.
+- [ ] 2024-10-03 13:42 - study PostgreSQL
 
 #### User Stories
 - As a user, I want to be able to pick a color.

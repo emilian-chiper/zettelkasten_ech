@@ -2,7 +2,7 @@
   "cssTheme": "Kanagawa",
   "baseFontSize": 20,
   "monospaceFontFamily": "JetBrainsMonoNL Nerd Font Mono",
-  "textFontFamily": "SF Pro Rounded",
-  "interfaceFontFamily": "SF Pro Rounded",
+  "textFontFamily": "Atkinson Hyperlegible",
+  "interfaceFontFamily": "Atkinson Hyperlegible",
   "theme": "moonstone"
 }
