@@ -4,50 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "835976553a1274ed",
+        "id": "10d317e1d2eb19b7",
         "type": "tabs",
         "children": [
           {
-            "id": "f118bc9ec4f12f28",
+            "id": "2cfee26e8f92416d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computer_science/5-zettelkasten/project_kolor.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "54c479499f29c1a3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "computer_science/5-zettelkasten/study_postgresql.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0d02b9fe68e3bc7b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "computer_science/5-zettelkasten/study_docker.md",
+                "file": "computer_science/5-zettelkasten/xrandr_enable_HDMI_monitor.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -97,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "d4c4a796788249f3",
@@ -114,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer_science/5-zettelkasten/study_docker.md",
+                "file": "computer_science/5-zettelkasten/xrandr_enable_HDMI_monitor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "computer_science/5-zettelkasten/study_docker.md",
+                "file": "computer_science/5-zettelkasten/xrandr_enable_HDMI_monitor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer_science/5-zettelkasten/study_docker.md"
+                "file": "computer_science/5-zettelkasten/xrandr_enable_HDMI_monitor.md"
               }
             }
           },
@@ -185,19 +157,33 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0d02b9fe68e3bc7b",
+  "active": "2cfee26e8f92416d",
   "lastOpenFiles": [
-    "computer_science/5-zettelkasten/study_postgresql.md",
-    "computer_science/5-zettelkasten/study_docker.md",
-    "computer_science/5-zettelkasten/project_kolor.md",
+    "computer_science/3-index/layer-5/docker.md",
+    "computer_science/2-tags/docker_installation.md",
+    "computer_science/5-zettelkasten/docker_upgrade_docker_desktop.md",
+    "computer_science/5-zettelkasten/docker_launching_docker_desktop.md",
+    "computer_science/5-zettelkasten/docker_installation_process.md",
+    "computer_science/5-zettelkasten/docker_apt_repository.md",
+    "computer_science/5-zettelkasten/docker_installation_prerequisites.md",
+    "computer_science/3-index/layer-4/CI-CD.md",
+    "computer_science/3-index/layer-3/dev-ops.md",
+    "computer_science/2-tags/express.js.md",
     "computer_science/5-zettelkasten/study_express.md",
-    "computer_science/5-zettelkasten/js_function_parameters.md",
-    "computer_science/5-zettelkasten/js_function_expressions.md",
-    "computer_science/5-zettelkasten/hsv_hsl_value.md",
-    "computer_science/5-zettelkasten/cie_lab_color_space.md",
-    "computer_science/5-zettelkasten/cie_luv_color_space.md",
-    "computer_science/5-zettelkasten/blue_cone_color_deficiency.md",
-    "computer_science/5-zettelkasten/analogous_complementary_harmony.md",
-    "computer_science/5-zettelkasten/[[js_Math.floor()]].md"
+    "computer_science/5-zettelkasten/express.js_postgresql_database_integration.md",
+    "computer_science/5-zettelkasten/express.js_behind_proxies.md",
+    "computer_science/5-zettelkasten/express.js_debugging.md",
+    "computer_science/5-zettelkasten/express.js_error_handling.md",
+    "computer_science/5-zettelkasten/express.js_template_engines.md",
+    "computer_science/5-zettelkasten/express.js_overriding_the_express_api.md",
+    "computer_science/5-zettelkasten/express.js_using_middleware.md",
+    "computer_science/5-zettelkasten/express.js_writing_middleware.md",
+    "computer_science/5-zettelkasten/express.js_routing.md",
+    "computer_science/5-zettelkasten/express.js_basic_routing.md",
+    "computer_science/5-zettelkasten/ExpressJS.md",
+    "computer_science/5-zettelkasten/express.js_installation.md",
+    "computer_science/5-zettelkasten/express.js_hello_world.md",
+    "computer_science/3-index/layer-5/javascript_frameworks.md",
+    "computer_science/3-index/layer-4/javascript.md"
   ]
 }
