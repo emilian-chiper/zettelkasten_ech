@@ -4,16 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "10d317e1d2eb19b7",
+        "id": "20081b89210f8682",
         "type": "tabs",
         "children": [
           {
-            "id": "2cfee26e8f92416d",
+            "id": "7dd8829bf6e05731",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computer_science/5-zettelkasten/xrandr_enable_HDMI_monitor.md",
+                "file": "computer_science/3-index/layer-5/docker_installation.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1e7fc1c4425afc93",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "computer_science/5-zettelkasten/docker_rootless_mode.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -70,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "d4c4a796788249f3",
@@ -86,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer_science/5-zettelkasten/xrandr_enable_HDMI_monitor.md",
+                "file": "computer_science/3-index/layer-5/docker_installation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "computer_science/5-zettelkasten/xrandr_enable_HDMI_monitor.md",
+                "file": "computer_science/3-index/layer-5/docker_installation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer_science/5-zettelkasten/xrandr_enable_HDMI_monitor.md"
+                "file": "computer_science/3-index/layer-5/docker_installation.md"
               }
             }
           },
@@ -157,33 +171,33 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2cfee26e8f92416d",
+  "active": "7dd8829bf6e05731",
   "lastOpenFiles": [
-    "computer_science/3-index/layer-5/docker.md",
-    "computer_science/2-tags/docker_installation.md",
-    "computer_science/5-zettelkasten/docker_upgrade_docker_desktop.md",
-    "computer_science/5-zettelkasten/docker_launching_docker_desktop.md",
-    "computer_science/5-zettelkasten/docker_installation_process.md",
-    "computer_science/5-zettelkasten/docker_apt_repository.md",
+    "computer_science/5-zettelkasten/docker_rootless_mode.md",
+    "computer_science/3-index/layer-5/docker_installation.md",
+    "computer_science/5-zettelkasten/docker_post-installation_steps.md",
+    "computer_science/3-index/layer-4/docker.md",
+    "computer_science/3-index/layer-5/docker_engine.md",
+    "computer_science/5-zettelkasten/docker_engine_security.md",
+    "computer_science/3-index/layer-5/docker_security.md",
+    "computer_science/5-zettelkasten/docker_installation_methods.md",
     "computer_science/5-zettelkasten/docker_installation_prerequisites.md",
-    "computer_science/3-index/layer-4/CI-CD.md",
+    "computer_science/5-zettelkasten/docker_upgrade_docker_desktop.md",
+    "computer_science/5-zettelkasten/docker_installation_process.md",
+    "computer_science/5-zettelkasten/docker_rootless_prerequisites.md",
+    "computer_science/5-zettelkasten/docker_launching_docker_desktop.md",
+    "computer_science/3-index/layer-5/docker_build_cloud.md",
+    "computer_science/3-index/layer-5/docker_desktop.md",
+    "computer_science/5-zettelkasten/docker_desktop_images.md",
+    "computer_science/5-zettelkasten/docker_desktop_containers.md",
+    "computer_science/5-zettelkasten/docker_desktop_sign_in.md",
+    "computer_science/5-zettelkasten/docker_cloud_integrations.md",
+    "computer_science/3-index/layer-5/docker_build.md",
+    "computer_science/3-index/layer-5/docker_compose.md",
     "computer_science/3-index/layer-3/dev-ops.md",
-    "computer_science/2-tags/express.js.md",
-    "computer_science/5-zettelkasten/study_express.md",
-    "computer_science/5-zettelkasten/express.js_postgresql_database_integration.md",
-    "computer_science/5-zettelkasten/express.js_behind_proxies.md",
-    "computer_science/5-zettelkasten/express.js_debugging.md",
-    "computer_science/5-zettelkasten/express.js_error_handling.md",
-    "computer_science/5-zettelkasten/express.js_template_engines.md",
-    "computer_science/5-zettelkasten/express.js_overriding_the_express_api.md",
-    "computer_science/5-zettelkasten/express.js_using_middleware.md",
-    "computer_science/5-zettelkasten/express.js_writing_middleware.md",
-    "computer_science/5-zettelkasten/express.js_routing.md",
-    "computer_science/5-zettelkasten/express.js_basic_routing.md",
-    "computer_science/5-zettelkasten/ExpressJS.md",
-    "computer_science/5-zettelkasten/express.js_installation.md",
-    "computer_science/5-zettelkasten/express.js_hello_world.md",
-    "computer_science/3-index/layer-5/javascript_frameworks.md",
-    "computer_science/3-index/layer-4/javascript.md"
+    "computer_science/5-zettelkasten/xrandr_enable_HDMI_monitor.md",
+    "computer_science/5-zettelkasten/docker_apt_repository.md",
+    "computer_science/3-index/layer-4/CI-CD.md",
+    "computer_science/2-tags/express.js.md"
   ]
 }
