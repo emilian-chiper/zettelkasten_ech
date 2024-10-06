@@ -1,36 +1,18 @@
 {
   "main": {
-    "id": "fb9847e469f58f60",
+    "id": "6e6bd91533dc111c",
     "type": "split",
     "children": [
       {
-        "id": "20081b89210f8682",
+        "id": "d7e81a8e3f92c920",
         "type": "tabs",
         "children": [
           {
-            "id": "7dd8829bf6e05731",
+            "id": "e2b0dadc8330a2c3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "computer_science/3-index/layer-5/docker_installation.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1e7fc1c4425afc93",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "computer_science/5-zettelkasten/docker_rootless_mode.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -39,15 +21,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "197ee4a0629601b3",
+    "id": "38120a8c404d55e1",
     "type": "split",
     "children": [
       {
-        "id": "50c73ce8992a644e",
+        "id": "dd2d8c6f61524efb",
         "type": "tabs",
         "children": [
           {
-            "id": "7f54eb80515174a3",
+            "id": "7f4844f5244d1f77",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -57,12 +39,12 @@
             }
           },
           {
-            "id": "1cb6ee742c829384",
+            "id": "a63bd11ca61fd467",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "project",
+                "query": "projects",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -72,7 +54,7 @@
             }
           },
           {
-            "id": "01759d86b004045c",
+            "id": "e39e684348a8db09",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -83,24 +65,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 200
   },
   "right": {
-    "id": "d4c4a796788249f3",
+    "id": "51fcf44428386e88",
     "type": "split",
     "children": [
       {
-        "id": "19070b4c04a4e400",
+        "id": "185e1d80c875160e",
         "type": "tabs",
         "children": [
           {
-            "id": "852d696e2a939a04",
+            "id": "07bfbf7215b33054",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer_science/3-index/layer-5/docker_installation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,19 +92,18 @@
             }
           },
           {
-            "id": "89beaacae858e1b1",
+            "id": "3dce46fabe64e633",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "computer_science/3-index/layer-5/docker_installation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "51b4ea0c2d83ab3b",
+            "id": "8c8aba6916ae937f",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -135,69 +114,86 @@
             }
           },
           {
-            "id": "e1ad4a653b32ab31",
+            "id": "6481f61619628049",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "computer_science/3-index/layer-5/docker_installation.md"
-              }
+              "state": {}
             }
           },
           {
-            "id": "7b53d0cf305ab6b4",
+            "id": "0bf0541c9572246f",
             "type": "leaf",
             "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 600.5,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "workspaces:Manage workspace layouts": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7dd8829bf6e05731",
+  "active": "e2b0dadc8330a2c3",
   "lastOpenFiles": [
-    "computer_science/5-zettelkasten/docker_rootless_mode.md",
-    "computer_science/3-index/layer-5/docker_installation.md",
-    "computer_science/5-zettelkasten/docker_post-installation_steps.md",
-    "computer_science/3-index/layer-4/docker.md",
-    "computer_science/3-index/layer-5/docker_engine.md",
-    "computer_science/5-zettelkasten/docker_engine_security.md",
-    "computer_science/3-index/layer-5/docker_security.md",
-    "computer_science/5-zettelkasten/docker_installation_methods.md",
-    "computer_science/5-zettelkasten/docker_installation_prerequisites.md",
-    "computer_science/5-zettelkasten/docker_upgrade_docker_desktop.md",
-    "computer_science/5-zettelkasten/docker_installation_process.md",
-    "computer_science/5-zettelkasten/docker_rootless_prerequisites.md",
-    "computer_science/5-zettelkasten/docker_launching_docker_desktop.md",
-    "computer_science/3-index/layer-5/docker_build_cloud.md",
-    "computer_science/3-index/layer-5/docker_desktop.md",
-    "computer_science/5-zettelkasten/docker_desktop_images.md",
-    "computer_science/5-zettelkasten/docker_desktop_containers.md",
-    "computer_science/5-zettelkasten/docker_desktop_sign_in.md",
-    "computer_science/5-zettelkasten/docker_cloud_integrations.md",
-    "computer_science/3-index/layer-5/docker_build.md",
-    "computer_science/3-index/layer-5/docker_compose.md",
-    "computer_science/3-index/layer-3/dev-ops.md",
-    "computer_science/5-zettelkasten/xrandr_enable_HDMI_monitor.md",
-    "computer_science/5-zettelkasten/docker_apt_repository.md",
-    "computer_science/3-index/layer-4/CI-CD.md",
-    "computer_science/2-tags/express.js.md"
+    "5-zettelkasten/project_kolor.md",
+    "3-index/layer-5/javascript_data_types_deep_dive.md",
+    "2-tags/javascript_strings.md",
+    "5-zettelkasten/js_strings_comparison.md",
+    "2-tags/js_strings_get_substrings.md",
+    "5-zettelkasten/js_str.substr.md",
+    "5-zettelkasten/js_str.substring.md",
+    "5-zettelkasten/js_str.slice.md",
+    "2-tags/js_strings_search_substrings.md",
+    "5-zettelkasten/js_str.startsWith.md",
+    "5-zettelkasten/js_str.endsWith.md",
+    "5-zettelkasten/js_str.includes.md",
+    "5-zettelkasten/js_str.indexOf.md",
+    "5-zettelkasten/js_strings_changing_case.md",
+    "5-zettelkasten/js_strings_immutability.md",
+    "5-zettelkasten/js_strings_accessing_characters.md",
+    "5-zettelkasten/js_strings_length.md",
+    "5-zettelkasten/js_strings_special_characters.md",
+    "3-index/layer-4/javascript.md",
+    "5-zettelkasten/developing_a_RESTful_API_with_Go_and_Gin.md",
+    "5-zettelkasten/js_strings_quotes.md",
+    "2-tags/javascript_methods_of_primitives.md",
+    "2-tags/javascript_numbers.md",
+    "5-zettelkasten/js_other_math_functions.md",
+    "5-zettelkasten/js_parseInt_parseFloat.md",
+    "5-zettelkasten/js_tests_isFinite_isNaN.md",
+    "6-assets/CIE_LAB_color_space_3d_representation.png",
+    "6-assets/CIE_u'-v'_chromaticity_diagram.png",
+    "6-assets/CIE_x-y_chromaticity_diagram.png",
+    "6-assets/color_gamut_of_typical_computer_monitor.png",
+    "6-assets",
+    "3-index/layer-2/Untitled",
+    "3-index/color_theory",
+    "1-sources",
+    "3-index/computer_science/layer-2/Untitled",
+    "3-index/computer_science/layer-6",
+    "3-index/layer-5",
+    "3-index/layer-4",
+    "3-index/layer-1",
+    "3-index/layer-3"
   ]
 }

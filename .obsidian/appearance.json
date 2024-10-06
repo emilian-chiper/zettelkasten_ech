@@ -1,8 +1,9 @@
 {
-  "cssTheme": "Kanagawa",
-  "baseFontSize": 20,
+  "cssTheme": "Obsidian Nord",
+  "textFontFamily": "SF Pro Rounded",
+  "interfaceFontFamily": "SF Pro",
+  "nativeMenus": false,
   "monospaceFontFamily": "JetBrainsMonoNL Nerd Font Mono",
-  "textFontFamily": "Atkinson Hyperlegible",
-  "interfaceFontFamily": "Atkinson Hyperlegible",
-  "theme": "moonstone"
+  "baseFontSize": 18,
+  "theme": "system"
 }

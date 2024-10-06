@@ -1,10 +1,8 @@
 {
+  "showLineNumber": false,
   "alwaysUpdateLinks": true,
   "newFileLocation": "folder",
-  "newFileFolderPath": "computer_science/5-zettelkasten",
-  "vimMode": true,
-  "tabSize": 2,
-  "showLineNumber": true,
-  "livePreview": true,
-  "readableLineLength": false
+  "newFileFolderPath": "5-zettelkasten",
+  "readableLineLength": false,
+  "vimMode": true
 }

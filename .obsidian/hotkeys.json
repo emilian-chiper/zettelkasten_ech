@@ -15,5 +15,14 @@
       ],
       "key": "E"
     }
+  ],
+  "color-palette:create": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "P"
+    }
   ]
 }
