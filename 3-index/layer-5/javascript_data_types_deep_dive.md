@@ -8,8 +8,8 @@ Lists all tags and notes related to data types in the JavaScript programming lan
 - [[javascript_methods_of_primitives]] ✅
 - [[javascript_numbers]] ✅
 - [[javascript_strings]] ✅
-- [[javascript_arrays]] ⏳
-- [[javascript_array_methods]] ⏳
+- [[javascript_arrays]] ✅
+- [[javascript_array_methods]] 
 - [[javascript_iterables]] ⏳
 - [[javascript_map_and_set]] ⏳
 - [[javascript_weakmap_and_weakset]] ⏳

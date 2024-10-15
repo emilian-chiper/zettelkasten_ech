@@ -1,9 +1,10 @@
 {
-  "cssTheme": "Obsidian Nord",
-  "textFontFamily": "SF Pro Rounded",
-  "interfaceFontFamily": "SF Pro",
+  "cssTheme": "Kanagawa",
+  "textFontFamily": "Atkinson Hyperlegible",
+  "interfaceFontFamily": "Atkinson Hyperlegible",
   "nativeMenus": false,
   "monospaceFontFamily": "JetBrainsMonoNL Nerd Font Mono",
   "baseFontSize": 18,
-  "theme": "system"
+  "theme": "moonstone",
+  "accentColor": ""
 }

@@ -12,4 +12,4 @@ If you don't want to preface the `docker` command with `sudo`, create a Unix gro
 The `docker` group grants root-level privileges to the user. For details on how this impacts security in your system, see [Docker Daemon Attack Surface]([[docker_daemon_attack_surface]]).
 
 **Note?**
-To run Docker without root privileges, see [Run the Docker daemon as a non-root user (Rootless mode)]([[docker_rootless_mode]]).
+To run Docker without root privileges, see [[docker_rootless_mode|Run the Docker daemon as a non-root user]].

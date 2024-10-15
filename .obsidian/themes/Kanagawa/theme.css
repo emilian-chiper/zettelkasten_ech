@@ -189,16 +189,16 @@
 
 .theme-light {
     /* original lotus */
-    /* --background-primary:         var(--lotusWhite3); */
+    --background-primary:         var(--lotusWhite3);
     /* --background-primary-alt:     var(--lotusWhite4); */
-    /* --background-secondary:       var(--lotusWhite1); */
-    /* --background-secondary-alt:   var(--lotusWhite2); */
+    --background-secondary:       var(--lotusWhite1);
+    --background-secondary-alt:   var(--lotusWhite2);
 
     /* new preferred light colors */
-    --background-primary:         var(--paper-like);
+    /* --background-primary:         var(--paper-like); */
     --background-primary-alt:     var(--lotusWhite4);
-    --background-secondary:       var(--soft-white);
-    --background-secondary-alt:   var(--lotusWhite3);
+    /* --background-secondary:       var(--soft-white); */
+    /* --background-secondary-alt:   var(--lotusWhite3); */
 
     --text-normal:                var(--lotusInk1);
     --text-faint:                 var(--lotusGray3);
