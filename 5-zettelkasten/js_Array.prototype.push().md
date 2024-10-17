@@ -1,7 +1,7 @@
 ### Meta
 2024-10-14 13:39
 **Tags:** [[javascript]] [[javascript_data_types_deep_dive]] [[javascript_array_methods]]
-**State:** #pending 
+**State:** #completed 
 
 ### What it looks like
 ```JavaScript title:app.js
@@ -14,7 +14,22 @@ console.log(count); // 4
 ### What it does
 The `push()` method of `Array` instances adds the specified elements to the end of an array and returns the new length of the array.
 
-### How it does it
+### Syntax
+```JavaScript title:app.js
+push()
+push(element1)
+push(element1, element2)
+push(element1, element2, /* …, */ elementN)
+```
+
+#### Parameters
+`element1`, …, `elementN`
+	The element(s) to add to the end of the array.
+
+#### Return value
+The new `lenght` property of the object upon which the method was called.
+
+### Description
 The `push` method appends values to an array.
 
 The `push` method is a *mutating* method. It changes the length and the content of `this`. In case you want the value of `this` to be the same, but return a new array with elements appended to the end, you can use [[js_Array.prototype.concat()|`arr.concat([el0, el1, ..., elN])`]] instead. Notice that the elements are wrapped in an extra array. Otherwise, if the element is an array itself, it would be spread instead of pushed as single element due to the behavior of `concat()`.
@@ -70,3 +85,25 @@ console.log(plainObj);
 ```
 
 #### Using an object in an array-like fashion
+As mentioned above, `push` is intentionally generic, and we can use that to our advantage. `Array.prototype.push` can work on an object just fine, as this example shows.
+
+Note that we don’t create an array to store a collection of objects. Instead, we store the collection on the object itself and use `call` on `Array.prototype.push` to trick the method into thinking we area dealing with an array – and it just works, thanks to the way JavaScript allows us to establish the execution context in any way we want.
+
+```JavaScript title:app.js
+const obj = {
+  length: 0,
+
+  addElem(elem) {
+    // obj.length is automatically incremented
+    // every time an element is added.
+    [].push.call(this, elem);
+  },
+};
+
+// Let's add some empty objects just to illustrate.
+obj.addElem({});
+obj.addElem({});
+console.log(obj.length); // 2
+```
+
+Note that although `obs` is not an array, the method `push` successfully incremented `obj`’s `length` property just like if we were dealing with an actual array.

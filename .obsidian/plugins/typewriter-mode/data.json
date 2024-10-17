@@ -14,7 +14,7 @@
   "isDimUnfocusedEnabled": true,
   "dimUnfocusedMode": "paragraphs",
   "dimUnfocusedEditorsBehavior": "dim",
-  "dimmedOpacity": 0.4,
+  "dimmedOpacity": 0.9,
   "isPauseDimUnfocusedWhileScrollingEnabled": true,
   "isPauseDimUnfocusedWhileSelectingEnabled": true,
   "isHighlightCurrentLineEnabled": true,

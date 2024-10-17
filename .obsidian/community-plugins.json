@@ -2,10 +2,10 @@
   "better-word-count",
   "node-auto-resize",
   "shrink-pinned-tabs",
-  "code-styler",
   "obsidian-smart-typography",
   "obsidian-emoji-toolbar",
   "css-inlay-colors",
   "obsidian-excalidraw-plugin",
-  "typewriter-mode"
+  "typewriter-mode",
+  "code-styler"
 ]

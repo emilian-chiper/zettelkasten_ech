@@ -4,26 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a11ec79fb501af8b",
+        "id": "f346fd37b904d3e8",
         "type": "tabs",
         "children": [
           {
-            "id": "fa36a0d9a0161121",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3-index/layer-5/javascript_data_types_deep_dive.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "66a5313c4bde8171",
+            "id": "39bb417ccd73fb9c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -32,24 +17,28 @@
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "javascript_array_methods"
             }
           },
           {
-            "id": "598963e03c559efc",
+            "id": "892146d96b431aaf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5-zettelkasten/docker_post-installation_steps.md",
+                "file": "5-zettelkasten/js_Array.prototype.findLastIndex().md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "js_Array.prototype.findLastIndex()"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +58,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -84,7 +75,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -92,7 +85,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -115,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5-zettelkasten/docker_post-installation_steps.md",
+                "file": "5-zettelkasten/js_Array.prototype.findLastIndex().md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +118,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for js_Array.prototype.findLastIndex()"
             }
           },
           {
@@ -132,10 +129,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "5-zettelkasten/docker_post-installation_steps.md",
+                "file": "5-zettelkasten/js_Array.prototype.findLastIndex().md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from js_Array.prototype.findLastIndex()"
             }
           },
           {
@@ -146,7 +145,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -155,8 +156,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5-zettelkasten/docker_post-installation_steps.md"
-              }
+                "file": "5-zettelkasten/js_Array.prototype.findLastIndex().md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of js_Array.prototype.findLastIndex()"
             }
           },
           {
@@ -168,7 +171,9 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           }
         ]
@@ -191,34 +196,34 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "598963e03c559efc",
+  "active": "892146d96b431aaf",
   "lastOpenFiles": [
-    "5-zettelkasten/[[docker_rootless_mode]].md",
-    "5-zettelkasten/docker_post-installation_steps.md",
-    "5-zettelkasten/docker_rootless_mode.md",
-    "3-index/layer-5/docker_installation.md",
-    "3-index/layer-4/docker.md",
-    "5-zettelkasten/docker_installation_methods.md",
-    "5-zettelkasten/docker_installation_prerequisites.md",
-    "5-zettelkasten/js_Array.prototype.push().md",
     "5-zettelkasten/javascript_array_methods.md",
+    "5-zettelkasten/js_Array.prototype.findLastIndex().md",
+    "5-zettelkasten/js_Array.prototype.findIndex().md",
+    "5-zettelkasten/js_Array.prototype.find().md",
+    "5-zettelkasten/js_Arra.prototype.includes().md",
+    "5-zettelkasten/js_Array.prototype.lastIndexOf().md",
+    "5-zettelkasten/js_Array.prototype.indexOf().md",
+    "5-zettelkasten/js_Array.prototype.push().md",
+    "5-zettelkasten/js_Array.prototype.forEach().md",
+    "5-zettelkasten/js_Array.prototype.concat().md",
+    "5-zettelkasten/js_Array.prototype.slice().md",
+    "5-zettelkasten/js_Array.prototype.splice().md",
+    "5-zettelkasten/pern_stack_intro.md",
+    "5-zettelkasten/js_Array.prototype.unshift().md",
+    "5-zettelkasten/js_Array.prototype.shift().md",
+    "5-zettelkasten/js_Array.prototype.pop().md",
+    "3-index/layer-4/docker.md",
+    "3-index/layer-5/docker_installation.md",
+    "2-tags/docker_post-installation_steps_for_linux.md",
+    "5-zettelkasten/configure_default_logging_driver.md",
+    "5-zettelkasten/configure_docker_to_start_on_boot.md",
+    "5-zettelkasten/manage_docker_as_a_non_root_user.md",
+    "5-zettelkasten/docker_uninstall_docker_engine.md",
+    "5-zettelkasten/docker_post-installation_steps.md",
+    "3-index/layer-5/docker_engine.md",
     "3-index/layer-5/javascript_data_types_deep_dive.md",
-    "2-tags/javascript_arrays.md",
-    "5-zettelkasten/js_array_comparison.md",
-    "5-zettelkasten/js_array_toString.md",
-    "5-zettelkasten/js_array_multidimensional_arrays.md",
-    "5-zettelkasten/js_array_new_array.md",
-    "5-zettelkasten/js_array_length.md",
-    "5-zettelkasten/js_array_loops.md",
-    "5-zettelkasten/js_array_performance.md",
-    "5-zettelkasten/js_array_internals.md",
-    "5-zettelkasten/js_array_queueing_methods.md",
-    "5-zettelkasten/js_array_last_element.md",
-    "5-zettelkasten/js_array_declaration.md",
-    "2-tags/javascript_strings.md",
-    "3-index/layer-4/javascript.md",
-    "5-zettelkasten/express.js_error_handling.md",
-    "5-zettelkasten/chromaticity.md",
     "6-assets/CIE_LAB_color_space_3d_representation.png",
     "6-assets/CIE_u'-v'_chromaticity_diagram.png",
     "6-assets/CIE_x-y_chromaticity_diagram.png",
