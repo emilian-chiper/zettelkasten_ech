@@ -14,7 +14,7 @@ alert(+"100px"); // NaN
 
 ### Solution
 ```JavaScript title:app.js
-alert( parseInte('100px') ); // 100
+alert( parseInt('100px') ); // 100
 alert( parseFloat('12.5em') ); // 12.5
 
 alert( parseInt('12.3') ); // 12

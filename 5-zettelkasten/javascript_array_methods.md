@@ -18,14 +18,14 @@ Lists all methods of the Array class in the JavaScript programming language.
 [[js_Arra.prototype.includes()]] ✅
 [[js_Array.prototype.find()]] ✅
 [[js_Array.prototype.findIndex()]] ✅
-[[js_Array.prototype.findLastIndex()]]
-[[js_Array.prototype.filter()]]
-[[js_Array.prototype.map()]]
-[[js_Array.prototype.sort()]]
-[[js_Array.prototype.reverse()]]
-[[js_Array.prototype.split()]]
-[[js_Array.prototype.join()]]
-[[js_Array.prototype.reduce()]]
-[[js_Array.prototype.reduceRight()]]
-[[js_Array.prototype.isArray()]]
-[[js_thisArg]]
+[[js_Array.prototype.findLastIndex()]] ✅
+[[js_Array.prototype.filter()]] ✅
+[[js_Array.prototype.map()]] ✅
+[[js_Array.prototype.sort()]] ✅
+[[js_Array.prototype.reverse()]] ✅
+[[js_Array.prototype.splice()]] ✅
+[[js_Array.prototype.join()]] ✅
+[[js_Array.prototype.reduce()]] ✅
+[[js_Array.prototype.reduceRight()]] ✅
+[[js_Array.isArray()]] ✅
+[[js_thisArg]] ✅

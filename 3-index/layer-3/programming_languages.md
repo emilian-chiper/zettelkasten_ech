@@ -5,6 +5,6 @@ List all indexes for programming languages.
 [[cs_fundamentals]]
 
 ### Children
-- [[Python]]
 - [[javascript]]
-- [[SQL]]
+- [[c]]
+- [[cpp]]

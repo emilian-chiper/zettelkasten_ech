@@ -1,7 +1,7 @@
 ### Meta
 2024-10-17 17:23
 **Tags:** [[javascript]] [[javascript_data_types_deep_dive]] [[javascript_array_methods]]
-**State:** #pending 
+**State:** #completed 
 
 ### What it looks like
 ```JavaScript title:app.js
@@ -45,3 +45,6 @@ The `findLastIndex()` method is an iterative method. It calls a provided `callba
 `callbackFn` is invoked for *every* index of the array, not just those with assigned values. Empty slots in sparse arrays behave the same as `undefined`.
 
 The `findLastIndex()` method is generic. It only expects the `this` value to have a `length` property and integer-keyed properties.
+
+### Examples
+For more examples, see [Array.prototype.findLastIndex()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findLastIndex#examples).

@@ -7,7 +7,7 @@
 A set of technologies to build web or mobile apps. It is comprised of four key components: PostgreSQL, Express, React, and Node.js. When the components are combined, you can build a full stack app with CRUD operations.
 
 #### PostgreSQL
-PosgreSQL is an open-source object-relational **database** management system (ORDBMS) that supports both SQL (relational) and JSON (non-relational) querying. It’s ACID -compliant and table-based, with complete constraints, triggers and roles. These features are what allow for the creation of relationships between data. This, in turn, leads to benefits such as extensibility, scalability, reliability, performance, and robustness.
+PostgreSQL is an open-source object-relational **database** management system (ORDBMS) that supports both SQL (relational) and JSON (non-relational) querying. It’s ACID -compliant and table-based, with complete constraints, triggers and roles. These features are what allow for the creation of relationships between data. This, in turn, leads to benefits such as extensibility, scalability, reliability, performance, and robustness.
 
 #### Express
 Express is a popular and free JavaScript web framework designed for use with Node.js. Its purpose is to build web applications, especially **APIs**, quickly and easily. It provides a set of  features for the routing, middleware and handling of HTTP requests and responses. In the PERN Stack, this component handles the application **back-end**.
@@ -32,7 +32,7 @@ First, ensure the right tools are present on your system:
 
 #### Step 1: Project Structure
 ##### Build a new folder for the project
-This main directory should contain two subdirectories: `/server` and `/client`, each containing only the files related to the server (API) and the client (UI), respectively. This will help keep your project clean and organized.
+This main directory should contain two sub-directories: `/server` and `/client`, each containing only the files related to the server (API) and the client (UI), respectively. This will help keep your project clean and organized.
 
 ##### Initialize the project
 **Server:** Initialize the project using `npm init` in the server folder to create a Node.js project. Next, install the required dependencies for this basic PERN Stack example using `npm`:

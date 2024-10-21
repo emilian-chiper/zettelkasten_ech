@@ -1,8 +1,9 @@
 {
-  "showLineNumber": false,
+  "showLineNumber": true,
   "alwaysUpdateLinks": true,
   "newFileLocation": "folder",
   "newFileFolderPath": "5-zettelkasten",
   "readableLineLength": false,
-  "vimMode": true
+  "vimMode": true,
+  "autoPairMarkdown": true
 }

@@ -1,11 +1,14 @@
 [
+  "table-editor-obsidian",
   "better-word-count",
+  "code-styler",
+  "css-inlay-colors",
+  "obsidian-emoji-toolbar",
+  "obsidian-excalidraw-plugin",
   "node-auto-resize",
   "shrink-pinned-tabs",
   "obsidian-smart-typography",
-  "obsidian-emoji-toolbar",
-  "css-inlay-colors",
-  "obsidian-excalidraw-plugin",
   "typewriter-mode",
-  "code-styler"
+  "obsidian-minimal-settings",
+  "obsidian-style-settings"
 ]

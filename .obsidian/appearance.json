@@ -1,10 +1,13 @@
 {
-  "cssTheme": "Kanagawa",
+  "cssTheme": "Rosé Pine Moon",
   "textFontFamily": "Atkinson Hyperlegible",
-  "interfaceFontFamily": "Atkinson Hyperlegible",
+  "interfaceFontFamily": "SF Pro Display",
   "nativeMenus": false,
   "monospaceFontFamily": "JetBrainsMonoNL Nerd Font Mono",
-  "baseFontSize": 18,
-  "theme": "moonstone",
-  "accentColor": ""
+  "baseFontSize": 20,
+  "theme": "obsidian",
+  "accentColor": "",
+  "enabledCssSnippets": [
+    "extended-colorschemes"
+  ]
 }

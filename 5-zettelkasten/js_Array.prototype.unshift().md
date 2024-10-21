@@ -57,40 +57,4 @@ console.log(arr);
 The `unshift()` method is generic. It only expects the `this` value to have a `length` property and integer-keyed properties. Although strings are also array-like, this method is not suitable to be applied on them, as strings are immutable.
 
 ### Examples
-#### Using unshift()
-```JavaScript title:app.js
-let arr = [4, 5, 6];
-
-arr.unshift(1, 2, 3);
-console.log(arr);
-// [1, 2, 3, 4, 5, 6]
-
-arr = [4, 5, 6]; // resetting the array
-
-arr.unshift(1);
-arr.unshift(2);
-arr.unshift(3);
-
-console.log(arr);
-// [3, 2, 1, 4, 5, 6]
-```
-
-#### Calling unshift() on non-array objects
-The `unshift` method reads the `length` property of `this`. It shifts all indices in the range `0` to `length - 1` right by the number of arguments (incrementing their values by this number). Then, it sets each index starting at `0` with the arguments passed to `unshift()`. Finally, it sets the `length` to the previous length plus the number of prepended elements.
-
-```JavaScript title:app.js
-const arrayLike = {
-  length: 3,
-  unrelated: "foo",
-  2: 4,
-};
-Array.prototype.unshift.call(arrayLike, 1, 2);
-console.log(arrayLike);
-// { '0': 1, '1': 2, '4': 4, length: 5, unrelated: 'foo' }
-
-const plainObj = {};
-// There's no length property, so the length is 0
-Array.prototype.unshift.call(plainObj, 1, 2);
-console.log(plainObj);
-// { '0': 1, '1': 2, length: 2 }
-```
+For more examples, see [Array.prototype.unshift()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift#examples).
