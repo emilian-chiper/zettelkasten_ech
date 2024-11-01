@@ -6,8 +6,8 @@ Lists all indexes related to javascript.
 - [[frontend]]
 
 ### Children
-- [[javascript_data_types_deep_dive]] 🔍
-- [[javascript_advanced_functions]] ⏳
+- [[javascript_data_types_deep_dive]] ✅
+- [[javascript_advanced_functions]] 🔍
 - [[javascript_classes]] ⏳
 - [[javascript_code_quality]] ⏳
 - [[javascript_error_handling]] ⏳

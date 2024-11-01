@@ -12,8 +12,8 @@ Lists all tags and notes related to data types in the JavaScript programming lan
 - [[javascript_array_methods]] ✅
 - [[javascript_iterables]] ✅
 - [[javascript_map_and_set]] ✅
-- [[javascript_weakmap_and_weakset]] ⏳
-- [[javascript_Object_methods]] ⏳
-- [[javascript_destructuring_assignment]] ⏳
-- [[javascript_date_and_time]] ⏳
-- [[javascript_json_methods]] ⏳
+- [[javascript_weakmap_and_weakset]] ✅
+- [[javascript_Object_iterative_methods]] ✅
+- [[javascript_destructuring_assignment]] ✅
+- [[javascript_date_and_time]] ✅
+- [[javascript_json_methods]] ✅

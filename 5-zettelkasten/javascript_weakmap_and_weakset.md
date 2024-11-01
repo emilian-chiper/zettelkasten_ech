@@ -6,5 +6,5 @@ Lists all notes related to the WeakMap and WeakSet data structures in the JavaSc
 
 ### Children
 [[js_weakmap_weakset_overview]] ✅
-[[js_weakmap]]
-[[js_weakset]]
+[[js_weakmap]] ✅
+[[js_weakset]] ✅

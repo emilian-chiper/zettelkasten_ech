@@ -1,7 +1,7 @@
 {
   "cssTheme": "Rosé Pine Moon",
   "textFontFamily": "Atkinson Hyperlegible",
-  "interfaceFontFamily": "SF Pro Display",
+  "interfaceFontFamily": "Atkinson Hyperlegible",
   "nativeMenus": false,
   "monospaceFontFamily": "JetBrainsMonoNL Nerd Font Mono",
   "baseFontSize": 20,

@@ -4,41 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "74c8c3957fc47395",
+        "id": "b727a732339a007c",
         "type": "tabs",
         "children": [
           {
-            "id": "bbed2084849497bc",
+            "id": "b56ddbd436b3827f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5-zettelkasten/javascript_weakmap_and_weakset.md",
+                "file": "3-index/layer-4/python.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "javascript_weakmap_and_weakset"
-            }
-          },
-          {
-            "id": "95b455ee5ca47f41",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5-zettelkasten/js_weakmap.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "js_weakmap"
+              "title": "python"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -69,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "projects",
+                "query": "pending",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -129,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "5-zettelkasten/c_swapping_values_second_attempt.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from c_swapping_values_second_attempt"
             }
           },
           {
@@ -154,9 +139,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "5-zettelkasten/c_swapping_values_second_attempt.md"
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of c_swapping_values_second_attempt"
             }
           },
           {
@@ -172,9 +159,19 @@
               "icon": "lucide-archive",
               "title": "All properties"
             }
+          },
+          {
+            "id": "e3f86b9ecc2bf171",
+            "type": "leaf",
+            "state": {
+              "type": "mathpad-view",
+              "state": {},
+              "icon": "sigma",
+              "title": "Mathpad"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -192,37 +189,37 @@
       "markdown-importer:Open format converter": false,
       "workspaces:Manage workspace layouts": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "mathpad:Open Mathpad": false
     }
   },
-  "active": "95b455ee5ca47f41",
+  "active": "b56ddbd436b3827f",
   "lastOpenFiles": [
-    "5-zettelkasten/javascript_weakmap_and_weakset.md",
-    "3-index/layer-5/javascript_data_types_deep_dive.md",
-    "2-tags/javascript_methods_of_primitives.md",
-    "5-zettelkasten/js_weakmap.md",
-    "README.md",
-    "5-zettelkasten/js_weakmap_weakset_overview.md",
-    "3-index/layer-4/javascript.md",
-    "5-zettelkasten/todo.md",
-    "5-zettelkasten/pern_stack_intro.md",
-    "3-index/layer-3/programming_languages.md",
-    "3-index/layer-4/cpp.md",
-    "3-index/layer-4/c.md",
-    "5-zettelkasten/client.md",
-    "5-zettelkasten/Client.md",
-    "5-zettelkasten/[[Number.prototype.toFixed()]].md",
-    "5-zettelkasten/express.js_basic_routing.md",
-    "5-zettelkasten/express.js_postgresql_database_integration.md",
-    "5-zettelkasten/js_array_length.md",
-    "5-zettelkasten/express.js_hello_world.md",
-    "2-tags/express.js.md",
-    "5-zettelkasten/express.js_installation.md",
     "5-zettelkasten/ExpressJS.md",
-    "3-index/layer-5/javascript_map_and_set.md",
-    "5-zettelkasten/js_set.md",
-    "2-tags/js_map.md",
-    "5-zettelkasten/js_map_object_from_map.md",
+    "3-index/layer-4/python.md",
+    "4-templates/python_snip.md",
+    "4-templates/snip_temp.md",
+    "3-index/layer-5/py_basics.md",
+    "4-templates/jsx_snip.md",
+    "4-templates/js_snip.md",
+    "4-templates/project_temp.md",
+    "4-templates/js_temp.md",
+    "4-templates/index_temp.md",
+    "4-templates/html_temp.md",
+    "4-templates/general_temp.md",
+    "4-templates/git_temp.md",
+    "4-templates/date_time_temp.md",
+    "4-templates/def_temp.md",
+    "4-templates/css_snip.md",
+    "4-templates/ct_temp.md",
+    "2-tags/py_functions.md",
+    "2-tags/py_user_input_while_loops.md",
+    "5-zettelkasten/py_while_lists_dicts.md",
+    "5-zettelkasten/py_while_loops.md",
+    "3-index/layer-1/math.md",
+    "5-zettelkasten/problems.md",
+    "3-index/layer-2/precalculus.md",
+    "5-zettelkasten/precalc_01.md",
+    "5-zettelkasten/principles_of_problem_solving.md",
     "Excalidraw",
     "6-assets/CIE_LAB_color_space_3d_representation.png",
     "6-assets/CIE_u'-v'_chromaticity_diagram.png",

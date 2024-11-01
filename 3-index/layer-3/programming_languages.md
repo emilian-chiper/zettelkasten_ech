@@ -8,3 +8,4 @@ List all indexes for programming languages.
 - [[javascript]]
 - [[c]]
 - [[cpp]]
+- [[python]]

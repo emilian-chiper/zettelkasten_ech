@@ -48,3 +48,5 @@ jon = null; // overwrite the reference
 ```
 
 `WeakMap` is fundamentally different in this aspect. It doesn’t prevent garbage-collection of keys objects.
+
+The most notable limitation of `WeakMap` and `WeakSet` is the absence of iterations, and the inability to get the current content. That may appear inconvenient, but doesn’t prevent these data structures from doing their main job – “additional” storage of data for objects which are stored/managed at another place.
