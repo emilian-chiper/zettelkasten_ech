@@ -12,6 +12,7 @@ Lists all tags related to the basics of the Python programming language.
 [[py_conditionals]] ✅
 [[py_dictionaries]]  ✅
 [[py_user_input_while_loops]] ✅
-[[py_functions]]
-[[py_files_exceptions]]
+[[py_functions]] ✅
+[[py_classes]] ✅
+[[py_files_exceptions]] ✅
 [[py_testing]]

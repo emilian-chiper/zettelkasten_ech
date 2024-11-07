@@ -10,7 +10,7 @@
 	  --font-size-h4: 20px;
 	  --font-size-h5: 19px;
 	  --font-size-h6: 18px;
-	  --font-family-editor: Atkinson Hyperlegible, sans-serif;
+	  --font-family-editor: Plantin MT Pro, serif;
 	  --font-family-preview: Atkinson Hyperlegible, sans-serif;
 	}
 
@@ -69,7 +69,7 @@
 	}
 
 	button{
-		font-family: "Atkinson Hyperlegible" !important;
+		font-family: var(--font-family-preview)!important;
 		font-style: italic !important;
 		background-color: #31748f !important;
 		color: #9ccfd8 !important;
@@ -349,7 +349,7 @@
 
 	/* code blocks in preview */
 	pre code {
-	  font-family: var(--font-family-editor) !important;
+	  font-family: var(--font-family-preview) !important;
 	  font-size: 14 !important;
 	  padding: 6px !important;
 	  line-height: normal;
@@ -709,7 +709,7 @@
 
 	.theme-light .markdown-preview-view,
 	.theme-light .mod-single-child .markdown-preview-view {
-	  font-family: var(--font-family-editor);
+	  font-family: var(--font-family-preview);
 	  font-size: var(--font-size-normal);
 	  padding-top: 5px;
 	  padding-left: 4% !important;
@@ -748,7 +748,7 @@
 
 	/* Editor CodeBlock TEXT Appearance */
 	.cm-s-obsidian pre.HyperMD-codeblock {
-	  font-family: var(--font-family-editor) !important;
+	  font-family: var(--font-family-preview) !important;
 	  font-size: var(--font-size-code) !important;
 	  padding: 1px !important;
 	  display: block;

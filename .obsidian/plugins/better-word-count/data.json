@@ -23,12 +23,12 @@
       "suffix": " files",
       "metric": {
         "type": 2,
-        "counter": 6
+        "counter": 0
       }
     }
   ],
   "countComments": true,
-  "collectStats": false,
+  "collectStats": true,
   "displaySectionCounts": false,
   "pageWords": 250,
   "statsPath": ".obsidian/vault-stats.json"
