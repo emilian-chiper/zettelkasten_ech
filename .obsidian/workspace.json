@@ -53,7 +53,7 @@
             }
           },
           {
-            "id": "f6e4162cf37722d2",
+            "id": "0b9b460025375929",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -215,6 +215,16 @@
               "icon": "sigma",
               "title": "Mathpad"
             }
+          },
+          {
+            "id": "8ba8903267359b8c",
+            "type": "leaf",
+            "state": {
+              "type": "mathpad-view",
+              "state": {},
+              "icon": "sigma",
+              "title": "Mathpad"
+            }
           }
         ],
         "currentTab": 5
@@ -238,16 +248,16 @@
       "mathpad:Open Mathpad": false
     }
   },
-  "active": "f6e4162cf37722d2",
+  "active": "0b9b460025375929",
   "lastOpenFiles": [
     "2-tags/py_testing.md",
     "5-zettelkasten/installing_pytest_and_pip.md",
     "5-zettelkasten/py_testing_functions.md",
     "3-index/layer-5/py_basics.md",
+    "3-index/layer-4/python.md",
     "2-tags/py_files_exceptions.md",
     "5-zettelkasten/py_storing_data.md",
     "5-zettelkasten/py_exceptions.md",
-    "3-index/layer-4/python.md",
     "5-zettelkasten/py_writing_to_file.md",
     "5-zettelkasten/py_reading_from_file.md",
     "2-tags/py_functions.md",
