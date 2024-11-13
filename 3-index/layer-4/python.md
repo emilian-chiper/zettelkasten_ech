@@ -5,5 +5,5 @@ Lists all indexes related to the Python programming language.
 [[programming_languages]]
 
 ### Children
-[[py_basics]]
+[[py_basics]] ✅
 [[py_projects]]

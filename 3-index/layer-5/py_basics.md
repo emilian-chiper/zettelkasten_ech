@@ -15,4 +15,4 @@ Lists all tags related to the basics of the Python programming language.
 [[py_functions]] ✅
 [[py_classes]] ✅
 [[py_files_exceptions]] ✅
-[[py_testing]]
+[[py_testing]] ✅
