@@ -1,7 +1,7 @@
 ### Meta
 2024-11-13 18:48
 **Tags:** [[py_projects]] [[py_alien_invasion]] [[py_ai_ship]]
-**Status:** #pending 
+**Status:** #completed 
 
 ### Piloting the Ship
 We’ll write code that responds when the player presses the right or left arrow key. We’ll focus first on movement to the right, and then we’ll apply the same principles to control movement to the left.

@@ -53,18 +53,18 @@
             }
           },
           {
-            "id": "78d14891ab963294",
+            "id": "66c6d80aa52b89f8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5-zettelkasten/py_alien_invasion_piloting_the_ship.md",
+                "file": "5-zettelkasten/py_alien_invasion_shooting_bulltes.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "py_alien_invasion_piloting_the_ship"
+              "title": "py_alien_invasion_shooting_bulltes"
             }
           }
         ],
@@ -258,11 +258,12 @@
       "mathpad:Open Mathpad": false
     }
   },
-  "active": "78d14891ab963294",
+  "active": "66c6d80aa52b89f8",
   "lastOpenFiles": [
     "2-tags/py_ai_ship.md",
-    "5-zettelkasten/py_alien_invasion_adding_ship_image.md",
+    "5-zettelkasten/py_alien_invasion_shooting_bulltes.md",
     "5-zettelkasten/py_alien_invasion_piloting_the_ship.md",
+    "5-zettelkasten/py_alien_invasion_adding_ship_image.md",
     "5-zettelkasten/py_alien_invasion_check_events_update_screen.md",
     "3-index/layer-4/py_projects.md",
     "3-index/layer-4/javascript.md",
@@ -285,7 +286,6 @@
     "5-zettelkasten/py_reading_from_file.md",
     "2-tags/py_functions.md",
     "5-zettelkasten/py_modules.md",
-    "5-zettelkasten/py_styling_functions.md",
     "Excalidraw",
     "6-assets/CIE_LAB_color_space_3d_representation.png",
     "6-assets/CIE_u'-v'_chromaticity_diagram.png",
