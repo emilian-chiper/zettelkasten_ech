@@ -138,7 +138,7 @@ class Ship:
 		self.settings = ai_game.settings
 		--snip--
 
-		# Start each new ship at the bottom center of the screen.
+		# Store a float for the ship's exact horizontal position.
 		self.x = float(self.rect.x)
 
 		# Movement flags; start with a ship that's not moving.
@@ -147,7 +147,7 @@ class Ship:
 
 	def update(self):
 		"""Update the ship's position based on movement flags."""
-		# Updateh the ship's x value, not the rect.
+		# Update the ship's x value, not the rect.
 		if self.moving_right:
 			self.x += self.settings.ship_speed
 		if self.moving_left:

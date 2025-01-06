@@ -1,7 +1,7 @@
 ### Meta
 2024-11-14 16:41
 **Tags:** [[py_projects]] [[py_alien_invasion]] [[py_ai_ship]]
-**Status:** #pending 
+**Status:** #completed 
 
 ### Shooting Bullets
 We’ll write code that fires a bullet, which is represented by a small rectangle, when the player presses the spacebar. Bullets will then travel straight up the screen until they disappear off the top of the screen.
@@ -37,7 +37,7 @@ class Bullet(Sprite):
 
 		# Create a bullet rect at (0, 0) and then set correct position.
 		self.rect = pygame.Rect(0, 0, self.settings.bullet_widt, self.settings.bullet_height)
-		self.rect midtop = ai_game.ship.rect.midtop
+		self.rect.midtop = ai_game.ship.rect.midtop
 
 		# Store the bullet's position as a float.
 		self.y = float(self.rect.y)
@@ -54,7 +54,7 @@ class Bullet(Sprite):
 		pygame.draw.rect(self.screen, self.color, self.rect)
 ```
 
-#### Storing Bullets in a Grouop
+#### Storing Bullets in a Group
 Now that we have a `Bullet` class and the necessary settings defined, we can write code to fire a bullet each time the player presses the spacebar. We’ll create a group in `AlienInvasion` to store all the active bullets so we can manage the bullets that have already been fired. This group will be an instance of the `pygame.sprite.Group` class, which behaves like a list with some extra functionality that’s helpful when building games. We’ll use this group to draw bullets to the screen on each pass through the main loop and to update each bullet’s position.
 ```Python title:alien_invasion.py
 --snip--
@@ -164,5 +164,25 @@ We must keep `AlienInvasion` reasonably well organized, so now that we’ve writ
 
 We’ll create a new method called `_update_bullets()` and add it just before `_update_screen()`:
 ```Python title:alien_invasion.py
+	def _update_bullets(self):
+	"""Update position of bullets and remove old bullets."""
+	# Update bullet positions.
+	self.bullets.update()
 
+	# Remove old bullets.
+	for bullet in self.bullets.copy():
+		if bullet.rect.bottom <= 0:
+			self.bullets.remove(bullet)
+```
+
+The code for `_update_bullets()` is cut and pasted from `run_game()`; all we’ve done is clarify the comments.
+
+The while loop in `run_game()` looks simple again:
+```Python title:alien_invasion.py
+	while True:
+		self._check_events()
+		self.ship.update()
+		self._update_bullets()
+		self._update_screen()
+		self.clock.tick(60)
 ```
