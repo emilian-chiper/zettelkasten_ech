@@ -1,7 +1,7 @@
 ### Meta
 2025-01-16 11:40
 **Tags:** [[python]] [[py_projects]] [[py_data_visualization]]
-**Status:** #pending 
+**Status:** #completed 
 
 ### The CSV File Format
 One simple way to store data in a text file is to write the data as a series of values separated by commas, called *comma-seperated values*. The resulting files are *CSV* files. For example, here’s a chunk of weather data in CSV format:
@@ -190,4 +190,85 @@ ax.fill_between(dates, highs, lows, facecolor='blue', alpha=0.1)
 ```
 
 #### Error Checking
-1234
+We should be able to run the *sitka_hihgs_lows.py* code using data from any location. Some weather stations collect different data than others, and some occasionally malfunction and fail to collect some of the data they’re supposed to. Missing data can result in exceptions that crash our programs, unless we handle them properly.
+
+For example, let’s see what happens when we attempt to generate a temperature plot for Death Valley, California.
+
+First, let’s run the code to see the headers that are included in this data file:
+```Python title:death_valey_highs_lows.py
+from pathlib import Path
+import csv
+
+path = Path('weather_data/death_valley_2021_simple.csv')
+lines = path.read_text().splitlines()
+
+reader = csv.reader(lines)
+header_row = next(reader)
+
+for index, column_header in enumerate(header_row):
+	print(index, column_header)
+
+"""
+0 STATION
+1 NAME
+2 DATE
+3 TMAX
+4 TMIN
+5 TOBS
+"""
+```
+
+The date is in the same position, at index `2`, but the high and low temperatures are at indexes `3` and `4`, so we must change the indexes in our code to reflect these new positions. Instead of including an average temperature reading for the day, this station includes `TOBS`, a reading for a specific observation time.
+
+We’ll grab the code from `sitka_highs_lows.py` and change the path to point to the Death Valley csv file.
+```Python title:death_valley_highs_lows.py
+--snip--
+path = Path('weather_data/death_valley_2021_simple.csv')
+lines = path.read_text().splitlines()
+	--snip--
+# Extract dates, and high and low temperatures.
+dates, highs, lows = [], [], []
+for row in reader:
+	current_date = datetime.strptime(row[2], '%Y-%m-%d')
+	high = int(row[3])
+	low = int(row[4])
+	dates.append(current_date)
+--snip--
+```
+
+When we run the program, we get an error:
+```Bash title:output.sh
+Traceback (most recent call last):
+  File "death_valley_highs_lows.py", line 17, in <module>
+    high = int(row[3])
+ValueError: invalid literal for int() with base 10: ''
+```
+
+The traceback tells us that Python can’t process the high temperature for one of the dates because it can’t turn an empty string (`''`) into an integer. Rather than looking through the data to find out which reading is missing, we’ll just handle cases of missing data directly.
+
+We’ll run error-checking code when the values are being read from the CSV file to handle exceptions that might arise.
+```Python title:death_valley_highs_lows.py
+--snip--
+for row in reader:
+	current_date = datetime.strptime(row[2], '%Y-%m-%d')
+	try:
+		high = int(row[3])
+		low = int(row[4])
+	except ValueError:
+		print(f"Missing data from {current_date}")
+	else:
+		dates.append(current_date)
+		highs.append(high)
+		lows.append(low)
+
+# Plot the high and low temperatures.
+--snip--
+
+# Format plot.
+title = "Daily High and Low Temperatures, 2021\nDeath Valley, CA"
+ax.set_title(title, fontsize=20)
+ax.set_xlabel('', fontsize=16)
+--snip--
+```
+
+Each time we examine a row, we try to extract the date and the high and low temperature. If any data is missing, Python will raise a `ValueError` and we handle it by printing an error message that includes the date of the missing data. After printing the error, the loop will continue processing the next row. If all data for a date is retrieved without error, the `else` block will run and the data will be appended to the appropriate lists. Because we’re plotting information for a new location, we update the title to include the location on the plot, and we use a smaller font size to accommodate the longer title.
