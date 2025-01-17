@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3-index/layer-4/py_projects.md",
+                "file": "3-index/py_data_visualization.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "py_projects"
+              "title": "py_data_visualization"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "51fcf44428386e88",
@@ -182,16 +183,17 @@
   },
   "active": "aebce8dbe836a7bb",
   "lastOpenFiles": [
+    "5-zettelkasten/py_dv_mapping_global_datasets.md",
+    "3-index/py_data_visualization.md",
+    "5-zettelkasten/py_dv_csv.md",
+    "3-index/layer-4/py_projects.md",
     "3-index/layer-4/c.md",
     "3-index/layer-5/c_arithmetic_types.md",
     "3-index/layer-5/c_objects_functions_types.md",
     "3-index/layer-5/c_getting_started.md",
-    "3-index/layer-4/py_projects.md",
     "2-tags/c_declaring_variables.md",
-    "3-index/py_data_visualization.md",
     "5-zettelkasten/c_alignment.md",
     "5-zettelkasten/c_type_qualifiers.md",
-    "5-zettelkasten/py_dv_csv.md",
     "5-zettelkasten/py_dv_rolling_dice_plotly.md",
     "3-index/layer-5/py_alien_invasion.md",
     "5-zettelkasten/py_dv_install_matplotlib.md",
@@ -207,7 +209,6 @@
     "5-zettelkasten/py_alien_invasion_end_game.md",
     "5-zettelkasten/py_alien_invasion_shoot_aliens.md",
     "5-zettelkasten/py_alien_invasion_move_fleet.md",
-    "5-zettelkasten/py_alien_invasion_build_fleet.md",
     "Excalidraw",
     "6-assets/CIE_LAB_color_space_3d_representation.png",
     "6-assets/CIE_u'-v'_chromaticity_diagram.png",
