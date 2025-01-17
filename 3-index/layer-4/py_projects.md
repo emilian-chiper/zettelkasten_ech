@@ -6,6 +6,6 @@ A list of basic Python projects.
 [[python]]
 
 ### Children
-[[py_alien_invasion]]
+[[py_alien_invasion]] ✅
 [[py_data_visualization]]
 [[py_web_app]]

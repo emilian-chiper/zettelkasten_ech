@@ -1,7 +1,7 @@
 ### Meta
 2024-12-23 18:08
 **Tags:** [[py_projects]] [[py_alien_invasion]] [[py_ai_scoring]]
-**Status:** #pending 
+**Status:** #completed  
 
 ### Scoring
 Let’s  implement a scoring system to track the game’s score in real time and display the high score, level, and number of ships remaining.

@@ -7,4 +7,4 @@ Lists all notes related to the building process of the Alien Invasion video game
 ### Children
 [[py_ai_ship]] ✅
 [[py_ai_aliens]] ✅
-[[py_ai_scoring]]
+[[py_ai_scoring]] ✅

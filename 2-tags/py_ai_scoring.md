@@ -7,4 +7,4 @@ Lists all notes on how to implement scoring in the Alien Invasion game.
 ### Children
 [[py_alien_invasion_adding_the_play_button]] ✅
 [[py_alien_invasion_leveling_up]] ✅
-[[py_alien_invasion_scoring_game]]
+[[py_alien_invasion_scoring_game]] ✅
