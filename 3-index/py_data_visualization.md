@@ -12,3 +12,4 @@ Lists all notes related to the building process of a data visualization app usin
 [[py_dv_rolling_dice_plotly]] ✅
 [[py_dv_csv]] ✅
 [[py_dv_mapping_global_datasets]] ✅
+[[py_dv_api]] ✅

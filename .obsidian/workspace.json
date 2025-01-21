@@ -13,16 +13,62 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3-index/py_data_visualization.md",
+                "file": "3-index/layer-4/py_projects.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "py_data_visualization"
+              "title": "py_projects"
+            }
+          },
+          {
+            "id": "7d30a5d3c4c72760",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3-index/layer-5/py_web_app.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "py_web_app"
+            }
+          },
+          {
+            "id": "24cbb198d2c6c2fc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2-tags/py_wap_django.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "py_wap_django"
+            }
+          },
+          {
+            "id": "5f507d5a3bfc08cf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "5-zettelkasten/py_wap_dj_start_app.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "py_wap_dj_start_app"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -181,12 +227,19 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "aebce8dbe836a7bb",
+  "active": "5f507d5a3bfc08cf",
   "lastOpenFiles": [
-    "5-zettelkasten/py_dv_mapping_global_datasets.md",
-    "3-index/py_data_visualization.md",
-    "5-zettelkasten/py_dv_csv.md",
+    "2-tags/py_wap_django.md",
+    "5-zettelkasten/py_wap_dj_project_setup.md",
+    "5-zettelkasten/py_wap_dj_start_app.md",
+    "3-index/layer-5/py_web_app.md",
+    "5-zettelkasten/py_wap_dj_intro.md",
+    "3-index/layer-4/python.md",
     "3-index/layer-4/py_projects.md",
+    "3-index/py_data_visualization.md",
+    "5-zettelkasten/py_dv_api.md",
+    "5-zettelkasten/py_dv_mapping_global_datasets.md",
+    "5-zettelkasten/py_dv_csv.md",
     "3-index/layer-4/c.md",
     "3-index/layer-5/c_arithmetic_types.md",
     "3-index/layer-5/c_objects_functions_types.md",
@@ -202,13 +255,6 @@
     "5-zettelkasten/py_dv_plotting_a_simple_line_graph.md",
     "2-tags/py_ai_scoring.md",
     "5-zettelkasten/py_alien_invasion_scoring_game.md",
-    "5-zettelkasten/bg3_build_bardadin.md",
-    "5-zettelkasten/py_alien_invasion_leveling_up.md",
-    "5-zettelkasten/py_alien_invasion_adding_the_play_button.md",
-    "2-tags/py_ai_aliens.md",
-    "5-zettelkasten/py_alien_invasion_end_game.md",
-    "5-zettelkasten/py_alien_invasion_shoot_aliens.md",
-    "5-zettelkasten/py_alien_invasion_move_fleet.md",
     "Excalidraw",
     "6-assets/CIE_LAB_color_space_3d_representation.png",
     "6-assets/CIE_u'-v'_chromaticity_diagram.png",
